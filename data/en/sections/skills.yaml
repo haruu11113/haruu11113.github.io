@@ -22,8 +22,9 @@ skills:
   url: "https://golang.org/"
 
 - name: PHP/Laravel
-  logo: /images/sections/skills/laravel-brands.sv
+  logo: /images/sections/skills/laravel-brands.svg
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  url: "https://golang.org/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
@@ -47,3 +48,4 @@ skills:
 - name: AWS
   logo: /images/sections/skills/aws-brands.svg
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  url: "https://git-scm.com/"
