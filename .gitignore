@@ -1,1 +1,6 @@
 resources/*
+.firebase/
+.firebaserc
+firebase.json
+public/
+
