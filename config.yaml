@@ -13,6 +13,9 @@ languages:
   bn:
     languageName: বাংলা
     weight: 3
+  jp:
+    languageName: 日本語
+    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -55,7 +58,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/haruu11113/harukanekodesu
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
