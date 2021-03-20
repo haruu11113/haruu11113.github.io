@@ -8,7 +8,6 @@ section:
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
-
 degrees:
 # - name: Ph.D in Quantum Cryptography
 #   icon: fa-microscope
@@ -23,11 +22,11 @@ degrees:
 #     url: "#"
 #   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
 #     url: "#"
-- name: Graduent school of Life Science and Systems Engineering
+- name: 生命体工学研究科 人間知能システム工学専攻
   icon: fa-graduation-cap
   timeframe: 2020-2022
   institution:
-    name: Kyushu Institute of Technology
+    name: 九州工業大学 大学院
     url: "https://www.kyutech.ac.jp"
   # grade: #(optional)
   #   scale: CGPA
@@ -60,11 +59,11 @@ degrees:
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
 
-- name: Department of system design and informatics
+- name: システム創成情報工学科
   icon: fa-university
   timeframe: 2016-2020
   institution:
-    name: Kyushu Institute of Technology
+    name: 九州工業大学
     url: "https://www.kyutech.ac.jp"
   # grade: #(optional)
   #   scale: GPA
@@ -75,11 +74,12 @@ degrees:
   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
-- name: 九州国際大学附属高等学校
+
+- name: 高校
   icon: fa-school
   timeframe: 2013-2016
   institution:
-    name: JK School of Science
+    name: 九州国際大学附属高等学校
   # grade: #(optional)
   #   scale: GPA
   #   achieved: 4.5

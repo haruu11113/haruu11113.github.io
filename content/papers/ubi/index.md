@@ -1,6 +1,6 @@
 ---
 title: "UBI"
-date: 2021-03-20T16:37:24+09:00
+date: 2020-03-18T16:37:24+09:00
 draft: false
 description: UBI
 menu:
