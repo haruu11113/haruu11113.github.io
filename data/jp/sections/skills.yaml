@@ -23,6 +23,7 @@ skills:
 
 - name: PHP/Laravel
   logo: /images/sections/skills/laravel-brands.svg
+  summary: "Writing now ..."
   url: "https://laravel.com"
 
 - name: Docker
