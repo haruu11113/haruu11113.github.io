@@ -75,11 +75,11 @@ degrees:
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
 
-- name: 高校
-  icon: fa-school
-  timeframe: 2013-2016
-  institution:
-    name: 九州国際大学附属高等学校
+# - name: 高校
+#   icon: fa-school
+#   timeframe: 2013-2016
+#   institution:
+#     name: 九州国際大学附属高等学校
   # grade: #(optional)
   #   scale: GPA
   #   achieved: 4.5

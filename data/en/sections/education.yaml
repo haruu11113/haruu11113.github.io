@@ -76,11 +76,11 @@ degrees:
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
 
-- name: Kyushu International University High School
-  icon: fa-school
-  timeframe: 2013-2016
-  institution:
-    name: JK School of Science
+# - name: Kyushu International University High School
+#   icon: fa-school
+#   timeframe: 2013-2016
+#   institution:
+#     name: JK School of Science
   # grade: #(optional)
   #   scale: GPA
   #   achieved: 4.5
