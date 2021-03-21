@@ -4,7 +4,7 @@ sitemap:
   priority : 0.1
 layout: "search"
 url: search
-draft: ture
+draft: true
 ---
 
 
