@@ -12,10 +12,10 @@ languages:
     weight: 1
   jp:
     languageName: 日本語
-    weight: 10
+    weight: 9
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
+DefaultContentLanguage: en
 
 # Allow raw html in markdown file
 markup:
@@ -59,6 +59,9 @@ params:
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
+
+  # specify whether you want to write some blog posts or not
+  enablePaperPost: true
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
