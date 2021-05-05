@@ -1,6 +1,11 @@
 # harukanekodesu
 This is my page.
 
+## How to deploy
+```
+hugo && firebase deploy
+```
+
 ## License
 MIT
 
