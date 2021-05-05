@@ -92,9 +92,6 @@
                 href="https://hugo-toha.github.io/jp/categories/"
                 />
   </url><url>
-    <loc>https://hugo-toha.github.io/jp/search/</loc>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://hugo-toha.github.io/jp/tags/</loc>
     <xhtml:link
                 rel="alternate"
