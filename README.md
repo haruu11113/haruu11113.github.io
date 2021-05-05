@@ -6,6 +6,8 @@ This is my page.
 hugo && firebase deploy
 ```
 
+https://dev.classmethod.jp/articles/hugo-super-fast-static-webpage/
+
 ## License
 MIT
 
