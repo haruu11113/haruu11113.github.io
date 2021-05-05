@@ -36,6 +36,8 @@
 <link rel="stylesheet" href="/css/layouts/main.css"/>
 <link rel="stylesheet" href="/css/style.css"/>
 <link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
 
 
 <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
@@ -55,7 +57,8 @@
     <link rel="stylesheet" href="/css/sections/projects.css"/>
     <link rel="stylesheet" href="/css/sections/recent-posts.css"/>
     <link rel="stylesheet" href="/css/sections/achievements.css"/>
-
+    <link rel="stylesheet" href="/css/sections/accomplishments.css"/>
+    
     
     
         
@@ -171,18 +174,21 @@ if (!doNotTrack) {
         
           <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <img class="flag" src="https://www.countryflags.io/gb/flat/16.png">
+    
+    <span class="flag-icon flag-icon-gb"></span>
     English
 </a>
 <div class="dropdown-menu" aria-labelledby="languageSelector">
     
     <a class="dropdown-item nav-link languages-item" href="/">
-        <img class="flag" src="https://www.countryflags.io/gb/flat/24.png">
+        
+        <span class="flag-icon flag-icon-gb"></span>
         English
     </a>
     
     <a class="dropdown-item nav-link languages-item" href="/jp/">
-        <img class="flag" src="https://www.countryflags.io/jp/flat/24.png">
+        
+        <span class="flag-icon flag-icon-jp"></span>
         日本語
     </a>
     
@@ -289,6 +295,7 @@ if (!doNotTrack) {
   <div class="container content text-center">
     <img src="/images/author/haru_hue8bd094a8f2d18c67df2291e0cf5aefe_471630_148x148_fit_box_2.png"
       class="rounded-circle mx-auto d-block img-fluid"
+      alt="Author Image"
     />
     <h1 class="greeting"> Hi, I am Haru</h1>
     <div class="typing-carousel">
@@ -316,7 +323,7 @@ if (!doNotTrack) {
         
           
         
-        <a href="#about"><i class="arrow bounce fa fa-chevron-down"></i></a>
+        <a href="#about" aria-label="Read More - Haru"><i class="arrow bounce fa fa-chevron-down"></i></a>
       
     
   </div>
@@ -351,7 +358,7 @@ if (!doNotTrack) {
       <h5 class="p-1">
         Master first student
         
-        at <a href="https://www.kyutech.ac.jp/">Kyushu Institute of Technology.</a>
+        at <a href="https://www.kyutech.ac.jp/" title="Kyushu Institute of Technology." target="_blank" rel="noopener">Kyushu Institute of Technology.</a>
         
       </h5>
       
@@ -363,26 +370,26 @@ if (!doNotTrack) {
           
           <li>
             
-              <a href="mailto:kaneko@sozolab.jp" target="/"><i class="fas fa-envelope"></i></a>
+              <a href="mailto:kaneko@sozolab.jp" title="Email" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
             
           </li>
           
           <li>
             
-              <a href="https://twitter.com/harukanekodesu" target="/"><i class="fab fa-twitter"></i></a>
+              <a href="https://twitter.com/harukanekodesu" title="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
             
           </li>
           
           <li>
             
-              <a href="https://www.facebook.com/haru.kaneko.77/" target="/"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.facebook.com/haru.kaneko.77/" title="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
             
           </li>
           
         </ul>
       </div>
       
-      <a href="/files/resume.pdf" target="#"
+      <a href="/files/resume.pdf" title="My resume" target="#"
         ><button class="btn btn-dark">My resume</button></a
       >
       
@@ -544,7 +551,7 @@ if (!doNotTrack) {
     <div class="row" id="primary-skills">
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://git-scm.com">
+  <a class="skill-card-link" href="https://git-scm.com" title="Git" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -568,7 +575,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.python.org">
+  <a class="skill-card-link" href="https://www.python.org" title="Python" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -592,7 +599,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://laravel.com">
+  <a class="skill-card-link" href="https://laravel.com" title="PHP/Laravel" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -614,7 +621,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.docker.com">
+  <a class="skill-card-link" href="https://www.docker.com" title="Docker" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -636,7 +643,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.java.com/">
+  <a class="skill-card-link" href="https://www.java.com/" title="Java" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -658,7 +665,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://ubuntu.com">
+  <a class="skill-card-link" href="https://ubuntu.com" title="Amazon Linux, Ubuntu" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -682,7 +689,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.ansible.com">
+  <a class="skill-card-link" href="https://www.ansible.com" title="Ansible" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -704,7 +711,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://aws.amazon.com">
+  <a class="skill-card-link" href="https://aws.amazon.com" title="AWS" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -767,7 +774,7 @@ if (!doNotTrack) {
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
-                                        <h5><a href="https://www.kyutech.ac.jp">Kyushu Institute of Technology</a></h5>
+                                        <h5><a href="https://www.kyutech.ac.jp" title="Kyushu Institute of Technology" target="_blank" rel="noopener">Kyushu Institute of Technology</a></h5>
                                     
                                 </div>
                                 <div class="timeframe col-lg-2 col-md-4">2020-2022</div>
@@ -811,7 +818,7 @@ if (!doNotTrack) {
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
-                                        <h5><a href="https://www.kyutech.ac.jp">Kyushu Institute of Technology</a></h5>
+                                        <h5><a href="https://www.kyutech.ac.jp" title="Kyushu Institute of Technology" target="_blank" rel="noopener">Kyushu Institute of Technology</a></h5>
                                     
                                 </div>
                                 <div class="timeframe col-lg-2 col-md-4">2016-2020</div>
@@ -840,35 +847,6 @@ if (!doNotTrack) {
                     </td>
                 </tr>
                 
-                <tr>
-                    <td class="icon">
-                        <div class="hline"></div>
-                        <div class="icon-holder">
-                            <i class="fas fa-school"></i>
-                        </div>
-                    </td>
-                    <td class="line">
-                        <div></div>
-                    </td>
-                    <td class="details">
-                        <div class="degree-info card">
-                            <div class="row">
-                                <div class="col-lg-10 col-md-8">
-                                    
-                                        <h5>JK School of Science</h5>
-                                    
-                                </div>
-                                <div class="timeframe col-lg-2 col-md-4">2013-2016</div>
-                            </div>
-                            <h6>Kyushu International University High School</h6>
-                            
-                            
-                            
-                            
-                        </div>
-                    </td>
-                </tr>
-                
             </tbody>
         </table>
     </div>
@@ -882,6 +860,7 @@ if (!doNotTrack) {
       
     
 
+    
     
 
   
@@ -1009,12 +988,13 @@ if (!doNotTrack) {
   </div>
 </footer>
 
-    <script src="/js/jquery-3.4.1.min.js"></script>
-<script src="/js/popper.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
 
-<script src="/js/navbar.js"></script>
-<script src="/js/main.js"></script>
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
 
 
     
