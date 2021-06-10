@@ -26,3 +26,8 @@ menu:
 |本項では|In this section|
 |||
 {{< /note >}}
+
+{{< note title="References">}}
+- https://www.gfd-dennou.org/arch/hiroki/homepage-old/main018.html#toc64
+- http://neutron.appl-beam.ibaraki.ac.jp/ohoyamak/indispensable.html
+{{< /note >}}

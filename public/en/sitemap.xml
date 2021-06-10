@@ -14,6 +14,18 @@
                 href="https://hugo-toha.github.io/notes/tips/conference/"
                 />
   </url><url>
+    <loc>https://hugo-toha.github.io/notes/tips/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/notes/tips/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/notes/tips/links/"
+                />
+  </url><url>
     <loc>https://hugo-toha.github.io/notes/tips/word/</loc>
     <xhtml:link
                 rel="alternate"
