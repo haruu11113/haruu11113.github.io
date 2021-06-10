@@ -1,0 +1,24 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+{{ $sectionID = .section.id }}
+{{ end }}
+{{ $strReviewed := .section.strReviewed }}
+
+<div class="container-fluid anchor pb-5 publications-section" id="{{ $sectionID }}">
+    {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">{{ .section.name }}</h1>
+    {{ end }}
+
+    <div class="container">
+      {{ range .events }}
+        <div style="margin:10px 0 10px 0">
+          {{ .event.date }}
+          <a href="{{ .event.url }}">{{ .event.title}}</a>
+          ({{.event.place}})
+          {{ if .event.detail }}
+            : {{.event.detail }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+</div>

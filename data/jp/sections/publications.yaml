@@ -1,0 +1,130 @@
+# section information
+section:
+    name: Publications
+    id: publications
+    enable: true
+    weight: 4
+    showOnNavbar: true
+    # Can optionally hide the title in sections
+    hideTitle: false
+    strReviewed: "査読あり"
+
+# Your experiences
+papers:
+- paper:
+    type: "domestic"
+    name: "soft-kyushu"
+    authors: "Haru Kaneko, Sozo Inoue"
+    title: "介護施設における介護記録自動生成の試み"
+    url: "http://soft-kyushu.org/2019/conf/index.html"
+    date: "2019-11-30"
+    book: "日本知能情報ファジィ学会九州支部学術講演会予稿集"
+    volume: "?"
+    umber: "?"
+    pages: "2-5"
+    place: "Izuka"
+    abstract: "In this paper, we proposed an machine learning method to create of care records automatically, in order to reduce time nurse creates care records. And we evaluated this method. On the assuption that using at nursing facility, estimate the details of care from past care record data, user, target person and start time of care action. As a result, we got 79% accuracy rate."
+    is_reviewed: false
+
+- paper:
+    type: "domestic"
+    name: "ubi65"
+    authors: "Haru Kaneko, Sozo Inoue"
+    title: "介護記録自動生成のための記録内容の推定の試み"
+    url: "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=203794&item_no=1&page_id=13&block_id=8"
+    date: "2020-02-24"
+    book: "情報処理学会ユビキタスコンピューティングシステム(UBI)研究報告"
+    volume: "2,020"
+    number: "41"
+    pages: "1-6"
+    place: "Nagoya,Japan(Online)"
+    abstract: "近年日本では高齢化が進んでいる.それに伴い,介護サービスの需要も増している中,介護人材の不足が社会問題になっている.介護人材の不足を解消するために,介護職員の負担軽減が重要である.我々は,介護記録入力の効率化のため,介護記録アプリを開発した[1][2].本研究では,介護記録入力の効率化のため,機械学習技術を応用し「対象の被介護者」と「介護行動の内容」の自動入力機能を目指した.介護記録アプリケーションににおける,「対象の被介護者」と「介護行動の内容」の推定機能の開発を行った.また,介護記録アプリから収集された介護記録データを用い,推定機能を評価した.結果として,「対象の被介護者」の推定において平均F1値74%,「介護行動の内容」の推定において平均F1値58%を得た."
+    is_reviewed: false
+
+- paper:
+    type: "domestic"
+    name: "DICOMO2020"
+    authors: "Haru Kaneko, Sozo Inoue"
+    title: "介護記録アプリケーションにおける記録内容自動生成機能の実装"
+    url: "https://dicomo.org/2020/"
+    date: "2020-06-25"
+    book: "マルチメディア，分散，協調とモバイル(DICOMO2020)シンポジウム"
+    volume:
+    number:
+    pages:
+    place: "Online"
+    abstract: "現在の日本では,介護業界の人材不足が問題となっている.この人材不足改善のため, ICTの活用による介護業務の生産性向上が注目されている[1].本研究室ではこれまでに,介護施設における介記録作成作業に時間がかかる点に着目し,モバイルアプリを用いた介護記録システムを構築している.また,実際の介護施設にこの介護記録システムを導入する実証実験を行っている[2][3].本稿では,その介護記録システムに介護記録の自動生成機能を実装する.サーバ内で,介護記録の内容を推定する機械学習モデルを構築する.また,推定された介護記録をモバイルアプリ上でどのように表示し記録作成作業を簡略化するモバイルアプリのUIを設計・評価する.開発したシステムを評価した結果,本稿の介護記録システムを用いることで推定精度が高い場合,記録作成作業を簡略化できる事が分かった.しかし推定精度が低いと,既存の記録システムよりも時間を消費する事が分かった"
+    is_reviewed: false
+
+- paper:
+    type: "international"
+    name: "apami2020"
+    authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
+    title: "Implementation of Care Records Automatic Generation Function in a Care Record Application"
+    url: "https://apami2020.org/"
+    date: "2020-12-01"
+    book: "The 40th Joint Conference on Asia-Pacific Association of Medical Informatics (APAMI)"
+    volume:
+    number:
+    pages: "1-6"
+    place: "online"
+    abstract: "The number of elderly people is increasing in the world. Especially in Japan, the shortage of nurses has been a problem in recent years. So far, we had developed a mobile application to make nursing care records. In addition, we are also experimenting with the introduction of this application to nursing homes. In this paper, we design an automatic generation function of the nursing care record into our mobile nursing care record application. In this paper, we implement an automatic generation function of the recorded contents in this care record system. we aim to simplify the work of making care records. To do so, we make a machine learning model for estimating the feature nursing care records in the server. And, we design new UI on our application to make care records using estimation result. As a result of the evaluation, we know it is possible to reduce time that making care records using our application with automatic generation function of care records."
+    is_reviewed: true
+
+- paper:
+    name: "abc2020"
+    authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
+    title: "Estimation of Record Contents for Automatic Generation of Care Records"
+    url: "https://link.springer.com/chapter/10.1007/978-981-15-8944-7_18"
+    date: "2021-01-01"
+    book: "Human Activity Recognition Challenge, Springer Nature"
+    volume: 
+    number: 
+    pages: "289-306"
+    place: 
+    abstract: 'Elderly person are increasing all over the world. Smart nursing facilities are required to support them for their good health.Especially in Japan, it is essential to have automated nursing facilities center to support the relentlessly increasing elderly person all over the country.As long as elderly people are increasing, the demand for nursing care services are also increasing day by day.There is a shortage of nurse to support this vast elderly people.In order to resolve the shortage of nurse, it is important to reduce the work load for nurse.There are some research to simplify the care recording process.The main approach is activity recognition or the development of new apps. However, we aimed for automatic generation of the care records of near future. So in this paper, we evaluate the accuracy of the automatic generation of care records using care record data from real nursing facility to simplify the task of making care records.We made two machine learning models to estimate the "target patient" and the "recorded value" of care records.And we evaluated the classification result from the data collected by the care record app.We used two months of data we collected from Japanese nursing facility for the evaluation.We can achieve, average F1-score of ’target patient’ estimation is 74% and the average F1-score of ’detail of record’ estimation is 58%. We believe that using these results in care records app will simplify the task of making care records.'
+    is_reviewed: true
+
+- paper:
+    name: "卒論"
+    authors: "Haru Kaneko"
+    title: "機械学習による介護記録内容の推定の試み"
+    url: 
+    date: "2020-02-19"
+    book: "卒業論文"
+    volume: 
+    number: 
+    pages: 
+    place: "Iizuka"
+    abstract: 
+    is_reviewed: false
+
+- paper:
+    name: "DICOMO2021"
+    authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
+    title: 
+    url: "https://dicomo.org/2021"
+    date: "2021-07-01"
+    book: "マルチメディア，分散，協調とモバイル(DICOMO2020)シンポジウム"
+    volume:
+    number:
+    pages:
+    place: "Online"
+    abstract: 
+    is_reviewed: false
+
+
+# - paper:
+#     name:
+#     authors: 
+#     title: 
+#     url: 
+#     date: 
+#     book: 
+#     volume: 
+#     number: 
+#     pages: 
+#     place: 
+#     abstract: 
+#     is_reviewed: false
+

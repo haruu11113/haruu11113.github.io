@@ -8,6 +8,9 @@ other = "Posts"
 [papers]
 other = "Papers"
 
+[notes]
+other = "Notes"
+
 [toc_heading]
 other = "Table of Contents"
 

@@ -7,6 +7,9 @@ other = "記事"
 [papers]
 other = "論文"
 
+[notes]
+other = "Notes"
+
 [toc_heading]
 other = "目次"
 
