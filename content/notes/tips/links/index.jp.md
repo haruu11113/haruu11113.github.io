@@ -10,4 +10,5 @@ menu:
 ---
 {{< note title="Link">}}
 - https://dream-exp.net/shaper/
+- https://translate.systran.net/?source=ja&target=en
 {{< /note >}}
