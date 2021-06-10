@@ -6,7 +6,18 @@
     <description>Recent content on Haru Kaneko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 20 Mar 2021 15:54:45 +0900</lastBuildDate><atom:link href="https://hugo-toha.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basics</title>
+      <link>https://hugo-toha.github.io/notes/tips/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-toha.github.io/notes/tips/basic/</guid>
+      <description>demo A sample go program is show here.
+df[&amp;#39;date&amp;#39;] = pd.to_datetime(df[&amp;#39;date&amp;#39;]) df.set_idnex(&amp;#39;date&amp;#39;). Run the program as below:
+$ go run hello.go     </description>
+    </item>
+    
     <item>
       <title>Resultados de Búsqueda</title>
       <link>https://hugo-toha.github.io/search/</link>
@@ -31,6 +42,19 @@ No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla
 Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
 Esta implementación utiliza Fusejs, jquery y mark.js
 Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://hugo-toha.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://hugo-toha.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
     </item>
     
     <item>
@@ -294,30 +318,12 @@ Initial setup Search depends on additional output content type of JSON in config
     </item>
     
     <item>
-      <title>How to Use Hugo</title>
-      <link>https://hugo-toha.github.io/posts/how-to-use-hugo/</link>
-      <pubDate>Sat, 20 Mar 2021 15:54:45 +0900</pubDate>
+      <title>Hello</title>
+      <link>https://hugo-toha.github.io/posts/blogs/hello/</link>
+      <pubDate>Wed, 09 Jun 2021 08:06:25 +0600</pubDate>
       
-      <guid>https://hugo-toha.github.io/posts/how-to-use-hugo/</guid>
-      <description>How to use Hugo install download </description>
-    </item>
-    
-    <item>
-      <title>ABC</title>
-      <link>https://hugo-toha.github.io/papers/abc/</link>
-      <pubDate>Wed, 19 Aug 2020 16:29:04 +0900</pubDate>
-      
-      <guid>https://hugo-toha.github.io/papers/abc/</guid>
-      <description>Title Authors Abstract </description>
-    </item>
-    
-    <item>
-      <title>UBI</title>
-      <link>https://hugo-toha.github.io/papers/ubi/</link>
-      <pubDate>Wed, 18 Mar 2020 16:37:24 +0900</pubDate>
-      
-      <guid>https://hugo-toha.github.io/papers/ubi/</guid>
-      <description>Title Authors Abstract </description>
+      <guid>https://hugo-toha.github.io/posts/blogs/hello/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -6,7 +6,7 @@
     <description>Recent content on Haru Kaneko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 20 Mar 2021 17:01:19 +0900</lastBuildDate><atom:link href="https://hugo-toha.github.io/jp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Results</title>
       <link>https://hugo-toha.github.io/jp/search/</link>
@@ -21,30 +21,25 @@ Initial setup Search depends on additional output content type of JSON in config
     </item>
     
     <item>
-      <title>How to Use Hugo</title>
-      <link>https://hugo-toha.github.io/jp/posts/how-to-use-hugo/</link>
-      <pubDate>Sat, 20 Mar 2021 17:01:19 +0900</pubDate>
+      <title>Search Results</title>
+      <link>https://hugo-toha.github.io/jp/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
       
-      <guid>https://hugo-toha.github.io/jp/posts/how-to-use-hugo/</guid>
+      <guid>https://hugo-toha.github.io/jp/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>https://hugo-toha.github.io/jp/posts/blogs/hello/</link>
+      <pubDate>Wed, 09 Jun 2021 08:06:25 +0600</pubDate>
+      
+      <guid>https://hugo-toha.github.io/jp/posts/blogs/hello/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>ABC</title>
-      <link>https://hugo-toha.github.io/jp/papers/abc/</link>
-      <pubDate>Wed, 19 Aug 2020 16:29:04 +0900</pubDate>
-      
-      <guid>https://hugo-toha.github.io/jp/papers/abc/</guid>
-      <description>Title Authors Abstract </description>
-    </item>
-    
-    <item>
-      <title>UBI</title>
-      <link>https://hugo-toha.github.io/jp/papers/ubi/</link>
-      <pubDate>Wed, 18 Mar 2020 16:37:24 +0900</pubDate>
-      
-      <guid>https://hugo-toha.github.io/jp/papers/ubi/</guid>
-      <description>Title Authors Abstract </description>
     </item>
     
   </channel>

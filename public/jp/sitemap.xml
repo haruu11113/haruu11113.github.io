@@ -16,8 +16,35 @@
                 href="https://hugo-toha.github.io/jp/search/"
                 />
   </url><url>
+    <loc>https://hugo-toha.github.io/jp/search/</loc>
+    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
+    <priority>0.1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/search/"
+                />
+  </url><url>
+    <loc>https://hugo-toha.github.io/jp/posts/blogs/</loc>
+    <lastmod>2021-06-09T08:06:25+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/posts/blogs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/posts/blogs/"
+                />
+  </url><url>
     <loc>https://hugo-toha.github.io/jp/</loc>
-    <lastmod>2021-03-20T17:01:19+09:00</lastmod>
+    <lastmod>2021-06-09T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,21 +56,21 @@
                 href="https://hugo-toha.github.io/jp/"
                 />
   </url><url>
-    <loc>https://hugo-toha.github.io/jp/posts/how-to-use-hugo/</loc>
-    <lastmod>2021-03-20T17:01:19+09:00</lastmod>
+    <loc>https://hugo-toha.github.io/jp/posts/blogs/hello/</loc>
+    <lastmod>2021-06-09T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hugo-toha.github.io/posts/how-to-use-hugo/"
+                href="https://hugo-toha.github.io/posts/blogs/hello/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://hugo-toha.github.io/jp/posts/how-to-use-hugo/"
+                href="https://hugo-toha.github.io/jp/posts/blogs/hello/"
                 />
   </url><url>
     <loc>https://hugo-toha.github.io/jp/posts/</loc>
-    <lastmod>2021-03-20T17:01:19+09:00</lastmod>
+    <lastmod>2021-06-09T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -53,45 +80,6 @@
                 rel="alternate"
                 hreflang="jp"
                 href="https://hugo-toha.github.io/jp/posts/"
-                />
-  </url><url>
-    <loc>https://hugo-toha.github.io/jp/papers/abc/</loc>
-    <lastmod>2020-08-19T16:29:04+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugo-toha.github.io/papers/abc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://hugo-toha.github.io/jp/papers/abc/"
-                />
-  </url><url>
-    <loc>https://hugo-toha.github.io/jp/papers/</loc>
-    <lastmod>2020-08-19T16:29:04+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugo-toha.github.io/papers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://hugo-toha.github.io/jp/papers/"
-                />
-  </url><url>
-    <loc>https://hugo-toha.github.io/jp/papers/ubi/</loc>
-    <lastmod>2020-03-18T16:37:24+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugo-toha.github.io/papers/ubi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://hugo-toha.github.io/jp/papers/ubi/"
                 />
   </url><url>
     <loc>https://hugo-toha.github.io/jp/notes/</loc>
@@ -117,6 +105,18 @@
                 rel="alternate"
                 hreflang="jp"
                 href="https://hugo-toha.github.io/jp/categories/"
+                />
+  </url><url>
+    <loc>https://hugo-toha.github.io/jp/posts/notes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/posts/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/posts/notes/"
                 />
   </url><url>
     <loc>https://hugo-toha.github.io/jp/tags/</loc>
