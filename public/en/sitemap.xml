@@ -2,7 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hugo-toha.github.io/notes/tips/basic/</loc>
+    <loc>https://hugo-toha.github.io/notes/tips/conference/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/notes/tips/conference/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/notes/tips/conference/"
+                />
+  </url><url>
+    <loc>https://hugo-toha.github.io/notes/tips/word/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/notes/tips/word/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/notes/tips/word/"
+                />
   </url><url>
     <loc>https://hugo-toha.github.io/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
@@ -221,5 +243,15 @@
                 />
   </url><url>
     <loc>https://hugo-toha.github.io/notes/tips/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/notes/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/notes/tips/"
+                />
   </url>
 </urlset>

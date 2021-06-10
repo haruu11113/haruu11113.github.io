@@ -8,14 +8,38 @@
     <language>ja-jp</language>
     <lastBuildDate>Wed, 09 Jun 2021 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basics</title>
-      <link>https://hugo-toha.github.io/notes/tips/basic/</link>
+      <title>Conferences</title>
+      <link>https://hugo-toha.github.io/notes/tips/conference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-toha.github.io/notes/tips/basic/</guid>
-      <description>demo A sample go program is show here.
-df[&amp;#39;date&amp;#39;] = pd.to_datetime(df[&amp;#39;date&amp;#39;]) df.set_idnex(&amp;#39;date&amp;#39;). Run the program as below:
-$ go run hello.go     </description>
+      <guid>https://hugo-toha.github.io/notes/tips/conference/</guid>
+      <description>Conferences that my lab has submitted to.   sensors mdpi
+  IMUWT
+  HASCA
+  Ubicump
+  MobiQuitous
+  Journal of Information Processing
+  apami
+  Journal of Personalized Medicine(JPM)
+  情報処理学会論文誌
+  DICOMO
+  SOFT kyushu
+  UBI研究会
+  ABC
+  sensys
+  IEEE Fukuoka Section？
+  IEED PerCom
+  Iapr
+  Ntcaa International Workshop on Network Traffic Control, Analysis and Applications</description>
+    </item>
+    
+    <item>
+      <title>paper word</title>
+      <link>https://hugo-toha.github.io/notes/tips/word/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-toha.github.io/notes/tips/word/</guid>
+      <description>文章を接続する    概要 単語     加えて In addition   たとえば For example            よく使う言い回し    概要 単語     本稿では In this paper   本項では In this section            </description>
     </item>
     
     <item>
