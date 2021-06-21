@@ -8,27 +8,33 @@ menu:
     parent: notes-tips
     weight: 10
 ---
-{{< note title="Conferences that my lab has submitted to.">}}
-- sensors mdpi
-- IMUWT
-- HASCA
-- Ubicump
+{{< note title="Conferences and Journalsthat my lab has submitted to.">}}
+- Ubicump / IMWUT
+- HASCA workshop
+- IAPR ?
 - MobiQuitous
+- ACM SenSys
+- MDPI Journal of Personalized Medicine
+- MDPI Sensors
 - Journal of Information Processing
-- apami
-- Journal of Personalized Medicine(JPM)
 - 情報処理学会論文誌
 - DICOMO
-- SOFT kyushu
 - UBI研究会
+- SOFT kyushu
 - ABC
-- sensys
+- ICIEV
 - IEEE Fukuoka Section？
-  
-- IEED PerCom
-- Iapr
-- Ntcaa International Workshop on Network Traffic Control, Analysis and Applications
+- IEEE PerCom
+- IEEE PiCom
+- IEEE NTCAA (workshop)
 - ICIC Express Letters
 - 電気学会医用・生体工学研究会研究報告
-- picom ?
+- APAMI
 {{< /note >}}
+
+{{< note title="Other conferences and Journals that is related our research">}}
+- IMIS
+- ICMU
+- ISWC
+- MOWU
+{{ < /note >}}

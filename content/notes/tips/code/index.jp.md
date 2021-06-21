@@ -1,12 +1,12 @@
 ---
-title: Conferences
-weight: 10
+title: Code
+weight: 11
 menu:
   notes:
-    name: Conferences
-    identifier: notes-tips-conf
+    name: Code
+    identifier: notes-tips-code
     parent: notes-tips
-    weight: 10
+    weight: 111
 ---
 {{< note title="私の所属研究室が出したことがあるカンファレンス・ジャーナル.">}}
 - Ubicump / IMWUT
@@ -31,10 +31,3 @@ menu:
 - 電気学会医用・生体工学研究会研究報告
 - APAMI
 {{< /note >}}
-
-{{< note title="その他で良さげなの">}}
-- IMIS
-- ICMU
-- ISWC
-- MOWU
-{{ < /note >}}

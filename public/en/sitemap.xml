@@ -38,6 +38,18 @@
                 href="https://hugo-toha.github.io/notes/tips/word/"
                 />
   </url><url>
+    <loc>https://hugo-toha.github.io/notes/tips/code/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/notes/tips/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/notes/tips/code/"
+                />
+  </url><url>
     <loc>https://hugo-toha.github.io/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>

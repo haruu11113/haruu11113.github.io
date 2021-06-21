@@ -3,7 +3,7 @@ title: paper word
 weight: 10
 menu:
   notes:
-    name: Word
+    name: word
     identifier: notes-tips-word
     parent: notes-tips
     weight: 10
@@ -25,14 +25,20 @@ menu:
 |本稿では|In this paper|
 |本項では|In this section|
 |||
-{{< /note >}}
+{{ < /note > }}
 
 {{< note title="References">}}
 - https://www.gfd-dennou.org/arch/hiroki/homepage-old/main018.html#toc64
 - http://neutron.appl-beam.ibaraki.ac.jp/ohoyamak/indispensable.html
-{{< /note >}}
+- https://readingmonkey.blog.fc2.com/blog-entry-650.html
+- https://note.com/kenyu_uehara/n/ndde2ab2b8a90
+- http://www.rain.hyarc.nagoya-u.ac.jp/~tsuboki/ronbun/paper_eng.html
 
-{{< note title="diff of work, jpb and task" >}}
+for japanease
+- https://www.sci.hokudai.ac.jp/~minobe/class/bad_expressions.htm
+{{ < /note > }}
+
+{{ < note title="diff of work, jpb and task" > }}
 ### 「work」
 > 「work」は仕事・働くこと全体を意味する単語で、Jobよりも広義の仕事を意味します。目標を成し遂げられる事柄に使われる単語で、肉体的・精神的な労働・努力を表現するのに使われます。必ずしも金銭が関与している労働を意味するものではなく、公共での共同作業・活動などにも「work」を使うことができます。
 
@@ -48,4 +54,10 @@ menu:
 - task（名詞）：業務・課題・任務・作業・骨の折れる仕事
 - task（動詞）：課す・任務を与える・酷使する
 
+{{ < /note > }}
+
+
+{{ < note title="いい英語文章を描くために" > }}
+- http://www.vm.a.u-tokyo.ac.jp/byouri/education/03preeng.pdf
 {{< /note >}}
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Categories</title>
+    <title>Code</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -31,20 +31,23 @@
 
   <link rel="icon" type="image/png" href="/images/site/favicon_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_2.png" />
 
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hugo-toha.github.io/categories/" />
+<meta property="og:title" content="Code" />
+<meta property="og:description" content="Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hugo-toha.github.io/notes/tips/code/" /><meta property="article:section" content="notes" />
+
+
 
 
 
     
     
-    <link rel="stylesheet" href="/css/layouts/list.css">
-    <link rel="stylesheet" href="/css/navigators/sidebar.css">
-    
-    <link rel="stylesheet" href="/css/style.css"/>
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+  />
+  <link rel="stylesheet" href="/css/layouts/notes.css">
+  <link rel="stylesheet" href="/css/navigators/sidebar.css">
 
 
     
@@ -126,7 +129,7 @@ if (!doNotTrack) {
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/jp/categories">
+        <a class="dropdown-item nav-link languages-item" href="/jp/notes/tips/code">
           
           <span class="flag-icon flag-icon-jp"></span>
           日本語
@@ -165,19 +168,22 @@ if (!doNotTrack) {
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/categories" data-filter="all"></a></li>
+            <li id="list-heading"><a href="/notes" data-filter="all">Notes</a></li>
             <div class="subtree">
                 
   
   
   
   
+    
+    
+  
   
     
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blogs/">Blogs</a>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/notes/tips/">Tips</a>
       
-      <ul class="">
+      <ul class="active">
         
   
   
@@ -185,12 +191,7 @@ if (!doNotTrack) {
   
   
     
-    <li><a class="" href="/posts/blogs/hello/" title="Hello">Hello</a></li>
-  
-
-
-      </ul>
-    </li>
+    <li><a class="" href="/notes/tips/conference/" title="Conferences">Conferences</a></li>
   
 
   
@@ -199,7 +200,33 @@ if (!doNotTrack) {
   
   
     
-    <li><a class="" href="/posts/notes/" title="Notes">Notes</a></li>
+    <li><a class="" href="/notes/tips/links/" title="Links">Links</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/notes/tips/word/" title="Word">Word</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/notes/tips/code/" title="Code">Code</a></li>
+  
+
+
+      </ul>
+    </li>
   
 
 
@@ -215,13 +242,43 @@ if (!doNotTrack) {
       
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid post-card-holder" id="post-card-holder">
-      
-      
-      
+    <div class="container-fluid note-card-holder" id="note-card-holder">
+      <div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>Python name</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><table>
+<thead>
+<tr>
+<th style="text-align:center">name</th>
+<th style="text-align:center">mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">_</td>
+<td style="text-align:center">使わない変数</td>
+</tr>
+<tr>
+<td style="text-align:center">_*</td>
+<td style="text-align:center">外部からアクセスされたくない変数・関数(アクセスは可能)</td>
+</tr>
+<tr>
+<td style="text-align:center">__*</td>
+<td style="text-align:center">プライベート変数・関数</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+            </div>
+        
     </div>
-    <div class="paginator">
-      
+</div>
 
 
     </div>
@@ -399,7 +456,13 @@ if (!doNotTrack) {
 
     
     
-    <script src="/js/list.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+  <script src="/js/imagesloaded.pkgd.min.js"></script>
+  <script src="/js/note.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
 
   </body>
 </html>
