@@ -40,10 +40,12 @@ menu:
 {{ < /note >}}
 
 {{< note title="h5-index">}}
-HCI : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_humancomputerinteraction
-Data Mining : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_datamininganalysis
-Database and System : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_databasesinformationsystems
-AI : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_artificialintelligence
-Software : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_softwaresystems
-Fuzzy : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_fuzzysystems （編集済み）
+
+- HCI : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_humancomputerinteraction
+- Data Mining : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_datamininganalysis
+- Database and System : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_databasesinformationsystems
+- AI : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_artificialintelligence
+- Software : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_softwaresystems
+- Fuzzy : https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_fuzzysystems
+
 {{ < /note > }}
