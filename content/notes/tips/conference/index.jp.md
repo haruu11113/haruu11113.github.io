@@ -40,7 +40,6 @@ menu:
 - [ACM CHI](https://chi2021.acm.org)
 - [ACM CSCW](https://cscw.acm.org/)
 - [ACM UM](https://um.org/umap2021/)
-
 {{< /note >}}
 
 {{< note title="h5-index">}}
