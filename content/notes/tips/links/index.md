@@ -16,7 +16,7 @@ menu:
 {{< /note >}}
 
 
-{{< note title="HCI">}}
+<!-- {{< note title="HCI">}}
 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。
 https://masaogata.com/docs/hci-info/
 ## 学会情報
@@ -151,4 +151,4 @@ HCIの関連技術の資料を集めています。
 - https://hci-lab.jp
 - https://daisukesakamoto.jp/aboutme/
 
-{{< /note >}}
+{{< /note >}} -->

@@ -16,3 +16,7 @@ menu:
 |\_\_\*|プライベート変数・関数|
 ||
 {{< /note >}}
+
+{{< note title="fzf config">}}
+- https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/
+{{< /note >}}

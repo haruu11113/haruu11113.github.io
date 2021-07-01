@@ -38,6 +38,18 @@
                 href="https://hugo-toha.github.io/notes/tips/word/"
                 />
   </url><url>
+    <loc>https://hugo-toha.github.io/notes/tips/transfer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hugo-toha.github.io/jp/notes/tips/transfer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugo-toha.github.io/notes/tips/transfer/"
+                />
+  </url><url>
     <loc>https://hugo-toha.github.io/notes/tips/code/</loc>
     <xhtml:link
                 rel="alternate"
@@ -227,18 +239,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://hugo-toha.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://hugo-toha.github.io/posts/notes/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://hugo-toha.github.io/jp/posts/notes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugo-toha.github.io/posts/notes/"
                 />
   </url><url>
     <loc>https://hugo-toha.github.io/search/</loc>
