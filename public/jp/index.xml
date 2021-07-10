@@ -87,5 +87,14 @@ Initial setup Search depends on additional output content type of JSON in config
       <description></description>
     </item>
     
+    <item>
+      <title>Self Introduction</title>
+      <link>https://hugo-toha.github.io/jp/posts/blogs/self-introduction/</link>
+      <pubDate>Wed, 09 Jun 2021 08:06:25 +0600</pubDate>
+      
+      <guid>https://hugo-toha.github.io/jp/posts/blogs/self-introduction/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
