@@ -22,3 +22,8 @@ menu:
 - https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/
 {{< /note >}}
 
+{{< note title="python string to list">}}
+string = "[1, 2, 3]"
+eval(straing)
+> [1, 2, 3]
+{{< /note >}}

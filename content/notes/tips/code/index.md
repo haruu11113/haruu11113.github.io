@@ -6,8 +6,9 @@ menu:
     name: Code
     identifier: notes-tips-code
     parent: notes-tips
-    weight: 11
+    weight: 111
 ---
+
 {{< note title="Python name">}}
 |name|mean|
 |:--:|:--:|
@@ -15,6 +16,10 @@ menu:
 |\_\* |外部からアクセスされたくない変数・関数(アクセスは可能)|
 |\_\_\*|プライベート変数・関数|
 ||
+{{< /note >}}
+
+{{< note title="fzf config">}}
+- https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/
 {{< /note >}}
 
 {{< note title="fzf config">}}
