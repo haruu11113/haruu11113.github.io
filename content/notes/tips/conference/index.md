@@ -8,27 +8,46 @@ menu:
     parent: notes-tips
     weight: 10
 ---
-{{< note title="Conferences that my lab has submitted to.">}}
-- sensors mdpi
-- IMUWT
-- HASCA
-- Ubicump
-- MobiQuitous
+{{< note title="Conferences and Journalsthat my lab has submitted to.">}}
+- [Ubicump](https://ubicomp.org/ubicomp2021/upapers/) / IMWUT
+- [HASCA](http://hasca2021.hasc.jp)
+- [IJCB](http://ijcb2021.iapr-tc4.org)
+- [MobiQuitous](https://mobiquitous.eai-conferences.org/2021/)
+- [ACM SenSys](https://sensys.acm.org/2021/)
+- MDPI Journal of Personalized Medicine
+- MDPI Sensors
 - Journal of Information Processing
-- apami
-- Journal of Personalized Medicine(JPM)
 - 情報処理学会論文誌
 - DICOMO
-- SOFT kyushu
 - UBI研究会
+- SOFT kyushu
 - ABC
-- sensys
+- ICIEV
 - IEEE Fukuoka Section？
-  
-- IEED PerCom
-- Iapr
-- Ntcaa International Workshop on Network Traffic Control, Analysis and Applications
+- IEEE PerCom
+- IEEE PiCom
+- IEEE NTCAA (workshop)
 - ICIC Express Letters
 - 電気学会医用・生体工学研究会研究報告
-- picom ?
+- [APAMI](https://apami2020.org)
 {{< /note >}}
+
+{{< note title="Other conferences and Journals that is related our research">}}
+- [IMIS](http://voyager.ce.fit.ac.jp/conf/imis/2021/) (with [CISIS](http://voyager.ce.fit.ac.jp/conf/cisis/2021/))
+- [ICMU](http://www.icmu.org/icmu2021/)
+- [ISWC](https://iswc.net/)
+- [MOWU](https://ieeecompsac.computer.org/2021/mowu/)
+- [ACM CHI](https://chi2021.acm.org)
+- [ACM CSCW](https://cscw.acm.org/)
+- [ACM UM](https://um.org/umap2021/)
+{{< /note >}}
+
+{{< note title="h5-index">}}
+- [HCI](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_humancomputerinteraction)
+- [Data Mining](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_datamininganalysis)
+- [Database and System](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_databasesinformationsystems)
+- [AI](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_artificialintelligence)
+- [Software](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_softwaresystems)
+- [Fuzzy](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_fuzzysystems)
+{{< /note >}}
+

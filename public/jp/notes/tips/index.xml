@@ -12,24 +12,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hugo-toha.github.io/jp/notes/tips/conference/</guid>
-      <description>私の所属研究室が出したことがある学会・論文誌.   sensors mdpi
-  IMUWT
-  HASCA
-  Ubicump
-  MobiQuitous
-  Journal of Information Processing
-  apami
-  Journal of Personalized Medicine(JPM)
-  情報処理学会論文誌
-  DICOMO
-  SOFT kyushu
-  UBI研究会
-  ABC
-  sensys
-  IEEE Fukuoka Section？
-  IEED PerCom
-  Iapr
-  Ntcaa International Workshop on Network Traffic Control, Analysis and Applications</description>
+      <description>私の所属研究室が出したことがあるカンファレンス・ジャーナル.  Ubicump / IMWUT HASCA IJCB MobiQuitous ACM SenSys MDPI Journal of Personalized Medicine MDPI Sensors Journal of Information Processing 情報処理学会論文誌 DICOMO UBI研究会 SOFT kyushu ABC ICIEV IEEE Fukuoka Section？ IEEE PerCom IEEE PiCom IEEE NTCAA (workshop) ICIC Express Letters 電気学会医用・生体工学研究会研究報告 APAMI      その他で良さげなの  IMIS (with CISIS) ICMU ISWC MOWU ACM CHI ACM CSCW ACM UM      h5-index  HCI Data Mining Database and System AI Software Fuzzy      </description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://hugo-toha.github.io/jp/notes/tips/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-toha.github.io/jp/notes/tips/links/</guid>
+      <description>Link   https://dream-exp.net/shaper/ -&amp;gt; deeplの翻訳良い感じにしてくれるやつ
+  https://translate.systran.net/?source=ja&amp;amp;target=en
+  https://scrapbox.io/komofr/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E8%A8%AD%E8%A8%88
+  http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.html
+      </description>
     </item>
     
     <item>
@@ -38,7 +34,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hugo-toha.github.io/jp/notes/tips/word/</guid>
-      <description>文章を接続する    概要 単語     加えて In addition   たとえば For example            よく使う言い回し    概要 単語     本稿では In this paper   本項では In this section            </description>
+      <description>文章を接続する    概要 単語     加えて In addition   たとえば For example        よく使う言い回し    概要 単語     本稿では In this paper   本項では In this section        References  https://www.gfd-dennou.org/arch/hiroki/homepage-old/main018.html#toc64 http://neutron.appl-beam.ibaraki.ac.jp/ohoyamak/indispensable.html https://readingmonkey.blog.fc2.com/blog-entry-650.html https://note.com/kenyu_uehara/n/ndde2ab2b8a90 http://www.rain.hyarc.nagoya-u.ac.jp/~tsuboki/ronbun/paper_eng.html https://www.sci.hokudai.ac.jp/~minobe/class/bad_expressions.html      diff of work, job, and task 「work」  「work」は仕事・働くこと全体を意味する単語で、Jobよりも広義の仕事を意味します。目標を成し遂げられる事柄に使われる単語で、肉体的・精神的な労働・努力を表現するのに使われます。必ずしも金銭が関与している労働を意味するものではなく、公共での共同作業・活動などにも「work」を使うことができます。</description>
+    </item>
+    
+    <item>
+      <title>Transfer learning</title>
+      <link>https://hugo-toha.github.io/jp/notes/tips/transfer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-toha.github.io/jp/notes/tips/transfer/</guid>
+      <description>Links  トップカンファレンスにおけるデータセットシフトと機械学習 | 2021-03      </description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://hugo-toha.github.io/jp/notes/tips/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-toha.github.io/jp/notes/tips/code/</guid>
+      <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      python string to list string = &amp;ldquo;[1, 2, 3]&amp;rdquo; eval(straing)
+ [1, 2, 3]
+     </description>
     </item>
     
   </channel>

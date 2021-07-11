@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Links
+  id: links
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  hideTitle: false
+
+
+# Your experiences
+links:
+- link:
+    url: https://twitter.com/harukanekodesu
+    name: Twitter
+- link:
+    url: https://www.facebook.com/harukanekodesu/
+    name: Facebook
+- link:
+    url: https://scholar.google.co.jp/citations?user=r1UutV8AAAAJ&hl=ja
+    name: Google scholor
+- link:
+    url: https://www.researchgate.net/profile/Haru-Kaneko
+    name: ResearchGate
+
+# - link:
+#   url:
+#   name:
