@@ -25,3 +25,9 @@ menu:
 {{< note title="fzf config">}}
 - https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/
 {{< /note >}}
+
+{{< note title="move files using grep">}}
+```
+grep -rl "key word" ./ | xargs -I '{}' mv {} [dir path]
+```
+{{< /note >}}

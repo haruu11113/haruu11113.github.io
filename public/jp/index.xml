@@ -55,7 +55,7 @@
       <guid>https://hugo-toha.github.io/jp/notes/tips/code/</guid>
       <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      python string to list string = &amp;ldquo;[1, 2, 3]&amp;rdquo; eval(straing)
  [1, 2, 3]
-     </description>
+     grepでファイル検索して、ディレクトリ移動をさせる grep -rl &amp;quot;検索ワード&amp;quot; [検索するディレクトリ] | xargs -I &#39;{}&#39; mv {} [移動先のディレクトリパス]     </description>
     </item>
     
     <item>

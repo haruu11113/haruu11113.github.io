@@ -34,7 +34,7 @@
 <meta property="og:title" content="Code" />
 <meta property="og:description" content="Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      python string to list string = &ldquo;[1, 2, 3]&rdquo; eval(straing)
  [1, 2, 3]
-     " />
+     grepでファイル検索して、ディレクトリ移動をさせる grep -rl &quot;検索ワード&quot; [検索するディレクトリ] | xargs -I &#39;{}&#39; mv {} [移動先のディレクトリパス]     " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hugo-toha.github.io/jp/notes/tips/code/" /><meta property="article:section" content="notes" />
 
@@ -318,6 +318,18 @@ eval(straing)</p>
 <p>[1, 2, 3]</p>
 </blockquote>
 </div>
+            </div>
+        
+    </div>
+</div>
+
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>grepでファイル検索して、ディレクトリ移動をさせる</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><pre><code>grep -rl &quot;検索ワード&quot; [検索するディレクトリ] | xargs -I '{}' mv {} [移動先のディレクトリパス]
+</code></pre></div>
             </div>
         
     </div>
