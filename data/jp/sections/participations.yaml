@@ -20,11 +20,19 @@ events:
 
 - event:
     type:
-    title: "DICOMO 20201"
+    title: "10th ICIEV & 5th IVPR"
+    url: "http://cennser.org/ICIEV/"
+    date: "2021-08-16~23"
+    place: "Oonline"
+    detail: "本当は北九州で開催される予定だったが、オンライン開催に切り替わった。"
+
+- event:
+    type:
+    title: "DICOMO 2021"
     url: "https://dicomo.org/2021"
     date: "2021-06-30~02"
     place: "Online"
-    detail: "論文についての発表を行った. そろそろオフラインの学会にも参加したいけどなあ."
+    detail: "論文についての発表を行った。そろそろオフラインの学会にも参加したいけどなあ。"
 
 - event:
     type:
@@ -32,7 +40,7 @@ events:
     url: "https://ijcai20.org/"
     date: "2021-01-07~14"
     place: "Online"
-    detail: "ワークショップなどに参加した. 著者のスライド発表動画が公開される形式であり, 学会に参加している感があまりなかった."
+    detail: "ワークショップなどに参加した。著者のスライド発表動画が公開される形式であり、学会に参加している感があまりなかった。"
 
 - event:
     type:
@@ -40,7 +48,7 @@ events:
     url: "https://apami2020.org/"
     date: "2020-11-21~23"
     place: "Online"
-    detail: "論文についての発表をおこなった."
+    detail: "論文についての発表をおこなった。"
 
 - event:
     type:
@@ -48,7 +56,7 @@ events:
     url: "https://ubicomp.org/ubicomp2020/"
     date: "2020-09-12~17"
     place: "Online"
-    detail: "ワークショップなどに参加した."
+    detail: "ワークショップなどに参加した。"
 
 - event:
     type:
@@ -56,7 +64,7 @@ events:
     url: "https://abc-research.github.io/2020/"
     date: "2020-08-26~29"
     place: "Kitakyushu"
-    detail: "論文についての発表をおこなった."
+    detail: "論文についての発表をおこなった。"
 
 - event:
     type:
@@ -64,7 +72,7 @@ events:
     url: "https://dicomo.org/2020/"
     date: "2020-06-24~26"
     place: "Online"
-    detail: "論文についての発表とテクニカルナイトセッションでの発表."
+    detail: "論文についての発表とテクニカルナイトセッションでの発表。"
 
 - event:
     type:
@@ -72,11 +80,12 @@ events:
     url: "http://sigubi.ipsj.or.jp/seminar65/"
     date: "2020-02-24"
     place: "Online"
-    detail: "論文についての発表をおこなった."
+    detail: "論文についての発表をおこなった。"
 
 - event:
     title: "SOFT九州 2019"
     url: "https://soft-kyushu.org/2019/conf/index.html"
     date: "2019-11-30"
     place: "Iizuka"
-    detail: "論文についての発表を行った. 初めての学会というもの."
+    detail: "論文についての発表を行った。初めての学会というもの。"
+

@@ -102,7 +102,7 @@ papers:
 - paper:
     name: "DICOMO2021"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
-    title: 
+    title: "介護記録自動生成のための記録項目別傾向分析"
     url: "https://dicomo.org/2021"
     date: "2021-07-01"
     book: "マルチメディア，分散，協調とモバイル(DICOMO2020)シンポジウム"

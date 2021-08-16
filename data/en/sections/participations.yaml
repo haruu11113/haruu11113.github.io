@@ -20,6 +20,14 @@ events:
 
 - event:
     type:
+    title: "10th ICIEV & 5th IVPR"
+    url: "http://cennser.org/ICIEV/"
+    date: "2021-08-16~23"
+    place: "Oonline"
+    detail: "本当は北九州で開催される予定だったが、オンライン開催に切り替わった。"
+
+- event:
+    type:
     title: "DICOMO 20201"
     url: "https://dicomo.org/2021"
     date: "2021-06-30~02"
