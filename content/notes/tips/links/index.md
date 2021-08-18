@@ -17,6 +17,10 @@ menu:
 - http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.html
 {{< /note >}}
 
+{{< note title="rand index">}}
+-> クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標)
+https://y-uti.hatenablog.jp/entry/2014/01/19/133936
+{{< /note >}}
 
 <!-- {{< note title="HCI">}}
 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。
