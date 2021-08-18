@@ -17,9 +17,16 @@ menu:
 - http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.html
 {{< /note >}}
 
-{{< note title="rand index">}}
+{{< note title="Miscellaneous Notes">}}
 -> クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標)
 https://y-uti.hatenablog.jp/entry/2014/01/19/133936
+
+ICHI (International Classification of Health Interventions)とCPT(physician's current procedural terminology)について。
+ICHI->医療行為の国際分類
+CPT->診療報酬支払いコード
+https://www.niph.go.jp/journal/data/67-5/201867050011.pdf
+https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
+
 {{< /note >}}
 
 <!-- {{< note title="HCI">}}
