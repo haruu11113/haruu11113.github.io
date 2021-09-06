@@ -30,3 +30,8 @@ https://www.niph.go.jp/journal/data/67-5/201867050011.pdf
 https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
 {{< /note >}}
 
+{{< note title="K-means と k-medoids">}}
+k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです
+- https://www.dskomei.com/entry/2018/04/03/004543
+{{< /note >}}
+
