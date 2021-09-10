@@ -58,7 +58,7 @@ ICHI (International Classification of Health Interventions)とCPT(physician&amp;
       <guid>https://hugo-toha.github.io/jp/notes/tips/code/</guid>
       <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      python string to list string = &amp;ldquo;[1, 2, 3]&amp;rdquo; eval(straing)
  [1, 2, 3]
-     grepでファイル検索して、ディレクトリ移動をさせる grep -rl &amp;quot;検索ワード&amp;quot; [検索するディレクトリ] | xargs -I &#39;{}&#39; mv {} [移動先のディレクトリパス]     </description>
+     grepでファイル検索して、ディレクトリ移動をさせる grep -rl &amp;quot;検索ワード&amp;quot; [検索するディレクトリ] | xargs -I &#39;{}&#39; mv {} [移動先のディレクトリパス]     git command  git addの取り消し(stagingの取り消し)  $ git reset HEAD &amp;lt;file name&amp;gt;  commitだけ取り消して，staging状態に戻す  $ git reset --soft HEAD~ http://bcl.</description>
     </item>
     
   </channel>

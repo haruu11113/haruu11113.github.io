@@ -31,3 +31,19 @@ menu:
 grep -rl "key word" ./ | xargs -I '{}' mv {} [dir path]
 ```
 {{< /note >}}
+
+{{< note title="git command">}}
+- git addの取り消し(stagingの取り消し)
+
+```
+$ git reset HEAD <file name>
+```
+
+- commitだけ取り消して，staging状態に戻す
+
+```
+$ git reset --soft HEAD~
+```
+
+http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/
+{{< /note >}}
