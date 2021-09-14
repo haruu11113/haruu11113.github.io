@@ -27,6 +27,20 @@ papers:
     is_reviewed: false
 
 - paper:
+    name: "卒論"
+    authors: "Haru Kaneko"
+    title: "機械学習による介護記録内容の推定の試み"
+    url: 
+    date: "2020-02-19"
+    book: "卒業論文"
+    volume: 
+    number: 
+    pages: 
+    place: "Iizuka"
+    abstract: 
+    is_reviewed: false
+
+- paper:
     type: "domestic"
     name: "ubi65"
     authors: "Haru Kaneko, Sozo Inoue"
@@ -86,23 +100,9 @@ papers:
     is_reviewed: true
 
 - paper:
-    name: "卒論"
-    authors: "Haru Kaneko"
-    title: "機械学習による介護記録内容の推定の試み"
-    url: 
-    date: "2020-02-19"
-    book: "卒業論文"
-    volume: 
-    number: 
-    pages: 
-    place: "Iizuka"
-    abstract: 
-    is_reviewed: false
-
-- paper:
     name: "DICOMO2021"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
-    title: 
+    title: "介護記録自動生成のための記録項目別傾向分析"
     url: "https://dicomo.org/2021"
     date: "2021-07-01"
     book: "マルチメディア，分散，協調とモバイル(DICOMO2020)シンポジウム"

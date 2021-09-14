@@ -27,3 +27,25 @@ string = "[1, 2, 3]"
 eval(straing)
 > [1, 2, 3]
 {{< /note >}}
+
+{{< note title="grepでファイル検索して、ディレクトリ移動をさせる">}}
+```
+grep -rl "検索ワード" [検索するディレクトリ] | xargs -I '{}' mv {} [移動先のディレクトリパス]
+```
+{{< /note >}}
+
+{{< note title="git command">}}
+- git addの取り消し(stagingの取り消し)
+
+```
+$ git reset HEAD <file name>
+```
+
+- commitだけ取り消して，staging状態に戻す
+
+```
+$ git reset --soft HEAD~
+```
+
+http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/
+{{< /note >}}

@@ -25,7 +25,10 @@
   https://translate.systran.net/?source=ja&amp;amp;target=en
   https://scrapbox.io/komofr/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E8%A8%AD%E8%A8%88
   http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.html
-      HCI 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。 https://masaogata.com/docs/hci-info/
+  https://fugumt.com/fugumt/paper/index.html -&amp;gt; arxivのようやくサイト。アブストの要約(日本語)、タイトルの翻訳、アブストの翻訳がのってる。翻訳は機械翻訳だが、アブストの要約と注目度のスコアリングがされてるのが面白い。
+      Miscellaneous Notes -&amp;gt; クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標) https://y-uti.hatenablog.jp/entry/2014/01/19/133936
+ICHI (International Classification of Health Interventions)とCPT(physician&amp;rsquo;s current procedural terminology)について。 ICHI-&amp;gt;医療行為の国際分類 CPT-&amp;gt;診療報酬支払いコード https://www.niph.go.jp/journal/data/67-5/201867050011.pdf https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
+    HCI 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。 https://masaogata.com/docs/hci-info/
 学会情報 学会カレンダー  HCI Calendar  以前のGoogle Spreadsheetをもとに、独立したウェブサイトとして作り直しました。 学会の投稿日・開催日が月ごとにまとまっています。   SIGCHI Calendar IEEE Conferences &amp;amp; Events  一覧・ランキング・採択率 ※英語  HCI Bibliography : Human-Computer Interaction Resources ランキングの高い出版物 – Human Computer Interaction | Google Scholar Top conferences in computer science | Microsoft Academic Search Acceptance Rates for Publications in Virtual Reality / Graphics / HCI / Visualization / Vision WikiCFP – A Wiki for Calls for Papers  あまり役立たない   人工知能学会「私のブックマーク」（下記参照）にも学会情報があります  学会について  20 Years of Four HCI Conferences: A Visual Exploration (PDF) ※英語  HCI学会の動向を視覚化した論文。著者、所属、キーワードなどの関係性がグラフにまとまっています。   I give up on CHI/UIST | DUB For the Future ※英語  近年のCHIの問題点が議論されています。（コメント欄も参考になる）   CHI Conferenceにおける日本人の活動動向 – 坂本大介 日本におけるHCI研究の特異性 – 黒須正明  ACM Digital Library 内のカンファレンス情報  ACM Proceedings ACM Event: CHI ACM Event: SIGGRAPH  学会誌  ヒューマンインタフェース学会論文誌 (Vol.</description>
     </item>
     
@@ -53,7 +56,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hugo-toha.github.io/notes/tips/code/</guid>
-      <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      </description>
+      <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      move files using grep grep -rl &amp;quot;key word&amp;quot; ./ | xargs -I &#39;{}&#39; mv {} [dir path]     git command  git addの取り消し(stagingの取り消し)  $ git reset HEAD &amp;lt;file name&amp;gt;  commitだけ取り消して，staging状態に戻す  $ git reset --soft HEAD~ http://bcl.</description>
     </item>
     
   </channel>

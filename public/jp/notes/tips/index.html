@@ -29,7 +29,7 @@
   
   
 
-  <link rel="icon" type="image/png" href="/images/site/favicon_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_2.png" />
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_3.png" />
 
 <meta property="og:title" content="Tips" />
 <meta property="og:description" content="" />
@@ -106,7 +106,7 @@ if (!doNotTrack) {
     </button>
     <a class="navbar-brand" href="/jp">
       
-        <img src="/images/site/main-logo_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_2.png" alt="Logo">
+        <img src="/images/site/main-logo_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_3.png" alt="Logo">
       Haru Kaneko</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
@@ -143,10 +143,10 @@ if (!doNotTrack) {
   </div>
   
   
-    <img src="/images/site/main-logo_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+    <img src="/images/site/main-logo_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
   
   
-    <img src="/images/site/inverted-logo_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+    <img src="/images/site/inverted-logo_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
   
 </nav>
 
@@ -167,7 +167,7 @@ if (!doNotTrack) {
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/jp/notes" data-filter="all">Notes</a></li>
+            <li id="list-heading"><a href="/jp/notes" data-filter="all">メモ</a></li>
             <div class="subtree">
                 
   
@@ -347,6 +347,57 @@ if (!doNotTrack) {
 <li>
 <p><a href="http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.html">http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.html</a></p>
 </li>
+<li>
+<p><a href="https://fugumt.com/fugumt/paper/index.html">https://fugumt.com/fugumt/paper/index.html</a>
+-&gt; arxivのようやくサイト。アブストの要約(日本語)、タイトルの翻訳、アブストの翻訳がのってる。翻訳は機械翻訳だが、アブストの要約と注目度のスコアリングがされてるのが面白い。</p>
+</li>
+</ul>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>雑なメモ</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><p>-&gt; クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標)
+<a href="https://y-uti.hatenablog.jp/entry/2014/01/19/133936">https://y-uti.hatenablog.jp/entry/2014/01/19/133936</a></p>
+<p>ICHI (International Classification of Health Interventions)とCPT(physician&rsquo;s current procedural terminology)について。
+ICHI-&gt;医療行為の国際分類
+CPT-&gt;診療報酬支払いコード
+<a href="https://www.niph.go.jp/journal/data/67-5/201867050011.pdf">https://www.niph.go.jp/journal/data/67-5/201867050011.pdf</a>
+<a href="https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf">https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf</a></p>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>K-means と k-medoids</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><p>k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです</p>
+<ul>
+<li><a href="https://www.dskomei.com/entry/2018/04/03/004543">https://www.dskomei.com/entry/2018/04/03/004543</a></li>
+</ul>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>気になる研究者</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><ul>
+<li><a href="https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&amp;hl=ja">Hristijan Gjoreski</a></li>
 </ul>
 </div>
             </div>
@@ -569,14 +620,44 @@ eval(straing)</p>
     </div>
 </div>
 
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>grepでファイル検索して、ディレクトリ移動をさせる</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><pre><code>grep -rl &quot;検索ワード&quot; [検索するディレクトリ] | xargs -I '{}' mv {} [移動先のディレクトリパス]
+</code></pre></div>
+            </div>
+        
+    </div>
+</div>
+
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>git command</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><ul>
+<li>git addの取り消し(stagingの取り消し)</li>
+</ul>
+<pre><code>$ git reset HEAD &lt;file name&gt;
+</code></pre><ul>
+<li>commitだけ取り消して，staging状態に戻す</li>
+</ul>
+<pre><code>$ git reset --soft HEAD~
+</code></pre><p><a href="http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/">http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/</a></p>
+</div>
+            </div>
+        
+    </div>
+</div>
+
 
         
       
     </div>
     <div class="paginator">
       
-
-
     </div>
   </div>
 </section>
@@ -732,7 +813,7 @@ eval(straing)</p>
     <div class="row text-left">
       <div class="col-md-4">
         <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
-          <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png">
+          <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png">
           Toha
         </a>
       </div>
