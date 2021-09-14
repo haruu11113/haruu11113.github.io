@@ -172,3 +172,8 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - https://www.dskomei.com/entry/2018/04/03/004543
 {{< /note >}}
 
+
+{{< note title="気になる研究者">}}
+- [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
+
+{{< /note >}}
