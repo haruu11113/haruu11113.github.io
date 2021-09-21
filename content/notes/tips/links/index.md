@@ -177,3 +177,9 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
 
 {{< /note >}}
+
+{{< note title="介護記録アプリ">}}
+- [ケアコラボ](https://page.carecollabo.jp)
+
+{{< /note >}}
+
