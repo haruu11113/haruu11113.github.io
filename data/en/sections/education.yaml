@@ -22,7 +22,7 @@ degrees:
 #     url: "#"
 #   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
 #     url: "#"
-- name: Graduent school of Life Science and Systems Engineering
+- name: Master | Graduent school of Life Science and Systems Engineering. Member of sozolab.jp
   icon: fa-graduation-cap
   timeframe: 2020-2022
   institution:
@@ -59,7 +59,7 @@ degrees:
   # - Duis sed massa feugiat, ornare justo et, aliquam est.
   # - Pellentesque ut fringilla magna.
 
-- name: Department of system design and informatics
+- name: Bachelor | Department of system design and informatics
   icon: fa-university
   timeframe: 2016-2020
   institution:
