@@ -32,15 +32,14 @@ events:
     url: "https://dicomo.org/2021"
     date: "2021-06-30~02"
     place: "Online"
-    detail: "論文についての発表を行った. そろそろオフラインの学会にも参加したいけどなあ."
-
+    detail: "Presented a paper. そろそろオフラインの学会にも参加したいけどなあ."
 - event:
     type:
     title: "IJICAI 2020"
     url: "https://ijcai20.org/"
     date: "2021-01-07~14"
     place: "Online"
-    detail: "ワークショップなどに参加した. 著者のスライド発表動画が公開される形式であり, 学会に参加している感があまりなかった."
+    detail: "I participated in workshops and other events. I did not feel that I was participating in the conference because the video of the authors' slide presentation was open to the public."
 
 - event:
     type:
@@ -64,7 +63,7 @@ events:
     url: "https://abc-research.github.io/2020/"
     date: "2020-08-26~29"
     place: "Kitakyushu"
-    detail: "論文についての発表をおこなった."
+    detail: "Presented a paper."
 
 - event:
     type:
@@ -72,19 +71,19 @@ events:
     url: "https://dicomo.org/2020/"
     date: "2020-06-24~26"
     place: "Online"
-    detail: "論文についての発表とテクニカルナイトセッションでの発表."
+    detail: "Presented a paper and Night technical session"
 
 - event:
     type:
-    title: "UBI研究会65"
+    title: "IPSJ UBI研究会65"
     url: "http://sigubi.ipsj.or.jp/seminar65/"
     date: "2020-02-24"
     place: "Online"
-    detail: "論文についての発表をおこなった."
+    detail: "Presented a paper."
 
 - event:
     title: "SOFT九州 2019"
     url: "https://soft-kyushu.org/2019/conf/index.html"
     date: "2019-11-30"
     place: "Iizuka"
-    detail: "論文についての発表を行った. 初めての学会というもの."
+    detail: "Presented a paper. 初めての学会というもの."
