@@ -22,7 +22,7 @@ degrees:
 #     url: "#"
 #   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
 #     url: "#"
-- name: 生命体工学研究科 人間知能システム工学専攻
+- name: 修士 | 生命体工学研究科 人間知能システム工学専攻. sozolab.jpのメンバー.
   icon: fa-graduation-cap
   timeframe: 2020-2022
   institution:
@@ -59,7 +59,7 @@ degrees:
   # - Duis sed massa feugiat, ornare justo et, aliquam est.
   # - Pellentesque ut fringilla magna.
 
-- name: システム創成情報工学科
+- name: 学士 | システム創成情報工学科
   icon: fa-university
   timeframe: 2016-2020
   institution:
