@@ -10,3 +10,5 @@ menu:
     weight: 1
 hero: images/forest.jpg
 ---
+
+Hello!!
