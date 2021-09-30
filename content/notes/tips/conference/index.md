@@ -40,6 +40,8 @@ menu:
 - [ACM CHI](https://chi2021.acm.org)
 - [ACM CSCW](https://cscw.acm.org/)
 - [ACM UM](https://um.org/umap2021/)
+- [AMC TOCHI](https://dl.acm.org/journal/tochi/calls-for-papers)
+- [CHII](https://www.acii-conf.net/2021/)
 {{< /note >}}
 
 {{< note title="h5-index">}}
@@ -51,3 +53,9 @@ menu:
 - [Fuzzy](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_fuzzysystems)
 {{< /note >}}
 
+{{< note title="How to search CFP">}}
+- [WikiCFP](http://www.wikicfp.com/cfp/)
+- [Microsoft Academic Search CFP Calendar](https://academic.microsoft.com/home)
+
+ref -> [http://did2.blog64.fc2.com/blog-entry-452.html](http://did2.blog64.fc2.com/blog-entry-452.html)
+{{< /note >}}
