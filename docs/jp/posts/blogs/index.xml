@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Haru Kaneko</title>
+    <link>https://haruu11113.github.io/jp/posts/blogs/</link>
+    <description>Recent content in Blogs on Haru Kaneko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 09 Jun 2021 08:06:25 +0600</lastBuildDate><atom:link href="https://haruu11113.github.io/jp/posts/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>https://haruu11113.github.io/jp/posts/blogs/hello/</link>
+      <pubDate>Wed, 09 Jun 2021 08:06:25 +0600</pubDate>
+      
+      <guid>https://haruu11113.github.io/jp/posts/blogs/hello/</guid>
+      <description>Hello!!</description>
+    </item>
+    
+    <item>
+      <title>Self Introduction</title>
+      <link>https://haruu11113.github.io/jp/posts/blogs/self-introduction/</link>
+      <pubDate>Wed, 09 Jun 2021 08:06:25 +0600</pubDate>
+      
+      <guid>https://haruu11113.github.io/jp/posts/blogs/self-introduction/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
