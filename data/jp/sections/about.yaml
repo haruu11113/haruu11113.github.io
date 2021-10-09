@@ -15,7 +15,7 @@ company:
   url: "https://www.kyutech.ac.jp/"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+# resume: "files/resume.pdf"
 
 # a summary about you
 summary: "私はsozolab.jpのメンバーです。機械学習を用いた介護記録の自動生成について研究しています。"
