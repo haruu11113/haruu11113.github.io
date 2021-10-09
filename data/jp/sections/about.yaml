@@ -27,9 +27,9 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "kaneko@sozolab.jp"
 
-# - name: Github
-#   icon: "fab fa-github"
-#   url: "https://www.github.com/example"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/haruu11113"
 
 # - name: Stackoverflow
 #   icon: "fab fa-stack-overflow"
