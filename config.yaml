@@ -1,4 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://haruu11113.github.io
+
+publishDir: "docs"
+coanonifyurls: true
 
 languageCode: ja-jp
 title: "Haru Kaneko"
@@ -36,7 +39,7 @@ outputs:
   - JSON
 
 # Enable Google Analytics
-googleAnalytics: UA-122321624-2
+# googleAnalytics: UA-122321624-2
 
 # Enable global emoji support
 enableEmoji: true
