@@ -20,19 +20,28 @@ events:
 
 - event:
     type:
+    title: "Ubicomp 2021 / HASCA workshop"
+    url: "https://ubicomp.org/ubicomp2021/"
+    date: "2021-09-21~26"
+    place: "Oonline"
+    detail: "Presented a paper"
+
+- event:
+    type:
     title: "10th ICIEV & 5th IVPR"
     url: "http://cennser.org/ICIEV/"
     date: "2021-08-16~23"
     place: "Oonline"
     detail: "本当は北九州で開催される予定だったが、オンライン開催に切り替わった。"
 
-- event:
-    type:
-    title: "DICOMO 20201"
-    url: "https://dicomo.org/2021"
+- event: 
+    type: 
+    title: "DICOMO 20201" 
+    url: "https://dicomo.org/2021" 
     date: "2021-06-30~02"
     place: "Online"
     detail: "Presented a paper. そろそろオフラインの学会にも参加したいけどなあ."
+
 - event:
     type:
     title: "IJICAI 2020"
@@ -47,7 +56,7 @@ events:
     url: "https://apami2020.org/"
     date: "2020-11-21~23"
     place: "Online"
-    detail: "論文についての発表をおこなった."
+    detail: "Presented a paper"
 
 - event:
     type:
