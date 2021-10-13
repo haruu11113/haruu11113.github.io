@@ -9,6 +9,7 @@ section:
     hideTitle: false
     strReviewed: "Reviewed"
     # type['domestic', '卒論', 'international']
+
 # Your experiences
 Papers:
 - paper:
@@ -26,7 +27,6 @@ Papers:
     place: "Izuka"
     abstract: "In this paper, we proposed an machine learning method to create of care records automatically, in order to reduce time nurse creates care records. And we evaluated this method. On the assuption that using at nursing facility, estimate the details of care from past care record data, user, target person and start time of care action. As a result, we got 79% accuracy rate."
     is_reviewed: false
-
 - paper:
     name: "卒論"
     authors: "Haru Kaneko"
@@ -95,11 +95,12 @@ Papers:
     name: "abc2020"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "Estimation of Record Contents for Automatic Generation of Care Records"
-    url: "https://link.springer.com/chapter/10.1007/978-981-15-8944-7_18"
+    url: ""
+    doi: "doi.org/10.1007/978-981-15-8944-7_18"
     date: "2021-01-01"
     year: "2021"
     book: "Human Activity Recognition Challenge, Springer Nature"
-    volume: ""
+    volume: "204"
     number: ""
     pages: "289-306"
     place: "Kitakyushu Japan"
@@ -127,7 +128,8 @@ Papers:
     name: "HASCA2021"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "Analysis of Feature Importances for Automatic Generation of Care Records"
-    url: https://doi.org/10.1145/3460418.3479354
+    url: ""
+    doi: "doi.org/10.1145/3460418.3479354"
     date: "2021-09-21"
     year: "2021"
     book: "UbiComp '21: Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers (HASCA)"
@@ -153,3 +155,4 @@ Papers:
 #     place: 
 #     abstract: 
 #     is_reviewed: false
+

@@ -30,10 +30,14 @@
                     {{ end }}
                     pp {{.paper.pages }}, ({{.paper.year }}), 
                     {{ if ne .paper.place "" }}
-                        {{.paper.place }} 
+                        {{.paper.place }}, 
                     {{ end }}
-
-                  <a href="{{ .paper.url }}">[Link]</a>
+                    {{ if ne .paper.url "" }}
+                        <a href="{{ .paper.url }}">[Link]</a>
+                    {{ end }}
+                    {{ if ne .paper.doi "" }}
+                        <a href="https://{{ .paper.doi }}">{{ .paper.doi}}</a>
+                    {{ end }}
                   </div>
                 {{ end }}
     </div>
