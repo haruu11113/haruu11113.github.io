@@ -11,14 +11,29 @@
 
     <div class="container">
 
-                {{ range $index, $paper := .papers }}
+                {{ range $index, $paper := .Papers }}
                   <div style="margin:10px 0 10px 0">
                     [{{ $index }}]
                     {{ if .paper.is_reviewed}}
                       <b>( {{ $strReviewed }} )</b>
                     {{ end }}
-                    {{ .paper.authors }} :"{{.paper.title }}", {{.paper.book }}, {{.paper.volume }}, {{.paper.number }}, {{.paper.pages }}, {{.paper.date }}, {{.paper.place }}
-                  <a href="{{ .paper.url }}">{{ .paper.url }}</a>
+
+                    {{ .paper.authors }} :"{{.paper.title }}", 
+                    {{ if ne .paper.book "" }}
+                        {{.paper.book }}, 
+                    {{ end }}
+                    {{ if ne .paper.volume "" }}
+                        Vol. {{.paper.volume }}, 
+                    {{ end }}
+                    {{ if ne .paper.number "" }}
+                        No. {{.paper.number }},
+                    {{ end }}
+                    pp {{.paper.pages }}, ({{.paper.year }}), 
+                    {{ if ne .paper.place "" }}
+                        {{.paper.place }} 
+                    {{ end }}
+
+                  <a href="{{ .paper.url }}">[Link]</a>
                   </div>
                 {{ end }}
     </div>

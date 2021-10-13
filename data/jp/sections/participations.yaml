@@ -20,6 +20,14 @@ events:
 
 - event:
     type:
+    title: "Ubicomp 2021 / HASCA workshop"
+    url: "https://ubicomp.org/ubicomp2021/"
+    date: "2021-09-21~26"
+    place: "Oonline"
+    detail: "Presented a paper"
+
+- event:
+    type:
     title: "10th ICIEV & 5th IVPR"
     url: "http://cennser.org/ICIEV/"
     date: "2021-08-16~23"
