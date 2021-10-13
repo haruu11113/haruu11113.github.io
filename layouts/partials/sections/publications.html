@@ -13,7 +13,7 @@
 
                 {{ range $index, $paper := .Papers }}
                   <div style="margin:10px 0 10px 0">
-                    [{{ $index }}]
+                    [{{ add $index 1 }}]
                     {{ if .paper.is_reviewed}}
                       <b>( {{ $strReviewed }} )</b>
                     {{ end }}
