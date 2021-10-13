@@ -58,8 +58,9 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/haruu11113/harukanekodesu
+  gitRepo: https://github.com/haruu11113/haruu11113.github.io
 
+  GitBranch: dev
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
 
