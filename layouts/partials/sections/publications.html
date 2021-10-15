@@ -10,35 +10,65 @@
     {{ end }}
 
     <div class="container">
-
-                {{ range $index, $paper := .Papers }}
-                  <div style="margin:10px 0 10px 0">
-                    [{{ add $index 1 }}]
-                    {{ if .paper.is_reviewed}}
-                      <b>( {{ $strReviewed }} )</b>
-                    {{ end }}
-
-                    {{ .paper.authors }} :"{{.paper.title }}", 
-                    {{ if ne .paper.book "" }}
-                        {{.paper.book }}, 
-                    {{ end }}
-                    {{ if ne .paper.volume "" }}
-                        Vol. {{.paper.volume }}, 
-                    {{ end }}
-                    {{ if ne .paper.number "" }}
-                        No. {{.paper.number }},
-                    {{ end }}
-                    pp {{.paper.pages }}, ({{.paper.year }}), 
-                    {{ if ne .paper.place "" }}
-                        {{.paper.place }}, 
-                    {{ end }}
-                    {{ if ne .paper.url "" }}
-                        <a href="{{ .paper.url }}">[Link]</a>
-                    {{ end }}
-                    {{ if ne .paper.doi "" }}
-                        <a href="https://{{ .paper.doi }}">{{ .paper.doi}}</a>
-                    {{ end }}
-                  </div>
+        <h2>{{ .section.strPaper }}</h2>
+        {{ range $index, $paper := .Papers }}
+            <div style="margin:10px 0 10px 0">
+                [{{ add $index 1 }}]
+                {{ if .paper.is_reviewed}}
+                  <b>( {{ $strReviewed }} )</b>
                 {{ end }}
+
+                {{ .paper.authors }} :"{{.paper.title }}", 
+                {{ if ne .paper.book "" }}
+                    {{.paper.book }}, 
+                {{ end }}
+                {{ if ne .paper.volume "" }}
+                    Vol. {{.paper.volume }}, 
+                {{ end }}
+                {{ if ne .paper.number "" }}
+                    No. {{.paper.number }}, 
+                {{ end }}
+                pp {{.paper.pages }}, ({{.paper.year }}), 
+                {{ if ne .paper.doi "" }}
+                    <a href="https://{{ .paper.doi }}">{{ .paper.doi}}</a>
+                {{ end }}
+                {{ if ne .paper.url "" }}
+                    <a href="{{ .paper.url }}">[Link]</a>
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+    <div class="container">
+        <hr>
+        <h2>{{ .section.strOral }}</h2>
+        {{ range $index, $paper := .Oral_Papers }}
+            <div style="margin:10px 0 10px 0">
+                [{{ add $index 1 }}]
+                {{ if .paper.is_reviewed}}
+                  <b>( {{ $strReviewed }} )</b>
+                {{ end }}
+
+                {{ .paper.authors }} :"{{.paper.title }}", 
+                {{ if ne .paper.book "" }}
+                    {{.paper.book }}, 
+                {{ end }}
+                {{ if ne .paper.volume "" }}
+                    Vol. {{.paper.volume }}, 
+                {{ end }}
+                {{ if ne .paper.number "" }}
+                    No. {{.paper.number }}, 
+                {{ end }}
+                pp {{.paper.pages }}, ({{.paper.year }}), 
+                {{ if ne .paper.doi "" }}
+                    <a href="https://{{ .paper.doi }}">{{ .paper.doi}}</a>
+                {{ end }}
+                {{ if ne .paper.place "" }}
+                    {{.paper.place }}, 
+                {{ end }}
+                {{ if ne .paper.url "" }}
+                    <a href="{{ .paper.url }}">[Link]</a>
+                {{ end }}
+              </div>
+        {{ end }}
     </div>
 </div>
