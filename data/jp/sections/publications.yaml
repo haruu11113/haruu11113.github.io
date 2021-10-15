@@ -28,7 +28,7 @@ Papers:
     abstract: "In this paper, we proposed an machine learning method to create of care records automatically, in order to reduce time nurse creates care records. And we evaluated this method. On the assuption that using at nursing facility, estimate the details of care from past care record data, user, target person and start time of care action. As a result, we got 79% accuracy rate."
     is_reviewed: false
 
-- paper:
+- paper: 
     name: "卒論"
     authors: "Haru Kaneko"
     title: "機械学習による介護記録内容の推定の試み"
@@ -96,14 +96,15 @@ Papers:
     name: "abc2020"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "Estimation of Record Contents for Automatic Generation of Care Records"
-    url: "https://link.springer.com/chapter/10.1007/978-981-15-8944-7_18"
+    url: ""
+    doi: "doi.org/10.1007/978-981-15-8944-7_18"
     date: "2021-01-01"
     year: "2021"
     book: "Human Activity Recognition Challenge, Springer Nature"
-    volume: ""
+    volume: "204"
     number: ""
     pages: "289-306"
-    place: "Kitakyushu Japan"
+    place: "Kitakyushu Japan" 
     abstract: 'Elderly person are increasing all over the world. Smart nursing facilities are required to support them for their good health.Especially in Japan, it is essential to have automated nursing facilities center to support the relentlessly increasing elderly person all over the country.As long as elderly people are increasing, the demand for nursing care services are also increasing day by day.There is a shortage of nurse to support this vast elderly people.In order to resolve the shortage of nurse, it is important to reduce the work load for nurse.There are some research to simplify the care recording process.The main approach is activity recognition or the development of new apps. However, we aimed for automatic generation of the care records of near future. So in this paper, we evaluate the accuracy of the automatic generation of care records using care record data from real nursing facility to simplify the task of making care records.We made two machine learning models to estimate the "target patient" and the "recorded value" of care records.And we evaluated the classification result from the data collected by the care record app.We used two months of data we collected from Japanese nursing facility for the evaluation.We can achieve, average F1-score of ’target patient’ estimation is 74% and the average F1-score of ’detail of record’ estimation is 58%. We believe that using these results in care records app will simplify the task of making care records.'
     is_reviewed: true
 
@@ -128,10 +129,11 @@ Papers:
     name: "HASCA2021"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "Analysis of Feature Importances for Automatic Generation of Care Records"
-    url: https://doi.org/10.1145/3460418.3479354
+    url: ""
+    doi: "doi.org/10.1145/3460418.3479354"
     date: "2021-09-21"
     year: "2021"
-    book: "UbiComp '21: Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers"
+    book: "UbiComp '21: Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers (HASCA)"
     volume: ""
     number: "5"
     pages: "316–321"
@@ -154,3 +156,4 @@ Papers:
 #     place: 
 #     abstract: 
 #     is_reviewed: false
+
