@@ -8,11 +8,12 @@ section:
     # Can optionally hide the title in sections
     hideTitle: false
     strReviewed: "Reviewed"
+    strOral: "Oral Presentation"
+    strPaper: "Paper"
     # type['domestic', '卒論', 'international']
 
-Papers:
+Oral_Papers:
 - paper:
-    type: "domestic"
     name: "soft-kyushu"
     authors: "Haru Kaneko, Sozo Inoue"
     title: "介護施設における介護記録自動生成の試み"
@@ -43,7 +44,6 @@ Papers:
     is_reviewed: false
 
 - paper:
-    type: "domestic"
     name: "ubi65"
     authors: "Haru Kaneko, Sozo Inoue"
     title: "介護記録自動生成のための記録内容の推定の試み"
@@ -59,7 +59,6 @@ Papers:
     is_reviewed: false
 
 - paper:
-    type: "domestic"
     name: "DICOMO2020"
     authors: "Haru Kaneko, Sozo Inoue"
     title: "介護記録アプリケーションにおける記録内容自動生成機能の実装"
@@ -75,7 +74,6 @@ Papers:
     is_reviewed: false
 
 - paper:
-    type: "international"
     name: "apami2020"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "Implementation of Care Records Automatic Generation Function in a Care Record Application"
@@ -88,23 +86,6 @@ Papers:
     pages: "1-6"
     place: "Online"
     abstract: "The number of elderly people is increasing in the world. Especially in Japan, the shortage of nurses has been a problem in recent years. So far, we had developed a mobile application to make nursing care records. In addition, we are also experimenting with the introduction of this application to nursing homes. In this paper, we design an automatic generation function of the nursing care record into our mobile nursing care record application. In this paper, we implement an automatic generation function of the recorded contents in this care record system. we aim to simplify the work of making care records. To do so, we make a machine learning model for estimating the feature nursing care records in the server. And, we design new UI on our application to make care records using estimation result. As a result of the evaluation, we know it is possible to reduce time that making care records using our application with automatic generation function of care records."
-    is_reviewed: true
-
-- paper:
-    type: "international"
-    name: "abc2020"
-    authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
-    title: "Estimation of Record Contents for Automatic Generation of Care Records"
-    url: ""
-    doi: "doi.org/10.1007/978-981-15-8944-7_18"
-    date: "2021-01-01"
-    year: "2021"
-    book: "Human Activity Recognition Challenge, Springer Nature"
-    volume: "204"
-    number: ""
-    pages: "289-306"
-    place: "Kitakyushu Japan" 
-    abstract: 'Elderly person are increasing all over the world. Smart nursing facilities are required to support them for their good health.Especially in Japan, it is essential to have automated nursing facilities center to support the relentlessly increasing elderly person all over the country.As long as elderly people are increasing, the demand for nursing care services are also increasing day by day.There is a shortage of nurse to support this vast elderly people.In order to resolve the shortage of nurse, it is important to reduce the work load for nurse.There are some research to simplify the care recording process.The main approach is activity recognition or the development of new apps. However, we aimed for automatic generation of the care records of near future. So in this paper, we evaluate the accuracy of the automatic generation of care records using care record data from real nursing facility to simplify the task of making care records.We made two machine learning models to estimate the "target patient" and the "recorded value" of care records.And we evaluated the classification result from the data collected by the care record app.We used two months of data we collected from Japanese nursing facility for the evaluation.We can achieve, average F1-score of ’target patient’ estimation is 74% and the average F1-score of ’detail of record’ estimation is 58%. We believe that using these results in care records app will simplify the task of making care records.'
     is_reviewed: true
 
 - paper:
@@ -122,6 +103,23 @@ Papers:
     place: "Online"
     abstract: 
     is_reviewed: false
+
+Papers:
+- paper:
+    name: "abc2020"
+    authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
+    title: "Estimation of Record Contents for Automatic Generation of Care Records"
+    url: ""
+    doi: "doi.org/10.1007/978-981-15-8944-7_18"
+    date: "2021-01-01"
+    year: "2021"
+    book: "Human Activity Recognition Challenge, Springer Nature"
+    volume: "204"
+    number: ""
+    pages: "289-306"
+    place: "Kitakyushu Japan" 
+    abstract: 'Elderly person are increasing all over the world. Smart nursing facilities are required to support them for their good health.Especially in Japan, it is essential to have automated nursing facilities center to support the relentlessly increasing elderly person all over the country.As long as elderly people are increasing, the demand for nursing care services are also increasing day by day.There is a shortage of nurse to support this vast elderly people.In order to resolve the shortage of nurse, it is important to reduce the work load for nurse.There are some research to simplify the care recording process.The main approach is activity recognition or the development of new apps. However, we aimed for automatic generation of the care records of near future. So in this paper, we evaluate the accuracy of the automatic generation of care records using care record data from real nursing facility to simplify the task of making care records.We made two machine learning models to estimate the "target patient" and the "recorded value" of care records.And we evaluated the classification result from the data collected by the care record app.We used two months of data we collected from Japanese nursing facility for the evaluation.We can achieve, average F1-score of ’target patient’ estimation is 74% and the average F1-score of ’detail of record’ estimation is 58%. We believe that using these results in care records app will simplify the task of making care records.'
+    is_reviewed: true
 
 - paper:
     type: "international"
