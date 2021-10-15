@@ -9,7 +9,6 @@ section:
     hideTitle: false
     strReviewed: "査読あり"
 
-    # type['domestic', '卒論', 'international']
 # Your experiences
 Papers:
 - paper:
