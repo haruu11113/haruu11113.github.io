@@ -17,6 +17,8 @@ menu:
 - http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.html
 - https://fugumt.com/fugumt/paper/index.html
 -> arxivのようやくサイト。アブストの要約(日本語)、タイトルの翻訳、アブストの翻訳がのってる。翻訳は機械翻訳だが、アブストの要約と注目度のスコアリングがされてるのが面白い。
+- https://sourcegraph.com/search
+-> いい感じのやつ?
 {{< /note >}}
 
 {{< note title="雑なメモ">}}
