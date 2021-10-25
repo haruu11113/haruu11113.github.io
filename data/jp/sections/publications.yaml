@@ -9,7 +9,7 @@ section:
     hideTitle: false
     strReviewed: "査読あり"
     strOral: "口頭発表"
-    strPaper: "論文"
+    strPaper: "Scopus 論文"
     # type['domestic', '卒論', 'international']
 
 Oral_Papers:
@@ -20,9 +20,9 @@ Oral_Papers:
     url: "http://soft-kyushu.org/2019/conf/index.html"
     date: "2019-11-30"
     year: "2019"
-    book: "日本知能情報ファジィ学会九州支部学術講演会予稿集"
-    volume: ""
-    umber: ""
+    book: "日本知能情報ファジィ学会九州支部学術講演会予稿集" 
+    volume: "" 
+    number: ""
     pages: "2-5"
     place: "Izuka"
     abstract: "In this paper, we proposed an machine learning method to create of care records automatically, in order to reduce time nurse creates care records. And we evaluated this method. On the assuption that using at nursing facility, estimate the details of care from past care record data, user, target person and start time of care action. As a result, we got 79% accuracy rate."

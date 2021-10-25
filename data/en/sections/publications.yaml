@@ -8,8 +8,8 @@ section:
     # Can optionally hide the title in sections
     hideTitle: false
     strReviewed: "Reviewed"
-    strOral: "Oral Presentation"
-    strPaper: "Paper"
+    strOral: "Oral Presentations"
+    strPaper: "Scopus Papers"
     # type['domestic', '卒論', 'international']
 
 Oral_Papers:
