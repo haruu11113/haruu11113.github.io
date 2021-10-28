@@ -59,3 +59,7 @@ menu:
 
 ref -> [http://did2.blog64.fc2.com/blog-entry-452.html](http://did2.blog64.fc2.com/blog-entry-452.html)
 {{< /note >}}
+
+{{< note title="How to search CFP">}}
+- [How to find journal]https://www.lib.hokudai.ac.jp/support/journals_for_submitting_your_paper/
+{{< /note >}}
