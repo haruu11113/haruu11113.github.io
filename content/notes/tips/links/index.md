@@ -190,3 +190,10 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 {{< note title="P, NP, NP-hard, NP-complete">}}
 - [初心者が学ぶP,NP,NP困難(Hard),NP完全(Complete)とは（わかりやすく解説）](https://motojapan.hateblo.jp/entry/2017/11/15/082738)
 {{< /note >}}
+
+
+{{< note title="big comment">}}
+- [What do you want to do as a researcher](https://fye.c.u-tokyo.ac.jp/wp-content/uploads/2020/12/2019本文46P_rev.pdf)
+
+{{< /note >}}
+
