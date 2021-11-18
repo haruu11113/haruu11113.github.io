@@ -21,6 +21,7 @@ menu:
 -> いい感じのやつ?
 - https://www.linguee.com
 - https://editor.langsmith.co.jp
+
 {{< /note >}}
 
 {{< note title="雑なメモ">}}
@@ -54,3 +55,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [初心者が学ぶP,NP,NP困難(Hard),NP完全(Complete)とは（わかりやすく解説）](https://motojapan.hateblo.jp/entry/2017/11/15/082738)
 {{< /note >}}
 
+{{< note title="いい言葉">}}
+- [研究者として何がしたい?](https://fye.c.u-tokyo.ac.jp/wp-content/uploads/2020/12/2019本文46P_rev.pdf)
+
+{{< /note >}}

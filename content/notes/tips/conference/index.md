@@ -63,3 +63,7 @@ ref -> [http://did2.blog64.fc2.com/blog-entry-452.html](http://did2.blog64.fc2.c
 {{< note title="How to search CFP">}}
 - [How to find journal]https://www.lib.hokudai.ac.jp/support/journals_for_submitting_your_paper/
 {{< /note >}}
+
+{{< note title="Other">}}
+https://hsi.ksc.kwansei.ac.jp/AI-Center/link.html
+{{< /note >}}

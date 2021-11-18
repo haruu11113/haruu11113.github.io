@@ -6,7 +6,7 @@
     <description>Recent content on Haru Kaneko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 09 Jun 2021 08:06:25 +0600</lastBuildDate><atom:link href="https://haruu11113.github.io/jp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://haruu11113.github.io/jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conferences</title>
       <link>https://haruu11113.github.io/jp/notes/tips/conference/</link>
@@ -33,7 +33,7 @@
       雑なメモ -&amp;gt; クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標) https://y-uti.hatenablog.jp/entry/2014/01/19/133936
 ICHI (International Classification of Health Interventions)とCPT(physician&amp;rsquo;s current procedural terminology)について。 ICHI-&amp;gt;医療行為の国際分類 CPT-&amp;gt;診療報酬支払いコード https://www.niph.go.jp/journal/data/67-5/201867050011.pdf https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
     K-means と k-medoids k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです
- https://www.dskomei.com/entry/2018/04/03/004543      気になる研究者  Hristijan Gjoreski      介護記録アプリ  ケアコラボ      P, NP, NP-hard, NP-complete  初心者が学ぶP,NP,NP困難(Hard),NP完全(Complete)とは（わかりやすく解説）      </description>
+ https://www.dskomei.com/entry/2018/04/03/004543      気になる研究者  Hristijan Gjoreski      介護記録アプリ  ケアコラボ      P, NP, NP-hard, NP-complete  初心者が学ぶP,NP,NP困難(Hard),NP完全(Complete)とは（わかりやすく解説）      いい言葉  研究者として何がしたい?</description>
     </item>
     
     <item>
@@ -89,6 +89,15 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>読書記録</title>
+      <link>https://haruu11113.github.io/jp/posts/blogs/books/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://haruu11113.github.io/jp/posts/blogs/books/</guid>
+      <description> </description>
     </item>
     
     <item>
