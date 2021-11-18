@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Search Results</title>
+    <title>Readed Book note</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -31,25 +31,26 @@
 
   <link rel="icon" type="image/png" href="/images/site/favicon_hu510446c651abd1db7ece57e0e2057693_134741_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="Search Results" />
-<meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```" />
+<meta property="og:title" content="Readed Book note" />
+<meta property="og:description" content="Self Introduction." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://haruu11113.github.io/search/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2010-06-08T08:06:25+06:00" />
-<meta property="article:modified_time" content="2010-06-08T08:06:25+06:00" />
+<meta property="og:url" content="https://haruu11113.github.io/posts/blogs/books/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-18T00:00:00+09:00" />
+<meta property="article:modified_time" content="2021-11-18T00:00:00+09:00" />
 
 
 
     
     
-    <link rel="stylesheet" href="/css/layouts/list.css">
-    <link rel="stylesheet" href="/css/navigators/sidebar.css">
-    
-    <link rel="stylesheet" href="/css/style.css"/>
+<meta name="description" content="Self Introduction." />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
 
 
 
@@ -119,7 +120,7 @@ Initial setup Search depends on additional output content type of JSON in config
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/jp/search">
+        <a class="dropdown-item nav-link languages-item" href="/jp/posts/blogs/books">
           
           <span class="flag-icon flag-icon-jp"></span>
           日本語
@@ -145,11 +146,6 @@ Initial setup Search depends on additional output content type of JSON in config
 
       
       
-  
-  
-    
-  
-
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
@@ -165,9 +161,12 @@ Initial setup Search depends on additional output content type of JSON in config
   
   
   
+    
+    
+  
   
     
-    <li><a class="" href="/posts/blogs/" title="Blogs">Blogs</a></li>
+    <li><a class="active" href="/posts/blogs/" title="Blogs">Blogs</a></li>
   
 
 
@@ -182,38 +181,109 @@ Initial setup Search depends on additional output content type of JSON in config
       
       
 <section class="content-section" id="content-section">
-  <div class="content container-fluid" id="content">
-    <div class="container-fluid post-card-holder" id="post-card-holder">
-      <div id="search-results">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://haruu11113.github.io/images/default-hero.jpg);'>
+      </div>
 
-        <script id="search-result-template" type="text/x-js-template">
-          <div class="post-card">
-            <a href="${link}" class="post-card-link">
-              <div class="card" style="min-height: 352px;"><a href="${link}" class="post-card-link">
-                <div class="card-head">
-                  <img class="card-img-top" src="${hero}" alt="Card Heading Image">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">${title}</h5>
-                  <p class="card-text post-summary">${summary}</p>
-                </div>
-                <div class="card-footer">
-                  <span class="float-left">${date}</span>
-                  <a href="${link}" class="float-right btn btn-outline-info btn-sm">Read</a>
-                </div>
-              </div>
-	          </a>
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/haru_hue8bd094a8f2d18c67df2291e0cf5aefe_471630_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">Haru Kaneko</h5>
+          <p>November 18, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Readed Book note</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <iframe width=100%; src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSbv_b0XG_Usrpn2PCoeMIhK9v0VNNeMaPwB4kkrd4s3mDqqNhq2uB9E6wILiCcMwC7j2RroMTWVKw3/pubhtml?gid=716780791&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/haruu11113/haruu11113.github.io/edit/dev/content/posts/blogs/books/index.md" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
           </div>
-        </script>
+        
 
+        
+      <hr />
+        
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
       </div>
     </div>
   </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        <img class="flag" src="https://www.countryflags.io/gb/flat/16.png" alt="gb">
+        English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/jp/posts/blogs/books">
+            
+            <img class="flag" src="https://www.countryflags.io/jp/flat/24.png" alt="jp">
+            日本語
+        </a>
+        
+    </div>
+</div>
+
+  
 </section>
 
 
       
-       
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
     </div>
 
     
@@ -390,9 +460,12 @@ Initial setup Search depends on additional output content type of JSON in config
 
     
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
-<script src="https://haruu11113.github.io/js/search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
 
   </body>
 </html>

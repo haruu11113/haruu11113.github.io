@@ -165,7 +165,7 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://haruu11113.github.io/posts/blogs/</loc>
-    <lastmod>2021-06-09T08:06:25+06:00</lastmod>
+    <lastmod>2021-11-18T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
@@ -178,7 +178,7 @@
                 />
   </url><url>
     <loc>https://haruu11113.github.io/</loc>
-    <lastmod>2021-06-09T08:06:25+06:00</lastmod>
+    <lastmod>2021-11-18T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
@@ -191,7 +191,7 @@
                 />
   </url><url>
     <loc>https://haruu11113.github.io/posts/</loc>
-    <lastmod>2021-06-09T08:06:25+06:00</lastmod>
+    <lastmod>2021-11-18T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
@@ -201,6 +201,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://haruu11113.github.io/posts/"
+                />
+  </url><url>
+    <loc>https://haruu11113.github.io/posts/blogs/books/</loc>
+    <lastmod>2021-11-18T00:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://haruu11113.github.io/jp/posts/blogs/books/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://haruu11113.github.io/posts/blogs/books/"
                 />
   </url><url>
     <loc>https://haruu11113.github.io/posts/blogs/self-introduction/</loc>
