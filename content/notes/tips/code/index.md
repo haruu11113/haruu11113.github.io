@@ -16,6 +16,12 @@ menu:
 |\_\* |外部からアクセスされたくない変数・関数(アクセスは可能)|
 |\_\_\*|プライベート変数・関数|
 ||
+
+
+# GPUの有無を確認
+from tensorflow.python.client import device_lib
+device_lib.list_local_devices()
+
 {{< /note >}}
 
 {{< note title="fzf config">}}
