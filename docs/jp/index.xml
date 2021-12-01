@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://haruu11113.github.io/jp/notes/tips/conference/</guid>
-      <description>私の所属研究室が出したことがあるカンファレンス・ジャーナル.  Ubicump / IMWUT HASCA IJCB MobiQuitous ACM SenSys MDPI Journal of Personalized Medicine MDPI Sensors Journal of Information Processing 情報処理学会論文誌 DICOMO UBI研究会 SOFT kyushu ABC ICIEV IEEE Fukuoka Section？ IEEE PerCom IEEE PiCom IEEE NTCAA (workshop) ICIC Express Letters 電気学会医用・生体工学研究会研究報告 APAMI      その他で良さげなの  IMIS (with CISIS) ICMU ISWC MOWU ACM CHI ACM CSCW ACM UM AMC TOCHI CHII      h5-index  HCI Data Mining Database and System AI Software Fuzzy      論文の投稿先選び  WikiCFP Microsoft Academic Search CFP Calendar  ref -&amp;gt; http://did2.</description>
+      <description>私の所属研究室が出したことがあるカンファレンス・ジャーナル.  Ubicump / IMWUT HASCA IJCB MobiQuitous ACM SenSys MDPI Journal of Personalized Medicine MDPI Sensors Journal of Information Processing 情報処理学会論文誌 DICOMO UBI研究会 SOFT kyushu ABC ICIEV IEEE Fukuoka Section？ IEEE PerCom IEEE PiCom IEEE NTCAA (workshop) ICIC Express Letters 電気学会医用・生体工学研究会研究報告 APAMI      その他で良さげなの  IMIS (with CISIS) ICMU ISWC MOWU ACM CHI ACM CSCW ACM UM AMC TOCHI CHII      h5-index  HCI Data Mining Database and System AI Software Fuzzy  Journal rankings    論文の投稿先選び  WikiCFP Microsoft Academic Search CFP Calendar  ref -&amp;gt; http://did2.</description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@ ICHI (International Classification of Health Interventions)とCPT(physician&amp;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://haruu11113.github.io/jp/notes/tips/code/</guid>
-      <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      python string to list string = &amp;ldquo;[1, 2, 3]&amp;rdquo; eval(straing)
+      <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数        GPUの有無を確認 from tensorflow.python.client import device_lib device_lib.list_local_devices()    fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      python string to list string = &amp;ldquo;[1, 2, 3]&amp;rdquo; eval(straing)
  [1, 2, 3]
      grepでファイル検索して、ディレクトリ移動をさせる grep -rl &amp;quot;検索ワード&amp;quot; [検索するディレクトリ] | xargs -I &#39;{}&#39; mv {} [移動先のディレクトリパス]     git command  git addの取り消し(stagingの取り消し)  $ git reset HEAD &amp;lt;file name&amp;gt;  commitだけ取り消して，staging状態に戻す  $ git reset --soft HEAD~ http://bcl.</description>
     </item>
