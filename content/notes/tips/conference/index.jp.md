@@ -51,6 +51,8 @@ menu:
 - [AI](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_artificialintelligence)
 - [Software](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_softwaresystems)
 - [Fuzzy](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_fuzzysystems)
+
+[Journal rankings](https://www.scimagojr.com/journalrank.php)
 {{< /note >}}
 
 {{< note title="論文の投稿先選び">}}
