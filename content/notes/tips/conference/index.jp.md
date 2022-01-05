@@ -8,6 +8,7 @@ menu:
     parent: notes-tips
     weight: 10
 ---
+
 {{< note title="私の所属研究室が出したことがあるカンファレンス・ジャーナル.">}}
 - [Ubicump](https://ubicomp.org/ubicomp2021/upapers/) / IMWUT
 - [HASCA](http://hasca2021.hasc.jp)
@@ -30,7 +31,9 @@ menu:
 - ICIC Express Letters
 - 電気学会医用・生体工学研究会研究報告
 - [APAMI](https://apami2020.org)
+
 {{< /note >}}
+
 
 {{< note title="その他で良さげなの">}}
 - [IMIS](http://voyager.ce.fit.ac.jp/conf/imis/2021/) (with [CISIS](http://voyager.ce.fit.ac.jp/conf/cisis/2021/))
@@ -42,7 +45,9 @@ menu:
 - [ACM UM](https://um.org/umap2021/)
 - [AMC TOCHI](https://dl.acm.org/journal/tochi/calls-for-papers)
 - [CHII](https://www.acii-conf.net/2021/)
+
 {{< /note >}}
+
 
 {{< note title="h5-index">}}
 - [HCI](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_humancomputerinteraction)
@@ -53,19 +58,26 @@ menu:
 - [Fuzzy](https://scholar.google.co.jp/citations?view_op=top_venues&hl=ja&vq=eng_fuzzysystems)
 
 [Journal rankings](https://www.scimagojr.com/journalrank.php)
+
 {{< /note >}}
+
 
 {{< note title="論文の投稿先選び">}}
 - [WikiCFP](http://www.wikicfp.com/cfp/)
 - [Microsoft Academic Search CFP Calendar](https://academic.microsoft.com/home)
 
 ref -> [http://did2.blog64.fc2.com/blog-entry-452.html](http://did2.blog64.fc2.com/blog-entry-452.html)
+
 {{< /note >}}
+
 
 {{< note title="How to search CFP">}}
 - [How to find journal]https://www.lib.hokudai.ac.jp/support/journals_for_submitting_your_paper/
+
 {{< /note >}}
 
 {{< note title="Other">}}
 https://hsi.ksc.kwansei.ac.jp/AI-Center/link.html
+
 {{< /note >}}
+
