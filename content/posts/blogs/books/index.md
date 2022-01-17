@@ -1,5 +1,5 @@
 ---
-title: "Readed Book note"
+title: "Read Book note"
 date: 2021-11-18T00:00:00+09:00
 description: Self Introduction.
 hero: images/forest.jpg
