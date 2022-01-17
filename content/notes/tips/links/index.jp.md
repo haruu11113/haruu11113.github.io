@@ -8,6 +8,7 @@ menu:
     parent: notes-tips
     weight: 10
 ---
+
 {{< note title="Link">}}
 - https://dream-exp.net/shaper/
 -> deeplの翻訳良い感じにしてくれるやつ
@@ -24,6 +25,7 @@ menu:
 
 {{< /note >}}
 
+
 {{< note title="雑なメモ">}}
 -> クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標)
 https://y-uti.hatenablog.jp/entry/2014/01/19/133936
@@ -33,15 +35,13 @@ ICHI->医療行為の国際分類
 CPT->診療報酬支払いコード
 https://www.niph.go.jp/journal/data/67-5/201867050011.pdf
 https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
+
 {{< /note >}}
+
 
 {{< note title="K-means と k-medoids">}}
 k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです
 - https://www.dskomei.com/entry/2018/04/03/004543
-{{< /note >}}
-
-{{< note title="気になる研究者">}}
-- [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
 
 {{< /note >}}
 
@@ -51,11 +51,18 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 
 {{< /note >}}
 
+
 {{< note title="P, NP, NP-hard, NP-complete">}}
 - [初心者が学ぶP,NP,NP困難(Hard),NP完全(Complete)とは（わかりやすく解説）](https://motojapan.hateblo.jp/entry/2017/11/15/082738)
+
 {{< /note >}}
 
-{{< note title="いい言葉">}}
+
+{{< note title="いい">}}
 - [研究者として何がしたい?](https://fye.c.u-tokyo.ac.jp/wp-content/uploads/2020/12/2019本文46P_rev.pdf)
+- [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
+- [[研究室ゼミ] 論文のペアリーディング](https://note.com/nkmr/n/n64d30963f1b3)
+- [学生30人に教員1人の研究室運営について（2017-2019](http://nkmr-lab.org/docs/management2017-2019.html)
 
 {{< /note >}}
+

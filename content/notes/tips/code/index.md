@@ -22,6 +22,9 @@ menu:
 from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
 
+# docker imageの一括削除
+https://qiita.com/boiyama/items/9972601ffc240553e1f3
+
 {{< /note >}}
 
 {{< note title="fzf config">}}

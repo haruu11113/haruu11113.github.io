@@ -8,6 +8,7 @@ menu:
     parent: notes-tips
     weight: 10
 ---
+
 {{< note title="Link">}}
 - https://dream-exp.net/shaper/
 -> deeplの翻訳良い感じにしてくれるやつ
@@ -21,7 +22,9 @@ menu:
 -> いい感じのやつ?
 - https://www.linguee.com
 - https://editor.langsmith.co.jp
+
 {{< /note >}}
+
 
 {{< note title="Miscellaneous Notes">}}
 -> クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標)
@@ -34,6 +37,7 @@ https://www.niph.go.jp/journal/data/67-5/201867050011.pdf
 https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
 
 {{< /note >}}
+
 
 <!-- {{< note title="HCI">}}
 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。
@@ -171,29 +175,31 @@ HCIの関連技術の資料を集めています。
 
 {{< /note >}} -->
 
+
 {{< note title="K-means と k-medoids">}}
 k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです
 - https://www.dskomei.com/entry/2018/04/03/004543
-{{< /note >}}
-
-
-{{< note title="気になる研究者">}}
-- [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
 
 {{< /note >}}
+
 
 {{< note title="介護記録アプリ">}}
 - [ケアコラボ](https://page.carecollabo.jp)
 
 {{< /note >}}
 
+
 {{< note title="P, NP, NP-hard, NP-complete">}}
 - [初心者が学ぶP,NP,NP困難(Hard),NP完全(Complete)とは（わかりやすく解説）](https://motojapan.hateblo.jp/entry/2017/11/15/082738)
+
 {{< /note >}}
 
 
-{{< note title="big comment">}}
+{{< note title="good">}}
 - [What do you want to do as a researcher](https://fye.c.u-tokyo.ac.jp/wp-content/uploads/2020/12/2019本文46P_rev.pdf)
+- [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
+- [[研究室ゼミ] 論文のペアリーディング](https://note.com/nkmr/n/n64d30963f1b3)
+- [学生30人に教員1人の研究室運営について（2017-2019](http://nkmr-lab.org/docs/management2017-2019.html)
 
 {{< /note >}}
 
