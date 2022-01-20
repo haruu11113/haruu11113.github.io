@@ -66,3 +66,8 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 
 {{< /note >}}
 
+{{< note title="awesome papers">}}
+- [zhaoxin94/awesome-domain-adaptation](https://github.com/zhaoxin94/awesome-domain-adaptation)
+- [hurcy/awesome-ehr-deeplearning](https://github.com/hurcy/awesome-ehr-deeplearning)
+
+{{< /note >}}

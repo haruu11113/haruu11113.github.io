@@ -6,7 +6,7 @@
     <description>Recent content on Haru Kaneko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://haruu11113.github.io/jp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://haruu11113.github.io/jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conferences</title>
       <link>https://haruu11113.github.io/jp/notes/tips/conference/</link>
@@ -91,6 +91,16 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>speech recognition</title>
+      <link>https://haruu11113.github.io/jp/posts/blogs/speech-recognition/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://haruu11113.github.io/jp/posts/blogs/speech-recognition/</guid>
+      <description>webの音声認識機能docsを用いて、音声文字起こしができるアプリを作ってみた。
+実際のページ</description>
     </item>
     
     <item>
