@@ -22,6 +22,9 @@ menu:
 -> いい感じのやつ?
 - https://www.linguee.com
 - https://editor.langsmith.co.jp
+- https://kn1cht.github.io/doctor-funding-calendar/
+-> お金面
+
 
 {{< /note >}}
 
@@ -35,11 +38,12 @@ ICHI->医療行為の国際分類
 CPT->診療報酬支払いコード
 https://www.niph.go.jp/journal/data/67-5/201867050011.pdf
 https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
-
 {{< /note >}}
 
 
-<!-- {{< note title="HCI">}}
+{{< note title="HCI">}}
+- https://hci-calendar.github.io
+<!--
 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。
 https://masaogata.com/docs/hci-info/
 ## 学会情報
@@ -172,8 +176,8 @@ HCIの関連技術の資料を集めています。
 - https://note.com/auror/n/n69e814d580a6
 - https://hci-lab.jp
 - https://daisukesakamoto.jp/aboutme/
-
-{{< /note >}} -->
+-->
+{{< /note >}}
 
 
 {{< note title="K-means と k-medoids">}}
