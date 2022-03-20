@@ -43,6 +43,7 @@ https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
 
 {{< note title="HCI">}}
 - https://hci-calendar.github.io
+- [日本語で読めるHCI情報](https://masaogata.com/docs/hci-info/)
 <!--
 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。
 https://masaogata.com/docs/hci-info/
