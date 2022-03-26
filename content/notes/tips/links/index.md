@@ -200,7 +200,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 {{< /note >}}
 
 
-{{< note title="good">}}
+{{< note title="lab">}}
 - [What do you want to do as a researcher](https://fye.c.u-tokyo.ac.jp/wp-content/uploads/2020/12/2019本文46P_rev.pdf)
 - [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
 - [[研究室ゼミ] 論文のペアリーディング](https://note.com/nkmr/n/n64d30963f1b3)
@@ -208,6 +208,9 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 
 {{< /note >}}
 
+{{< note title="review">}}
+- [査読の仕方](https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00)
+{{< /note >}}
 
 {{< note title="awesome papers">}}
 - [zhaoxin94/awesome-domain-adaptation](https://github.com/zhaoxin94/awesome-domain-adaptation)
