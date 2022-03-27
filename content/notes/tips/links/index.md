@@ -206,6 +206,8 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [[研究室ゼミ] 論文のペアリーディング](https://note.com/nkmr/n/n64d30963f1b3)
 - [学生30人に教員1人の研究室運営について（2017-2019](http://nkmr-lab.org/docs/management2017-2019.html)
 
+- [yoheikikutaさんのブログ](https://yoheikikuta.github.io)
+
 {{< /note >}}
 
 {{< note title="review">}}
