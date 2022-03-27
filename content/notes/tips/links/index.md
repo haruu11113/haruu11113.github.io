@@ -207,6 +207,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [学生30人に教員1人の研究室運営について（2017-2019](http://nkmr-lab.org/docs/management2017-2019.html)
 
 - [yoheikikutaさんのブログ](https://yoheikikuta.github.io)
+- [カッコいいパワポの「レイアウト」](https://note.com/powerpoint_jp/n/nffc40ee38355)
 
 {{< /note >}}
 
