@@ -208,6 +208,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 
 - [yoheikikutaさんのブログ](https://yoheikikuta.github.io)
 - [カッコいいパワポの「レイアウト」](https://note.com/powerpoint_jp/n/nffc40ee38355)
+- [【研究のススメかた】 早く、確実に論文を書き進めるコツ](https://note.com/mmatsunaga/n/ndfde61f7069d)
 
 {{< /note >}}
 
