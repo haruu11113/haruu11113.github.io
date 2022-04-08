@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>自己紹介</title>
+    <title>Self Introduction</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -31,7 +31,7 @@
 
   <link rel="icon" type="image/png" href="/images/site/favicon_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="自己紹介" />
+<meta property="og:title" content="Self Introduction" />
 <meta property="og:description" content="Self Introduction." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://haruu11113.github.io/posts/blogs/self-introduction/" /><meta property="article:section" content="posts" />
@@ -76,70 +76,133 @@
 
 
 
-  
-  
-    
-  
+
   
 
 
 
+
+
   
-  
-    
-  
+
+
+
+
+
   
 
 
 <nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
   <div class="container">
-      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <a class="navbar-brand" href="/">
-      
-        <img src="/images/site/main-logo_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" alt="Logo">
-      Haru Kaneko</a>
-    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <img src="/images/site/inverted-logo_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" id="logo">Haru Kaneko</a>
+    <button
+      class="navbar-toggler navbar-dark"
+      id="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#top-nav-items"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+    <div class="collapse navbar-collapse" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
-      
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        
+          
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#publications">Publications</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#participations">Participations</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#recent-posts">Recent Posts</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#links">Links</a>
+              </li>
+            
+        
         
 
-  
+        
+          <div class="dropdown-divider" id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
 
+        
+        <li class="nav-item">
+          <a class="nav-link" id="blog-link" href="/notes">Notes</a>
+        </li>
+        
 
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      
-      <span class="flag-icon flag-icon-gb"></span>
-      English
-    </a>
-    <div class="dropdown-menu" aria-labelledby="languageSelector">
-      
-        <a class="dropdown-item nav-link languages-item" href="/jp/posts/blogs/self-introduction">
-          
-          <span class="flag-icon flag-icon-jp"></span>
-          日本語
-        </a>
-      
-    </div>
-</li>
+        
 
-      
+        
       </ul>
     </div>
   </div>
   
-  
-    <img src="/images/site/main-logo_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
-  
-  
-    <img src="/images/site/inverted-logo_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
-  
+  <img src="/images/site/main-logo_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" class="d-none" id="main-logo">
+  <img src="/images/site/inverted-logo_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" class="d-none" id="inverted-logo">
 </nav>
 
 
@@ -196,7 +259,7 @@
         </div>
 
         <div class="title">
-          <h1>自己紹介</h1>
+          <h1>Self Introduction</h1>
         </div>
         
         <div class="post-content" id="post-content">
@@ -265,29 +328,6 @@
   </div>
   
   <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
-  
-    
-
-    
-
-
-<div class="dropdown languageSelector">
-    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        
-        <img class="flag" src="https://www.countryflags.io/gb/flat/16.png" alt="gb">
-        English
-    </a>
-    <div class="dropdown-menu" aria-labelledby="languageSelector">
-        
-        <a class="dropdown-item nav-link languages-item" href="/jp/posts/blogs/self-introduction">
-            
-            <img class="flag" src="https://www.countryflags.io/jp/flat/24.png" alt="jp">
-            日本語
-        </a>
-        
-    </div>
-</div>
-
   
 </section>
 
@@ -381,7 +421,7 @@
                 
               
               <li class="nav-item">
-                <a class="smooth-scroll" href="#recent-posts">Recent Posts</a>
+                <a class="smooth-scroll" href="#participations">Participations</a>
               </li>
             
             
@@ -390,7 +430,7 @@
                 
               
               <li class="nav-item">
-                <a class="smooth-scroll" href="#participations">Participations</a>
+                <a class="smooth-scroll" href="#recent-posts">Recent Posts</a>
               </li>
             
             
@@ -424,26 +464,6 @@
           
         </ul>
       </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
       
       
     </div>
