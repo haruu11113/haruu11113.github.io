@@ -1,0 +1,52 @@
+{
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "editor.minimap.scale": 1,
+    // for HighLight (https://dotengineerblog.net/which-extensions-must-install-for-comfortable-markdown-writing-with-vscode/)
+    "highlight.decorations": {
+      "rangeBehavior": 3
+    },
+    "highlight.regexes": {
+      // 指示代名詞
+      "(これ|それ|あれ|どれ|こんな|そんな|あんな|どんな|こう|そう|ああ|どう|この|その|あの|どの)": {
+        "filterLanguageRegex": "markdown", // /Markdownファイルのみ有効
+        "filterFileRegex": "[plot|post].md", // 特定のファイル名のMarkdownファイルのみ強調を有効化
+        "decorations":
+          {
+            "overviewRulerColor": "#ffcc00",
+            "backgroundColor": "#ffcc00",
+            "color": "#1f1f1f"
+          }
+        },
+      // 接続詞
+      "(といった|けれど|しかし|そして|したがって|だから|そこで|すると|そうすれば|でも|ところが|かかわらず|また|および|かつ|加えて)": {
+        "filterLanguageRegex": "markdown",
+        "filterFileRegex": "[plot|post].md",
+        "decorations": [
+          {
+            "overviewRulerColor": "pink",
+            "backgroundColor": "pink",
+            "color": "#1f1f1f"
+          }
+        ]
+      },
+      // 全角文字
+      "([０-９Ａ-Ｚａ-ｚ　])": {
+        "filterLanguageRegex": "markdown",
+        "filterFileRegex": "[plot|post].md",
+        "decorations": [
+          {
+            "overviewRulerColor": "purple",
+            "backgroundColor": "purple",
+            "color": "#1f1f1f"
+          }
+        ]
+      }
+    },
+    "highlight.maxMatches": 250, //一致する文字数の上限
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "Novel.preview.font-family": "\"YuGothic\", \"Yu Gothic\";",
+    "Novel.preview.fontsize": "18pt",
+    "markdown-pdf.breaks": false,
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+}
