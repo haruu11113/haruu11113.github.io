@@ -30,10 +30,10 @@
   https://sourcegraph.com/search -&amp;gt; いい感じのやつ?
   https://www.linguee.com
   https://editor.langsmith.co.jp
+  https://kn1cht.github.io/doctor-funding-calendar/ -&amp;gt; お金面
       Miscellaneous Notes -&amp;gt; クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標) https://y-uti.hatenablog.jp/entry/2014/01/19/133936
 ICHI (International Classification of Health Interventions)とCPT(physician&amp;rsquo;s current procedural terminology)について。 ICHI-&amp;gt;医療行為の国際分類 CPT-&amp;gt;診療報酬支払いコード https://www.niph.go.jp/journal/data/67-5/201867050011.pdf https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
-    HCI 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。 https://masaogata.com/docs/hci-info/
-学会情報 学会カレンダー  HCI Calendar  以前のGoogle Spreadsheetをもとに、独立したウェブサイトとして作り直しました。 学会の投稿日・開催日が月ごとにまとまっています。   SIGCHI Calendar IEEE Conferences &amp;amp; Events  一覧・ランキング・採択率 ※英語  HCI Bibliography : Human-Computer Interaction Resources ランキングの高い出版物 – Human Computer Interaction | Google Scholar Top conferences in computer science | Microsoft Academic Search Acceptance Rates for Publications in Virtual Reality / Graphics / HCI / Visualization / Vision WikiCFP – A Wiki for Calls for Papers  あまり役立たない   人工知能学会「私のブックマーク」（下記参照）にも学会情報があります  学会について  20 Years of Four HCI Conferences: A Visual Exploration (PDF) ※英語  HCI学会の動向を視覚化した論文。著者、所属、キーワードなどの関係性がグラフにまとまっています。   I give up on CHI/UIST | DUB For the Future ※英語  近年のCHIの問題点が議論されています。（コメント欄も参考になる）   CHI Conferenceにおける日本人の活動動向 – 坂本大介 日本におけるHCI研究の特異性 – 黒須正明  ACM Digital Library 内のカンファレンス情報  ACM Proceedings ACM Event: CHI ACM Event: SIGGRAPH  学会誌  ヒューマンインタフェース学会論文誌 (Vol.</description>
+    HCI  https://hci-calendar.github.io 日本語で読めるHCI情報      K-means と k-medoids k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです</description>
     </item>
     
     <item>
@@ -390,6 +390,15 @@ Initial setup Search depends on additional output content type of JSON in config
       
       <guid>https://haruu11113.github.io/posts/blogs/books/</guid>
       <description>そのうち買う本 ほしい物リスト: そのうち買う本</description>
+    </item>
+    
+    <item>
+      <title>Self Introduction</title>
+      <link>https://haruu11113.github.io/posts/blogs/self-introduction/</link>
+      <pubDate>Wed, 09 Jun 2021 08:06:25 +0600</pubDate>
+      
+      <guid>https://haruu11113.github.io/posts/blogs/self-introduction/</guid>
+      <description></description>
     </item>
     
     <item>

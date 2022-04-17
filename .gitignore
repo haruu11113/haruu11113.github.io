@@ -1,2 +1,3 @@
 resources/*
 .firebase/
+node_modules/

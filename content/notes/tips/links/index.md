@@ -22,6 +22,9 @@ menu:
 -> いい感じのやつ?
 - https://www.linguee.com
 - https://editor.langsmith.co.jp
+- https://kn1cht.github.io/doctor-funding-calendar/
+-> お金面
+
 
 {{< /note >}}
 
@@ -35,11 +38,13 @@ ICHI->医療行為の国際分類
 CPT->診療報酬支払いコード
 https://www.niph.go.jp/journal/data/67-5/201867050011.pdf
 https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
-
 {{< /note >}}
 
 
-<!-- {{< note title="HCI">}}
+{{< note title="HCI">}}
+- https://hci-calendar.github.io
+- [日本語で読めるHCI情報](https://masaogata.com/docs/hci-info/)
+<!--
 勝手に転記させていただいています。今後最新の情報を追記していこうと考えています。
 https://masaogata.com/docs/hci-info/
 ## 学会情報
@@ -172,8 +177,8 @@ HCIの関連技術の資料を集めています。
 - https://note.com/auror/n/n69e814d580a6
 - https://hci-lab.jp
 - https://daisukesakamoto.jp/aboutme/
-
-{{< /note >}} -->
+-->
+{{< /note >}}
 
 
 {{< note title="K-means と k-medoids">}}
@@ -195,14 +200,22 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 {{< /note >}}
 
 
-{{< note title="good">}}
+{{< note title="lab">}}
 - [What do you want to do as a researcher](https://fye.c.u-tokyo.ac.jp/wp-content/uploads/2020/12/2019本文46P_rev.pdf)
 - [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
 - [[研究室ゼミ] 論文のペアリーディング](https://note.com/nkmr/n/n64d30963f1b3)
 - [学生30人に教員1人の研究室運営について（2017-2019](http://nkmr-lab.org/docs/management2017-2019.html)
 
+- [yoheikikutaさんのブログ](https://yoheikikuta.github.io)
+- [カッコいいパワポの「レイアウト」](https://note.com/powerpoint_jp/n/nffc40ee38355)
+- [【研究のススメかた】 早く、確実に論文を書き進めるコツ](https://note.com/mmatsunaga/n/ndfde61f7069d)
+- [2016-03-04 論文の書き方とかサーベイの仕方のリンク集をめざして](https://tam5917.hatenablog.com/entry/2016/03/04/235315)
+
 {{< /note >}}
 
+{{< note title="review">}}
+- [査読の仕方](https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00)
+{{< /note >}}
 
 {{< note title="awesome papers">}}
 - [zhaoxin94/awesome-domain-adaptation](https://github.com/zhaoxin94/awesome-domain-adaptation)
