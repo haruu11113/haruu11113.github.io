@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Data portal demo</title>
+    <title>How to Install Python</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -31,18 +31,18 @@
 
   <link rel="icon" type="image/png" href="/images/site/favicon_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="Data portal demo" />
-<meta property="og:description" content="Self Introduction." />
+<meta property="og:title" content="How to Install Python" />
+<meta property="og:description" content="how to install Python" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://haruu11113.github.io/posts/blogs/data-portal/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-03-17T00:00:00+09:00" />
-<meta property="article:modified_time" content="2022-03-17T00:00:00+09:00" />
+<meta property="og:url" content="https://haruu11113.github.io/posts/blogs/how-to-install-python/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-19T00:00:00+09:00" />
+<meta property="article:modified_time" content="2022-04-19T00:00:00+09:00" />
 
 
 
     
     
-<meta name="description" content="Self Introduction." />
+<meta name="description" content="how to install Python" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -189,16 +189,52 @@
         <div class="author-profile ml-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/default-avatar_hu9bf48a08e17db6472c2e32b73058a6bb_47653_120x120_fit_box_3.png' alt="Author Image">
           <h5 class="author-name"></h5>
-          <p>March 17, 2022</p>
+          <p>April 19, 2022</p>
         </div>
 
         <div class="title">
-          <h1>Data portal demo</h1>
+          <h1>How to Install Python</h1>
         </div>
         
         <div class="post-content" id="post-content">
-          <iframe width="100%" height="849" src="https://datastudio.google.com/embed/reporting/e90bee9d-c01a-4314-89d7-0ba762864aa8/page/p_tbupex23sc" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+          <h2 id="このページわかる事">このページわかる事</h2>
+<p>mac（ubuntuでも可）でPython（主にPython3系）環境を構築する事ができます．</p>
+<p>pyenvとは，OS上のPythonのバージョンの管理ができるツールです．Pythonの開発環境を作成する際にはpyenvなどのバージョン管理ツールを用いることが主流です（主流は言い過ぎかもですが，バージョン管理ツールを使っておらずあとで面倒になることがます．</p>
+<p>pyenvとは，OS上のPythonのバージョンの管理ができるツールです．この記事ではpyenvを用い，Pythonバージョンを自由に切り替えられるよう，Python環境を構築します．つまり，ターミナル（端末）上で<code>Python</code>と打った際のPythonのバージョンを好きに切り替えられるように環境を構築します．</p>
+<h2 id="os">OS</h2>
+<p>I tryed those OS.</p>
+<ul>
+<li>mac（10.0.1）</li>
+<li>ubuntu（18.04.5 and 20.04）</li>
+</ul>
+<h2 id="start">Start</h2>
+<h2 id="1-install-pyenv">1. Install pyenv</h2>
+<p>まず，<a href="https://github.com/pyenv/pyenv#basic-github-checkout">ターミナル(端末)を開き以下のコマンドを入力</a>+Enter</p>
+<pre><code> git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+</code></pre><p>その後以下のコマンドを入力(bashの場合)．
+(bash以外のshellを使っている場合は，公式github(<a href="https://github.com/pyenv/pyenv">pyenv</a>)のreadmeい書いてあります．)</p>
+<pre><code>echo 'export PYENV_ROOT=&quot;$HOME/.pyenv&quot;' &gt;&gt; ~/.bash_profile
+echo 'export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;' &gt;&gt; ~/.bash_profile
+echo 'eval &quot;$(pyenv init -)&quot;' &gt;&gt; ~/.bash_profile
+source ~/.bash_profile
+</code></pre><h2 id="2-pythonのインストール">2. Pythonのインストール</h2>
+<p>以下のコマンドをターミナル(端末)に入力+Enter．好きなバージョンを選んでください．
+<code>pyenv install --list</code>でインストール可能なバージョン一覧を見ることができます．</p>
+<pre><code>pyenv install バージョン
+ex) pyenv install 3.6.0
+</code></pre><h2 id="3-インストールしたpythonを利用するように設定以下のコマンドをターミナル端末に入力enter">3. インストールしたPythonを利用するように設定以下のコマンドをターミナル(端末)に入力+Enter．</h2>
+<pre><code>pyenv global バージョン
+ex) pyenv global 3.6.0
+</code></pre><h2 id="その他のpyenvコマンド">その他のpyenvコマンド</h2>
+<h3 id="--pyenv-versions">- <code>pyenv versions</code></h3>
+<p>インストール済のPythonのバージョン一覧を調べる．ここに表示されるバージョンはすでに<code>pyenv install バージョン</code> 済であり，<code>pyenv global バージョン</code>する事が出来る．</p>
+<h3 id="--pyenv-update">- <code>pyenv update</code></h3>
+<p>pyenv時代のバージョンアップ方法-&gt;公式github(<a href="https://github.com/pyenv/pyenv-update">pyenv-update</a>)．するべきかはわからん．
+1.インストール</p>
+<pre><code>git clone https://github.com/pyenv/pyenv-update.git $(pyenv root)/plugins/pyenv-update
+</code></pre><p>2.アップデート</p>
+<pre><code>pyenv update
+</code></pre>
         </div>
 
         
@@ -215,7 +251,7 @@
           
           <div class="col-md-6 btn-improve-page">
              
-               <a href="https://github.com/haruu11113/haruu11113.github.io/edit/dev/content/posts/blogs/data-portal/index.md" title="Improve this page" target="_blank" rel="noopener">
+               <a href="https://github.com/haruu11113/haruu11113.github.io/edit/dev/content/posts/blogs/how-to-install-python/index.md" title="Improve this page" target="_blank" rel="noopener">
             
                 <i class="fas fa-code-branch"></i>
                 Improve this page
@@ -275,7 +311,22 @@
       <h5 class="text-center pl-3">Table of Contents</h5>
       <hr>
       <div class="toc">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#このページわかる事">このページわかる事</a></li>
+    <li><a href="#os">OS</a></li>
+    <li><a href="#start">Start</a></li>
+    <li><a href="#1-install-pyenv">1. Install pyenv</a></li>
+    <li><a href="#2-pythonのインストール">2. Pythonのインストール</a></li>
+    <li><a href="#3-インストールしたpythonを利用するように設定以下のコマンドをターミナル端末に入力enter">3. インストールしたPythonを利用するように設定以下のコマンドをターミナル(端末)に入力+Enter．</a></li>
+    <li><a href="#その他のpyenvコマンド">その他のpyenvコマンド</a>
+      <ul>
+        <li><a href="#--pyenv-versions">- <code>pyenv versions</code></a></li>
+        <li><a href="#--pyenv-update">- <code>pyenv update</code></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
       </div>
     </div>
     

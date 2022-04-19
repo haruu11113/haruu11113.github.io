@@ -1,22 +1,29 @@
 # section information
 section:
-  name: Participations
-  id: participations
-  enable: true
-  weight: 5
-  showOnNavbar: true
-  # Can optionally hide the title in sections
-  hideTitle: false
+    name: Participations
+    id: participations
+    enable: true
+    weight: 5
+    showOnNavbar: true
+    hideTitle: false
 
 # Your experiences
 events:
 # - event:
 #     type:
-#     title: 
-#     url: 
-#     date: 
+#     title:
+#     url:
+#     date:
 #     place:
 #     detail:
+
+- event:
+    type:
+    title: "IPSJ SIGUBI 73"
+    url: "http://sigubi.ipsj.or.jp/seminar73/"
+    date: "2022-03-07"
+    place: "Oonline"
+    detail: "Presente my paper"
 
 - event:
     type:
@@ -42,10 +49,10 @@ events:
     place: "Oonline"
     detail: "本当は北九州で開催される予定だったが、オンライン開催に切り替わった。"
 
-- event: 
-    type: 
-    title: "DICOMO 20201" 
-    url: "https://dicomo.org/2021" 
+- event:
+    type:
+    title: "DICOMO 20201"
+    url: "https://dicomo.org/2021"
     date: "2021-06-30~02"
     place: "Online"
     detail: "Presented a paper. そろそろオフラインの学会にも参加したいけどなあ."
@@ -92,7 +99,7 @@ events:
 
 - event:
     type:
-    title: "IPSJ UBI研究会65"
+    title: "IPSJ SIGUBI65"
     url: "http://sigubi.ipsj.or.jp/seminar65/"
     date: "2020-02-24"
     place: "Online"
