@@ -1,27 +1,23 @@
 # section information
 section:
-  name: Participations
-  id: participations
-  enable: true
-  weight: 5
-  showOnNavbar: true
-  # Can optionally hide the title in sections
-  hideTitle: false
+    name: Participations
+    id: participations
+    enable: true
+    weight: 5
+    showOnNavbar: true
 
-# Your experiences
-events:
-# - event:
-#     type:
-#     title: 
-#     url: 
-#     date: 
-#     place:
-#     detail:
+- event:
+    type:
+    title: "UBI研究会73"
+    url: "http://sigubi.ipsj.or.jp/seminar73/"
+    date: "2022-03-07"
+    place: "Oonline"
+    detail: "Presente my paper"
 
 - event:
     type:
     title: "ABC Conference 2021"
-    url: "https://abc-research.github.io/"
+    url: "http://sigubi.ipsj.or.jp/seminar73/"
     date: "2021-10-22~23"
     place: "Oonline"
     detail: "Participated"
@@ -32,7 +28,7 @@ events:
     url: "https://ubicomp.org/ubicomp2021/"
     date: "2021-09-21~26"
     place: "Oonline"
-    detail: "Presented a paper"
+    detail: "Presente my paper"
 
 - event:
     type:
@@ -48,7 +44,7 @@ events:
     url: "https://dicomo.org/2021"
     date: "2021-06-30~02"
     place: "Online"
-    detail: "論文についての発表を行った。そろそろオフラインの学会にも参加したいけどなあ。"
+    detail: "Presente my paper。そろそろオフラインの学会にも参加したいけどなあ。"
 
 - event:
     type:
@@ -104,4 +100,3 @@ events:
     date: "2019-11-30"
     place: "Iizuka"
     detail: "論文についての発表を行った。初めての学会というもの。"
-
