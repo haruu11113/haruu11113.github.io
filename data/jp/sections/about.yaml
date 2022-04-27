@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: 修士2年
+designation: 博士後期課程1年
 # your company information
 company:
   name: Kyushu Institute of Technology.
@@ -45,7 +45,7 @@ socialLinks:
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "https://www.facebook.com/haru.kaneko.77/"
+  url: "https://www.facebook.com/harukanekodesu/"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
