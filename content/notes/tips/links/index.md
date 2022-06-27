@@ -223,8 +223,11 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [査読の仕方](https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00)
 {{< /note >}}
 
-{{< note title="awesome papers">}}
+{{< note title="papers">}}
 - [zhaoxin94/awesome-domain-adaptation](https://github.com/zhaoxin94/awesome-domain-adaptation)
 - [hurcy/awesome-ehr-deeplearning](https://github.com/hurcy/awesome-ehr-deeplearning)
+
+- [Fugu-MT: arxivの論文翻訳](https://fugumt.com/fugumt/paper/index.html)
+- [arXiv最新論文の紹介](https://devneko.jp/wordpress/)
 
 {{< /note >}}
