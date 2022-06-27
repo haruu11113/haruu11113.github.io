@@ -213,7 +213,10 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [社会人博士進学を検討するなら論文読もう](https://yumulog.hatenablog.com/entry/2019/04/27/152116)
 - [[研究室運営] 卒論・修論はチェックシートで目標設定と客観的な相互チェック](https://note.com/nkmr/n/nde3a352435e1)
 - [杉浦研の運営方針](https://note.com/lclab/n/nc13da29d20e1)
+- [一流論文誌・国際会議に採択されるための研究「心・技・体」| 原隆浩(大阪大)](https://www.ipsj.or.jp/journal/info/hara75.pdf)
 
+
+- [Attentionを完全に理解することが可能なblog](https://kntty.hateblo.jp/entry/2021/05/05/230400)
 {{< /note >}}
 
 {{< note title="review">}}
