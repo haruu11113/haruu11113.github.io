@@ -56,3 +56,12 @@ $ git reset --soft HEAD~
 
 http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/
 {{< /note >}}
+
+{{< note title="python">}}
+```
+# sklearn random forest
+# 推定の確率を出す．claasses_の順番で確率が出る
+model.classes_
+model.predict_proba()
+```
+{{< /note >}}
