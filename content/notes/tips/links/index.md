@@ -205,6 +205,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [Hristijan Gjoreski](https://scholar.google.co.jp/citations?user=LOpq5BoAAAAJ&hl=ja)
 - [[研究室ゼミ] 論文のペアリーディング](https://note.com/nkmr/n/n64d30963f1b3)
 - [学生30人に教員1人の研究室運営について（2017-2019](http://nkmr-lab.org/docs/management2017-2019.html)
+- [Advising students for success(翻訳)](https://leoclock.blogspot.com/2009/04/ullman.html)
 
 - [yoheikikutaさんのブログ](https://yoheikikuta.github.io)
 - [カッコいいパワポの「レイアウト」](https://note.com/powerpoint_jp/n/nffc40ee38355)
@@ -217,14 +218,19 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 
 
 - [Attentionを完全に理解することが可能なblog](https://kntty.hateblo.jp/entry/2021/05/05/230400)
+- [論文解説 Attention Is All You Need (Transformer)](https://deeplearning.hatenablog.com/entry/transformer)
+- [情報検索とデータマイニング](https://www.ieice-hbkb.org/portal/doc_639.html)
 {{< /note >}}
 
 {{< note title="review">}}
 - [査読の仕方](https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00)
 {{< /note >}}
 
-{{< note title="awesome papers">}}
+{{< note title="papers">}}
 - [zhaoxin94/awesome-domain-adaptation](https://github.com/zhaoxin94/awesome-domain-adaptation)
 - [hurcy/awesome-ehr-deeplearning](https://github.com/hurcy/awesome-ehr-deeplearning)
+
+- [Fugu-MT: arxivの論文翻訳](https://fugumt.com/fugumt/paper/index.html)
+- [arXiv最新論文の紹介](https://devneko.jp/wordpress/)
 
 {{< /note >}}

@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on Haru Kaneko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://haruu11113.github.io/posts/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://haruu11113.github.io/posts/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>文書校正する時に忘れないためのメモ</title>
+      <link>https://haruu11113.github.io/posts/blogs/calibration/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://haruu11113.github.io/posts/blogs/calibration/</guid>
+      <description> 参考文献、図・表番号に？はないか？overleafの黄色warningが教えてくれる。 句読点、カッコなどの 「, 」「. 」「 () 」※() は外側に半角スペース・カッコは半角入力？ だ。である調。 ~チルダをわすれない。~\cite{}, ~\ref{}。 bibtexのURLは\url{html://~~}とする。※\usepackages{url}をメインのファイルに書くのを忘れずに。 略語は定義を最初にする。 1章は2段落or2節以上、1節は2段落以上、1段落は2分以上。 図の縦横軸の説明が書いてあるか。 図・表のキャプションは十分すぎるくらい書く。「この図はーを示す。ー部分の相関が高いことが見てとれる。これはーが原因だと考えられる」。 Abstractには、目的・方法・結果が乗っている。 Introductionには、背景・目的・方法・結果が乗っている。 Conclusionには、目的・方法・結果が乗っている。 主語と述語が合っている確認。   </description>
+    </item>
+    
     <item>
       <title>How to Install Python</title>
       <link>https://haruu11113.github.io/posts/blogs/how-to-install-python/</link>
