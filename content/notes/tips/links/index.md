@@ -234,3 +234,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [arXiv最新論文の紹介](https://devneko.jp/wordpress/)
 
 {{< /note >}}
+
+{{< note title="Brain-Tech">}}
+http://plaza.umin.ac.jp/~beehappy/analgesia/react-emotion.html
+{{< /note >}}
