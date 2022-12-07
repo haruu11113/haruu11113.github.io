@@ -9,7 +9,7 @@ section:
   # hideTitle: true
 
 degrees:
-- name: 博士 | 生命体工学研究科 生命体工学専攻. sozolab.jpのメンバー.
+- name: 博士 | 生命体工学研究科 生命体工学専攻.
   icon: fa-microscope
   timeframe: 2022-2025
   institution:
@@ -22,7 +22,7 @@ degrees:
 #     url: "#"
 #   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
 #     url: "#"
-- name: 修士 | 生命体工学研究科 人間知能システム工学専攻. sozolab.jpのメンバー.
+- name: 修士 | 生命体工学研究科 人間知能システム工学専攻.
   icon: fa-graduation-cap
   timeframe: 2020-2022
   institution:
