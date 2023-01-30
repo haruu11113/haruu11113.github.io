@@ -16,6 +16,37 @@ events:
 #     date:
 #     place:
 #     detail:
+- event:
+    type:
+    title: "IPSJ SIGASD 25"
+    url: "http://sigasd.ipsj.or.jp/?p=1574"
+    date: "2022-12-02"
+    place: "福岡県北九州市 九工大若松キャンパス"
+    detail: "若松だったので参加した、招待講演が超面白かった"
+
+- event:
+    type:
+    title: "IPSJ SIGUBI 75"
+    url: "http://sigubi.ipsj.or.jp/第75回研究会/"
+    date: "2022-09-05~06"
+    place: "神奈川県相模原市 青山学院大学相模原キャンパス"
+    detail: "Presente my paper"
+
+- event:
+    type:
+    title: "IPSJ SIGUBI 74"
+    url: "http://sigubi.ipsj.or.jp/seminar74/"
+    date: "2022-06-06~07"
+    place: "福岡県北九州市 九工大戸畑キャンパス"
+    detail: "戸畑キャンパスだったので参加した"
+
+- event:
+    type:
+    title: "ABC 2022"
+    url: "https://abc-research.github.io/"
+    date: "2022-10-27~29"
+    place: "UK"
+    detail: "聞いた。"
 
 - event:
     type:

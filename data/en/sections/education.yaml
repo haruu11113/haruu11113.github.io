@@ -9,7 +9,7 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Doctor | Department of Human Intelligence Systems, Graduent school of Life Science and Systems Engineering. Member of sozolab.jp
+- name: Doctor | Department of Life Science and Systems Engineering, Graduent school of Life Science and Systems Engineering.
   icon: fa-microscope
   timeframe: 2022-2025
   institution:
@@ -23,7 +23,7 @@ degrees:
   # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
   #   url: "#"
 
-- name: Master | Department of Human Intelligence Systems, Graduent school of Life Science and Systems Engineering. Member of sozolab.jp
+- name: Master | Department of Human Intelligence Systems, Graduent school of Life Science and Systems Engineering.
   icon: fa-graduation-cap
   timeframe: 2020-2022
   institution:
