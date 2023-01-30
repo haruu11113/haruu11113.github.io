@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: スキル
   id: skills
   enable: true
   weight: 2

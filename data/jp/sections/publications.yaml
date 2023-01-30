@@ -1,6 +1,6 @@
 # section information
 section:
-    name: Publications
+    name: 論文一覧
     id: publications
     enable: true
     weight: 4
