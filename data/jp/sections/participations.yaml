@@ -1,6 +1,6 @@
 # section information
 section:
-    name: Participations
+    name: 学会参加記録
     id: participations
     enable: true
     weight: 5

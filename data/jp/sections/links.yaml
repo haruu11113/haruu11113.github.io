@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Links
+  name: リンク
   id: links
   enable: true
   weight: 8

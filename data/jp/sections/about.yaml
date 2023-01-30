@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: 概要
   id: about
   enable: true
   weight: 1
