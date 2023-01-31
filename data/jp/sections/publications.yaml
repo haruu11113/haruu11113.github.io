@@ -13,8 +13,7 @@ section:
     # type['domestic', '卒論', 'international']
 
 Oral_Papers:
-- paper:
-    name: "soft-kyushu"
+-   name: "soft-kyushu"
     authors: "Haru Kaneko, Sozo Inoue"
     title: "介護施設における介護記録自動生成の試み"
     url: "http://soft-kyushu.org/2019/conf/index.html"
@@ -28,8 +27,7 @@ Oral_Papers:
     abstract: "In this paper, we proposed an machine learning method to create of care records automatically, in order to reduce time nurse creates care records. And we evaluated this method. On the assuption that using at nursing facility, estimate the details of care from past care record data, user, target person and start time of care action. As a result, we got 79% accuracy rate."
     is_reviewed: false
 
-- paper:
-    name: "卒論"
+-   name: "卒論"
     authors: "Haru Kaneko"
     title: "機械学習による介護記録内容の推定の試み"
     url: ""
@@ -43,8 +41,7 @@ Oral_Papers:
     abstract: ""
     is_reviewed: false
 
-- paper:
-    name: "ubi65"
+-   name: "ubi65"
     authors: "Haru Kaneko, Sozo Inoue"
     title: "介護記録自動生成のための記録内容の推定の試み"
     url: "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=203794&item_no=1&page_id=13&block_id=8"
@@ -58,8 +55,7 @@ Oral_Papers:
     abstract: "近年日本では高齢化が進んでいる.それに伴い,介護サービスの需要も増している中,介護人材の不足が社会問題になっている.介護人材の不足を解消するために,介護職員の負担軽減が重要である.我々は,介護記録入力の効率化のため,介護記録アプリを開発した[1][2].本研究では,介護記録入力の効率化のため,機械学習技術を応用し「対象の被介護者」と「介護行動の内容」の自動入力機能を目指した.介護記録アプリケーションににおける,「対象の被介護者」と「介護行動の内容」の推定機能の開発を行った.また,介護記録アプリから収集された介護記録データを用い,推定機能を評価した.結果として,「対象の被介護者」の推定において平均F1値74%,「介護行動の内容」の推定において平均F1値58%を得た."
     is_reviewed: false
 
-- paper:
-    name: "DICOMO2020"
+-   name: "DICOMO2020"
     authors: "Haru Kaneko, Sozo Inoue"
     title: "介護記録アプリケーションにおける記録内容自動生成機能の実装"
     url: "https://dicomo.org/2020/"
@@ -73,8 +69,7 @@ Oral_Papers:
     abstract: "現在の日本では,介護業界の人材不足が問題となっている.この人材不足改善のため, ICTの活用による介護業務の生産性向上が注目されている[1].本研究室ではこれまでに,介護施設における介記録作成作業に時間がかかる点に着目し,モバイルアプリを用いた介護記録システムを構築している.また,実際の介護施設にこの介護記録システムを導入する実証実験を行っている[2][3].本稿では,その介護記録システムに介護記録の自動生成機能を実装する.サーバ内で,介護記録の内容を推定する機械学習モデルを構築する.また,推定された介護記録をモバイルアプリ上でどのように表示し記録作成作業を簡略化するモバイルアプリのUIを設計・評価する.開発したシステムを評価した結果,本稿の介護記録システムを用いることで推定精度が高い場合,記録作成作業を簡略化できる事が分かった.しかし推定精度が低いと,既存の記録システムよりも時間を消費する事が分かった"
     is_reviewed: false
 
-- paper:
-    name: "apami2020"
+-   name: "apami2020"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "Implementation of Care Records Automatic Generation Function in a Care Record Application"
     url: "https://apami2020.org/"
@@ -88,8 +83,7 @@ Oral_Papers:
     abstract: "The number of elderly people is increasing in the world. Especially in Japan, the shortage of nurses has been a problem in recent years. So far, we had developed a mobile application to make nursing care records. In addition, we are also experimenting with the introduction of this application to nursing homes. In this paper, we design an automatic generation function of the nursing care record into our mobile nursing care record application. In this paper, we implement an automatic generation function of the recorded contents in this care record system. we aim to simplify the work of making care records. To do so, we make a machine learning model for estimating the feature nursing care records in the server. And, we design new UI on our application to make care records using estimation result. As a result of the evaluation, we know it is possible to reduce time that making care records using our application with automatic generation function of care records."
     is_reviewed: true
 
-- paper:
-    type: "domestic"
+-   type: "domestic"
     name: "DICOMO2021"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "介護記録自動生成のための記録項目別傾向分析"
@@ -104,8 +98,7 @@ Oral_Papers:
     abstract: 
     is_reviewed: false
 
-- paper:
-    type: "domestic"
+-   type: "domestic"
     name: "sigubi74"
     authors: "Haru Kaneko, Masatoshi Uchimura, Koki Miyake, Sozo Inoue"
     title: "科学的介護情報システムLIFEデータの活用・分析の検討"
@@ -120,8 +113,7 @@ Oral_Papers:
     abstract: "稿では,科学的介護情報システムLIFEについて説明し,収集されるデータの活用・分析方法を検討する.科学的情報システム(LIFE; Long-term Care Information System For Evidence)とは, 2021年より厚生労働省が運用を始めている,介護データの一元管理システムである.これは,全国の介護施設から介護記録やリハビリ計画などのデータを収集し,厚生労働省が一元データ化する取り組みである.このデータには,介護サービス利用者の身体機能評価や栄養状態,服薬やリハビリ計画など多種多様なデータが含まれており,その活用が期待されている.しかし,このデータは介護士・理学療法士・医師などそれぞれの分野の専門家からの情報をもとに作成されるため,専門用語が多く理解が難しい.またデータの種類が多くそれらを横断した仮説設定・分析が必要である.これらの課題を解決するために,本稿では介護従事者と協力しLIFEデータについて仮説やその活用方法を立案し,いくつかの仮説について分析の実例を示す."
     is_reviewed: false
 
-- paper:
-    type: "domestic"
+-   type: "domestic"
     name: "DICOMO2022"
     authors: "金子晴, 井上創造"
     title: "介護記録自動生成のための入居者間の個人差の分析"
@@ -136,8 +128,7 @@ Oral_Papers:
     abstract: ""
     is_reviewed: false
 
-- paper:
-    type: "domestic"
+-   type: "domestic"
     name: "sigubi76"
     authors: "Haru Kaneko, Muhammad Fikry, Sozo Inoue"
     title: "介護・医療におけるケア予報とトレースシステムの開発"
@@ -152,9 +143,23 @@ Oral_Papers:
     abstract: ""
     is_reviewed: false
 
+-   type: "domestic"
+    name: "修士論文"
+    authors: "Haru Kaneko"
+    title: "機械学習を用いた介護記録内容の自動推定の研究"
+    url: ""
+    date: "2022-02"
+    year: "2022"
+    book: "修士論文"
+    volume: ""
+    number: ""
+    pages: "1-55"
+    place: ""
+    abstract: ""
+    is_reviewed: false
+
 Papers:
-- paper:
-    name: "abc2020"
+-   name: "abc2020"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "Estimation of Record Contents for Automatic Generation of Care Records"
     url: ""
@@ -169,8 +174,7 @@ Papers:
     abstract: 'Elderly person are increasing all over the world. Smart nursing facilities are required to support them for their good health.Especially in Japan, it is essential to have automated nursing facilities center to support the relentlessly increasing elderly person all over the country.As long as elderly people are increasing, the demand for nursing care services are also increasing day by day.There is a shortage of nurse to support this vast elderly people.In order to resolve the shortage of nurse, it is important to reduce the work load for nurse.There are some research to simplify the care recording process.The main approach is activity recognition or the development of new apps. However, we aimed for automatic generation of the care records of near future. So in this paper, we evaluate the accuracy of the automatic generation of care records using care record data from real nursing facility to simplify the task of making care records.We made two machine learning models to estimate the "target patient" and the "recorded value" of care records.And we evaluated the classification result from the data collected by the care record app.We used two months of data we collected from Japanese nursing facility for the evaluation.We can achieve, average F1-score of ’target patient’ estimation is 74% and the average F1-score of ’detail of record’ estimation is 58%. We believe that using these results in care records app will simplify the task of making care records.'
     is_reviewed: true
 
-- paper:
-    type: "international"
+-   type: "international"
     name: "HASCA2021"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
     title: "Analysis of Feature Importances for Automatic Generation of Care Records"

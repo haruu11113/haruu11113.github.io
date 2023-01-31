@@ -3,72 +3,75 @@
 {{ $sectionID = .section.id }}
 {{ end }}
 {{ $strReviewed := .section.strReviewed }}
+{{ $start_index := 1 }}
 
 <div class="container-fluid anchor pb-5 publications-section" id="{{ $sectionID }}">
     {{ if not (.section.hideTitle) }}
     <h1 class="text-center">{{ .section.name }}</h1>
     {{ end }}
-
     <div class="container">
         <h2>{{ .section.strPaper }}</h2>
         {{ range $index, $paper := .Papers }}
             <div style="margin:10px 0 10px 0">
-                [{{ add $index 1 }}]
-                {{ if .paper.is_reviewed}}
-                  <b>( {{ $strReviewed }} )</b>
+                [{{ $start_index }}]
+                {{ if $paper.is_reviewed}}
+                    <b>( {{ $strReviewed }} )</b>
                 {{ end }}
-
-                {{ .paper.authors }} :"{{.paper.title }}", 
-                {{ if ne .paper.book "" }}
-                    {{.paper.book }}, 
+                {{ .authors }} :"{{.title }}", 
+                {{ if ne .book "" }}
+                    {{.book }}, 
                 {{ end }}
-                {{ if ne .paper.volume "" }}
-                    Vol. {{.paper.volume }}, 
+                {{ if ne .volume "" }}
+                    Vol. {{.volume }}, 
                 {{ end }}
-                {{ if ne .paper.number "" }}
-                    No. {{.paper.number }}, 
+                {{ if ne .number "" }}
+                    No. {{.number }}, 
                 {{ end }}
-                pp {{.paper.pages }}, ({{.paper.year }}), 
-                {{ if ne .paper.doi "" }}
-                    <a href="https://{{ .paper.doi }}">{{ .paper.doi}}</a>
+                pp {{.pages }}, ({{.year }}), 
+                {{ if ne .doi "" }}
+                    <a href="https://{{ .doi }}">{{ .doi }}</a>
                 {{ end }}
-                {{ if ne .paper.url "" }}
-                    <a href="{{ .paper.url }}">[Link]</a>
+                {{ if ne .url "" }}
+                    <a href="{{ .url }}">[Link]</a>
                 {{ end }}
             </div>
+            {{ $start_index = add $start_index 1}}
         {{ end }}
     </div>
     <div class="container">
         <hr>
         <h2>{{ .section.strOral }}</h2>
-        {{ range $index, $paper := .Oral_Papers }}
-            <div style="margin:10px 0 10px 0">
-                [{{ add $index 1 }}]
-                {{ if .paper.is_reviewed}}
-                  <b>( {{ $strReviewed }} )</b>
-                {{ end }}
 
-                {{ .paper.authors }} :"{{.paper.title }}", 
-                {{ if ne .paper.book "" }}
-                    {{.paper.book }}, 
-                {{ end }}
-                {{ if ne .paper.volume "" }}
-                    Vol. {{.paper.volume }}, 
-                {{ end }}
-                {{ if ne .paper.number "" }}
-                    No. {{.paper.number }}, 
-                {{ end }}
-                pp {{.paper.pages }}, ({{.paper.year }}), 
-                {{ if ne .paper.doi "" }}
-                    <a href="https://{{ .paper.doi }}">{{ .paper.doi}}</a>
-                {{ end }}
-                {{ if ne .paper.place "" }}
-                    {{.paper.place }}, 
-                {{ end }}
-                {{ if ne .paper.url "" }}
-                    <a href="{{ .paper.url }}">[Link]</a>
-                {{ end }}
-              </div>
+        <!-- {{ sort .Oral_Papers "date" "desc" }} -->
+        {{ $years := slice }}
+        {{ range $i, $p := .Oral_Papers }}
+            {{ if .year }}
+                {{ $years = $years | append .year}}
+            {{ end }}
+        {{ end }}
+        {{ $years = uniq $years }}
+        {{ range $year := sort $years  }}
+            <h3>[{{ $year }}]</h3>
+            {{ $papers := where $.Oral_Papers "year" $year}}
+            {{ range $paper := $papers }}
+                <div style="margin:10px 0 10px 0">
+                    [{{ $start_index }}]
+                    {{ if $paper.is_reviewed}}
+                        <b>( {{ $strReviewed }} )</b>
+                    {{ end }}
+                    {{ .authors }} :"{{ $paper.title }}",
+                    {{ if ne $paper.book "" }} {{ $paper.book }}, {{ end }}
+                    {{ if ne $paper.volume "" }} Vol. {{ $paper.volume }}, {{ end }}
+                    {{ if ne $paper.number "" }} No. {{ $paper.number }}, {{ end }}
+                    {{ if ne $paper.pages "" }} pp {{ $paper.pages }}, {{ end }}
+                    {{ if ne $paper.year "" }} ({{ $paper.year }}), {{ end }}
+                    {{ if $paper.doi }} <a href="https://{{ $paper.doi }}">{{ $paper.doi }}</a>. {{ end }}
+                    {{ if ne $paper.place "" }} {{ $paper.place }}, {{ end }}
+                    {{ if ne $paper.url }} <a href="{{ $paper.url }}">[Link].</a> {{ end }}
+                </div>
+                {{ $start_index = add $start_index 1}}
+            {{ end }}
+            <hr>
         {{ end }}
     </div>
 </div>
