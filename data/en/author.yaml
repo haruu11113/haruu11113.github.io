@@ -1,18 +1,17 @@
 # some information about you
 name: "Haru Kaneko"
-nickname: "Haru"
+nickname: "Haru :)"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/haru.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "kaneko[at]sozolab.jp"
-  # phone: "+0123456789"
 
 # some summary about what you do
 summary:
-  - I am a Researcher
-  - I am a Developer
-  - I love servers
-  - I love neovim
-  - I love to work with some fun projects
+  - I am a Researcher.
+  - I am a Developer.
+  - I love neovim.
+  - I love to work with some fun projects.
+  - I like to make new things.

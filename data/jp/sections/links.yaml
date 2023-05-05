@@ -3,7 +3,7 @@ section:
   name: リンク
   id: links
   enable: true
-  weight: 8
+  weight: 7
   showOnNavbar: true
   # Can optionally hide the title in sections
   hideTitle: false
@@ -32,7 +32,3 @@ links:
 - link:
     url: https://www.scopus.com/authid/detail.uri?authorId=57224307246
     name: Scopus
-
-# - link:
-#   url:
-#   name:

@@ -62,8 +62,8 @@ params:
 
   GitBranch: dev
   # specify whether you want to write some blog posts or not
-  enableBlogPost: true
-
+  enableBlogPost: false
+  hasCustomMenus: true
   # specify whether you want to write some blog posts or not
   enablePaperPost: true
 

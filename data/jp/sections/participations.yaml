@@ -1,19 +1,27 @@
 # section information
 section:
-    name: 学会参加記録
+    name: Participations
     id: participations
     enable: true
     weight: 5
-    showOnNavbar: true
+    showOnNavbar: false
     hideTitle: false
 
-event:
+events:
+
+# - event:
+#     type:
+#     title:
+#     url:
+#     date:
+#     place:
+#     detail:
 - event:
     type:
     title: "IPSJ SIGASD 25"
     url: "http://sigasd.ipsj.or.jp/?p=1574"
     date: "2022-12-02"
-    place: "九工大"
+    place: "Kitakyushu"
     detail: "若松だったので参加した、招待講演が超面白かった"
 
 - event:
@@ -21,7 +29,7 @@ event:
     title: "IPSJ SIGUBI 75"
     url: "http://sigubi.ipsj.or.jp/第75回研究会/"
     date: "2022-09-05~06"
-    place: "青山学院大学"
+    place: "Kanagawa"
     detail: "Presente my paper"
 
 - event:
@@ -29,7 +37,7 @@ event:
     title: "IPSJ SIGUBI 74"
     url: "http://sigubi.ipsj.or.jp/seminar74/"
     date: "2022-06-06~07"
-    place: "九工大"
+    place: "kitakyushu"
     detail: "戸畑キャンパスだったので参加した"
 
 - event:
@@ -42,7 +50,7 @@ event:
 
 - event:
     type:
-    title: "UBI研究会73"
+    title: "IPSJ SIGUBI 73"
     url: "http://sigubi.ipsj.or.jp/seminar73/"
     date: "2022-03-07"
     place: "Oonline"
@@ -51,7 +59,7 @@ event:
 - event:
     type:
     title: "ABC Conference 2021"
-    url: "http://sigubi.ipsj.or.jp/seminar73/"
+    url: "https://abc-research.github.io/"
     date: "2021-10-22~23"
     place: "Oonline"
     detail: "Participated"
@@ -62,7 +70,7 @@ event:
     url: "https://ubicomp.org/ubicomp2021/"
     date: "2021-09-21~26"
     place: "Oonline"
-    detail: "Presente my paper"
+    detail: "Presented a paper"
 
 - event:
     type:
@@ -74,11 +82,11 @@ event:
 
 - event:
     type:
-    title: "DICOMO 2021"
+    title: "DICOMO 20201"
     url: "https://dicomo.org/2021"
     date: "2021-06-30~02"
     place: "Online"
-    detail: "Presente my paper。そろそろオフラインの学会にも参加したいけどなあ。"
+    detail: "Presented a paper. そろそろオフラインの学会にも参加したいけどなあ."
 
 - event:
     type:
@@ -86,7 +94,7 @@ event:
     url: "https://ijcai20.org/"
     date: "2021-01-07~14"
     place: "Online"
-    detail: "ワークショップなどに参加した。著者のスライド発表動画が公開される形式であり、学会に参加している感があまりなかった。"
+    detail: "I participated in workshops and other events. I did not feel that I was participating in the conference because the video of the authors' slide presentation was open to the public."
 
 - event:
     type:
@@ -94,7 +102,7 @@ event:
     url: "https://apami2020.org/"
     date: "2020-11-21~23"
     place: "Online"
-    detail: "論文についての発表をおこなった。"
+    detail: "Presented a paper"
 
 - event:
     type:
@@ -102,7 +110,7 @@ event:
     url: "https://ubicomp.org/ubicomp2020/"
     date: "2020-09-12~17"
     place: "Online"
-    detail: "ワークショップなどに参加した。"
+    detail: "ワークショップなどに参加した."
 
 - event:
     type:
@@ -110,7 +118,7 @@ event:
     url: "https://abc-research.github.io/2020/"
     date: "2020-08-26~29"
     place: "Kitakyushu"
-    detail: "論文についての発表をおこなった。"
+    detail: "Presented a paper."
 
 - event:
     type:
@@ -118,19 +126,19 @@ event:
     url: "https://dicomo.org/2020/"
     date: "2020-06-24~26"
     place: "Online"
-    detail: "論文についての発表とテクニカルナイトセッションでの発表。"
+    detail: "Presented a paper and Night technical session"
 
 - event:
     type:
-    title: "UBI研究会65"
+    title: "IPSJ SIGUBI65"
     url: "http://sigubi.ipsj.or.jp/seminar65/"
     date: "2020-02-24"
     place: "Online"
-    detail: "論文についての発表をおこなった。"
+    detail: "Presented a paper."
 
 - event:
     title: "SOFT九州 2019"
     url: "https://soft-kyushu.org/2019/conf/index.html"
     date: "2019-11-30"
     place: "Iizuka"
-    detail: "論文についての発表を行った。初めての学会というもの。"
+    detail: "Presented a paper. 初めての学会というもの."
