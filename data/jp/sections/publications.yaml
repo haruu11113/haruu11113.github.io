@@ -95,7 +95,22 @@ Oral_Papers:
     number: ""
     pages: "1-9"
     place: "Online"
-    abstract: 
+    abstract:
+    is_reviewed: false
+
+-   type: "domestic"
+    name: "修士論文"
+    authors: "Haru Kaneko"
+    title: "機械学習を用いた介護記録内容の自動推定の研究"
+    url: ""
+    date: "2022-02"
+    year: "2022"
+    book: "修士論文"
+    volume: ""
+    number: ""
+    pages: "1-55"
+    place: ""
+    abstract: ""
     is_reviewed: false
 
 -   type: "domestic"
@@ -143,20 +158,7 @@ Oral_Papers:
     abstract: ""
     is_reviewed: false
 
--   type: "domestic"
-    name: "修士論文"
-    authors: "Haru Kaneko"
-    title: "機械学習を用いた介護記録内容の自動推定の研究"
-    url: ""
-    date: "2022-02"
-    year: "2022"
-    book: "修士論文"
-    volume: ""
-    number: ""
-    pages: "1-55"
-    place: ""
-    abstract: ""
-    is_reviewed: false
+
 
 Papers:
 -   name: "abc2020"

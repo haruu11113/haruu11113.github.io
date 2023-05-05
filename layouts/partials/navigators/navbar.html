@@ -62,6 +62,8 @@
             {{ end }}
           {{- end }}
         {{- end }}
+
+
         {{ $hasCustomMenus:= false }}
         {{ if and site.Params.customMenus }}
           {{ if gt (len site.Params.customMenus) 0 }}
@@ -69,7 +71,7 @@
           {{ end }}
         {{ end }}
 
-        {{ if (or site.Params.enableBlogPost $hasCustomMenus) }}
+        {{ if and site.Params.hasCustomMenus }}
           <div class="dropdown-divider" id="top-navbar-divider"></div>
         {{ end }}
         {{ if site.Params.enableBlogPost }}

@@ -6,7 +6,9 @@ description: Portfolio and personal blog of Haru Kaneko.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
-# hasCustomMenus: true
-# customMenus:
-# - name: Docs
-#   url: https://toha-guides.netlify.app/posts/
+hasCustomMenus: true
+customMenus:
+- name: Posts
+  url: /posts/
+- name: GitHub.com
+  url: https://github.com/haruu11113/

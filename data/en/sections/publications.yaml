@@ -99,6 +99,21 @@ Oral_Papers:
     is_reviewed: false
 
 -   type: "domestic"
+    name: "修士論文"
+    authors: "Haru Kaneko"
+    title: "機械学習を用いた介護記録内容の自動推定の研究"
+    url: ""
+    date: "2022-02"
+    year: "2022"
+    book: "修士論文"
+    volume: ""
+    number: ""
+    pages: "1-55"
+    place: ""
+    abstract: ""
+    is_reviewed: false
+
+-   type: "domestic"
     name: "sigubi74"
     authors: "Haru Kaneko, Masatoshi Uchimura, Koki Miyake, Sozo Inoue"
     title: "科学的介護情報システムLIFEデータの活用・分析の検討"
@@ -143,20 +158,9 @@ Oral_Papers:
     abstract: ""
     is_reviewed: false
 
--   type: "domestic"
-    name: "修士論文"
-    authors: "Haru Kaneko"
-    title: "機械学習を用いた介護記録内容の自動推定の研究"
-    url: ""
-    date: "2022-02"
-    year: "2022"
-    book: "修士論文"
-    volume: ""
-    number: ""
-    pages: "1-55"
-    place: ""
-    abstract: ""
-    is_reviewed: false
+
+
+
 
 Papers:
 -   name: "abc2020"

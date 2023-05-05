@@ -4,9 +4,9 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 7
-  showOnNavbar: true
-  # hideTitle: true
+  weight: 8
+  showOnNavbar: false
+  hideTitle: false
 
 degrees:
 - name: Doctor | Department of Life Science and Systems Engineering, Graduent school of Life Science and Systems Engineering.
