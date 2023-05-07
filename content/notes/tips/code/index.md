@@ -18,18 +18,22 @@ menu:
 ||
 
 
-# GPUの有無を確認
+### GPUの有無を確認
+```
 from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
+```
 
-# 利用可能なGPUの有無を判定
+### 利用可能なGPUの有無を判定
+```
 import tensorflow as tf
 tf.test.is_gpu_available()
+```
 
-# これ見るとlibcudnn8の諸々わかった
+### これ見るとlibcudnn8の諸々わかった
 https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
 
-# docker imageの一括削除
+### docker imageの一括削除
 https://qiita.com/boiyama/items/9972601ffc240553e1f3
 
 {{< /note >}}
