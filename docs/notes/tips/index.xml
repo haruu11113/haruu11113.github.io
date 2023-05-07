@@ -60,8 +60,10 @@ ICHI (International Classification of Health Interventions)とCPT(physician&amp;
       
       <guid>https://haruu11113.github.io/notes/tips/code/</guid>
       <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数        GPUの有無を確認 from tensorflow.python.client import device_lib device_lib.list_local_devices()
+利用可能なGPUの有無を判定 import tensorflow as tf tf.test.is_gpu_available()
+これ見るとlibcudnn8の諸々わかった https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
 docker imageの一括削除 https://qiita.com/boiyama/items/9972601ffc240553e1f3
-    fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      move files using grep grep -rl &amp;quot;key word&amp;quot; ./ | xargs -I &#39;{}&#39; mv {} [dir path]     git command  git addの取り消し(stagingの取り消し)  $ git reset HEAD &amp;lt;file name&amp;gt;  commitだけ取り消して，staging状態に戻す  $ git reset --soft HEAD~ http://bcl.</description>
+    fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      move files using grep grep -rl &amp;quot;key word&amp;quot; .</description>
     </item>
     
   </channel>
