@@ -29,9 +29,8 @@ device_lib.list_local_devices()
 import tensorflow as tf
 tf.test.is_gpu_available()
 ```
-
-### これ見るとlibcudnn8の諸々わかった
-https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
+- [これでかいけつした](https://zenn.dev/ylabo0717/articles/48796b7f3470c7#2-6.-gpu認識確認)
+- [これ見るとlibcudnn8の諸々わかった](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 
 ### docker imageの一括削除
 https://qiita.com/boiyama/items/9972601ffc240553e1f3

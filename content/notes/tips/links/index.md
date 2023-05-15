@@ -222,8 +222,10 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [情報検索とデータマイニング](https://www.ieice-hbkb.org/portal/doc_639.html)
 {{< /note >}}
 
-{{< note title="review">}}
+{{< note title="Paper Writing">}}
 - [査読の仕方](https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00)
+
+- [論文書き方 | 松尾ぐみ](http://ymatsuo.com/japanese/ronbun_jpn.html)
 {{< /note >}}
 
 {{< note title="papers">}}
