@@ -32,8 +32,7 @@
   <link rel="icon" type="image/png" href="/images/site/favicon_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" />
 
 <meta property="og:title" content="Code" />
-<meta property="og:description" content="Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数        GPUの有無を確認 from tensorflow.python.client import device_lib device_lib.list_local_devices() 利用可能なGPUの有無を判定 import tensorflow as tf tf.test.is_gpu_available() これ見るとlibcudnn8の諸々わかった https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
-docker imageの一括削除 https://qiita.com/boiyama/items/9972601ffc240553e1f3
+<meta property="og:description" content="Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数        GPUの有無を確認 from tensorflow.python.client import device_lib device_lib.list_local_devices() 利用可能なGPUの有無を判定 import tensorflow as tf tf.test.is_gpu_available()  これでかいけつした これ見るとlibcudnn8の諸々わかった  docker imageの一括削除 https://qiita.com/boiyama/items/9972601ffc240553e1f3
     fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      fzf config  https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/      move files using grep grep -rl &quot;key word&quot; ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://haruu11113.github.io/notes/tips/code/" /><meta property="article:section" content="notes" />
@@ -311,8 +310,10 @@ device_lib.list_local_devices()
 </code></pre><h3 id="利用可能なgpuの有無を判定">利用可能なGPUの有無を判定</h3>
 <pre><code>import tensorflow as tf
 tf.test.is_gpu_available()
-</code></pre><h3 id="これ見るとlibcudnn8の諸々わかった">これ見るとlibcudnn8の諸々わかった</h3>
-<p><a href="https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html">https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html</a></p>
+</code></pre><ul>
+<li><a href="https://zenn.dev/ylabo0717/articles/48796b7f3470c7#2-6.-gpu%E8%AA%8D%E8%AD%98%E7%A2%BA%E8%AA%8D">これでかいけつした</a></li>
+<li><a href="https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html">これ見るとlibcudnn8の諸々わかった</a></li>
+</ul>
 <h3 id="docker-imageの一括削除">docker imageの一括削除</h3>
 <p><a href="https://qiita.com/boiyama/items/9972601ffc240553e1f3">https://qiita.com/boiyama/items/9972601ffc240553e1f3</a></p>
 </div>
