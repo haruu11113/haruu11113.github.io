@@ -224,8 +224,9 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 
 {{< note title="Paper Writing">}}
 - [査読の仕方](https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00)
-
 - [論文書き方 | 松尾ぐみ](http://ymatsuo.com/japanese/ronbun_jpn.html)
+- [ネイチャーに学ぶ科学英語論文の書き方 | 金澤研](http://sk.tsukuba.ac.jp/~kiyoshi/notes.html)
+
 {{< /note >}}
 
 {{< note title="papers">}}
