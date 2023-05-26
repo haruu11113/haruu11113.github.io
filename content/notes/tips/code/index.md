@@ -17,7 +17,10 @@ menu:
 |\_\_\*|プライベート変数・関数|
 ||
 
+{{< /note >}}
 
+
+{{< note title="GPU">}}
 ### GPUの有無を確認
 ```
 from tensorflow.python.client import device_lib
@@ -29,11 +32,17 @@ device_lib.list_local_devices()
 import tensorflow as tf
 tf.test.is_gpu_available()
 ```
+- [tensorflowとcudaなどのバージョン対応](https://www.tensorflow.org/install/source?hl=ja#tested_build_configurations)
 - [これでかいけつした](https://zenn.dev/ylabo0717/articles/48796b7f3470c7#2-6.-gpu認識確認)
 - [これ見るとlibcudnn8の諸々わかった](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 
 ### docker imageの一括削除
 https://qiita.com/boiyama/items/9972601ffc240553e1f3
+
+### gpuで計算系
+- [cupy numpyの代替](https://docs.cupy.dev/en/stable/install.html#installing-cupy)
+- [pandas numpyの代替](https://docs.rapids.ai/install#docker)
+- [tsne-cuda](https://github.com/CannyLab/tsne-cuda/wiki/Installation)
 
 {{< /note >}}
 
