@@ -37,7 +37,7 @@ tf.test.is_gpu_available()
 - [これ見るとlibcudnn8の諸々わかった](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 
 ```
-apt-get install libcudnn8=8.9.1.23-1+cuda11.
+apt-get install libcudnn8=8.9.1.23-1+cuda11.8
 ```
 
 ### docker imageの一括削除
