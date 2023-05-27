@@ -36,6 +36,10 @@ tf.test.is_gpu_available()
 - [これでかいけつした](https://zenn.dev/ylabo0717/articles/48796b7f3470c7#2-6.-gpu認識確認)
 - [これ見るとlibcudnn8の諸々わかった](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 
+```
+apt-get install libcudnn8=8.9.1.23-1+cuda11.
+```
+
 ### docker imageの一括削除
 https://qiita.com/boiyama/items/9972601ffc240553e1f3
 
