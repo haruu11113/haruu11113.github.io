@@ -711,12 +711,10 @@ HCIの関連技術の資料を集めています。
         
             <div class="card">
                 <div class="card-body"><ul>
-<li>
-<p><a href="https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00">査読の仕方</a></p>
-</li>
-<li>
-<p><a href="http://ymatsuo.com/japanese/ronbun_jpn.html">論文書き方 | 松尾ぐみ</a></p>
-</li>
+<li><a href="https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00">査読の仕方</a></li>
+<li><a href="http://ymatsuo.com/japanese/ronbun_jpn.html">論文書き方 | 松尾ぐみ</a></li>
+<li><a href="http://sk.tsukuba.ac.jp/~kiyoshi/notes.html">ネイチャーに学ぶ科学英語論文の書き方 | 金澤研</a></li>
+<li><a href="https://lfk.hatenablog.com/entry/2018/06/18/133045">プレゼンが上手い人は信頼できない</a></li>
 </ul>
 </div>
             </div>
@@ -929,18 +927,36 @@ HCIの関連技術の資料を集めています。
 </tr>
 </tbody>
 </table>
-<h3 id="gpuの有無を確認">GPUの有無を確認</h3>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>GPU</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><h3 id="gpuの有無を確認">GPUの有無を確認</h3>
 <pre><code>from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
 </code></pre><h3 id="利用可能なgpuの有無を判定">利用可能なGPUの有無を判定</h3>
 <pre><code>import tensorflow as tf
 tf.test.is_gpu_available()
 </code></pre><ul>
+<li><a href="https://www.tensorflow.org/install/source?hl=ja#tested_build_configurations">tensorflowとcudaなどのバージョン対応</a></li>
 <li><a href="https://zenn.dev/ylabo0717/articles/48796b7f3470c7#2-6.-gpu%E8%AA%8D%E8%AD%98%E7%A2%BA%E8%AA%8D">これでかいけつした</a></li>
 <li><a href="https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html">これ見るとlibcudnn8の諸々わかった</a></li>
 </ul>
 <h3 id="docker-imageの一括削除">docker imageの一括削除</h3>
 <p><a href="https://qiita.com/boiyama/items/9972601ffc240553e1f3">https://qiita.com/boiyama/items/9972601ffc240553e1f3</a></p>
+<h3 id="gpuで計算系">gpuで計算系</h3>
+<ul>
+<li><a href="https://docs.cupy.dev/en/stable/install.html#installing-cupy">cupy numpyの代替</a></li>
+<li><a href="https://docs.rapids.ai/install#docker">pandas numpyの代替</a></li>
+<li><a href="https://github.com/CannyLab/tsne-cuda/wiki/Installation">tsne-cuda</a></li>
+</ul>
 </div>
             </div>
         
