@@ -100,3 +100,9 @@ model.classes_
 model.predict_proba()
 ```
 {{< /note >}}
+
+{{< note title="mint60">}}
+./keyboards/mint60/keymaps/custom
+make mint60:custom
+make mint60:custom:avrdude
+{{< /note >}}
