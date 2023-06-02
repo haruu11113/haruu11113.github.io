@@ -32,7 +32,7 @@
   https://kn1cht.github.io/doctor-funding-calendar/ -&amp;gt; お金面
       Miscellaneous Notes -&amp;gt; クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標) https://y-uti.hatenablog.jp/entry/2014/01/19/133936
 ICHI (International Classification of Health Interventions)とCPT(physician&amp;rsquo;s current procedural terminology)について。 ICHI-&amp;gt;医療行為の国際分類 CPT-&amp;gt;診療報酬支払いコード https://www.niph.go.jp/journal/data/67-5/201867050011.pdf https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf
-    HCI  https://hci-calendar.github.io 日本語で読めるHCI情報      K-means と k-medoids k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです</description>
+    HCI  https://hci-calendar.github.io 日本語で読めるHCI情報      面白ML  https://matsuo-san.</description>
     </item>
     
     <item>
@@ -60,6 +60,15 @@ ICHI (International Classification of Health Interventions)とCPT(physician&amp;
       
       <guid>https://haruu11113.github.io/notes/tips/code/</guid>
       <description>Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            GPU GPUの有無を確認 from tensorflow.python.client import device_lib device_lib.list_local_devices() 利用可能なGPUの有無を判定 import tensorflow as tf tf.test.is_gpu_available()  tensorflowとcudaなどのバージョン対応 これでかいけつした これ見るとlibcudnn8の諸々わかった マルチGPUなどについて dockerでのgpu  apt-get install libcudnn8=8.9.1.23-1+cuda11.8 gpuで計算系  cupy numpyの代替 pandas numpyの代替 tsne-cuda      Docker docker imageの一括削除 https://qiita.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://haruu11113.github.io/notes/tips/deeplearning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://haruu11113.github.io/notes/tips/deeplearning/</guid>
+      <description>Understanding  Batch Normalizationを理解する      </description>
     </item>
     
   </channel>

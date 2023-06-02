@@ -180,6 +180,12 @@ HCIの関連技術の資料を集めています。
 -->
 {{< /note >}}
 
+{{< note title="面白ML">}}
+- https://matsuo-san.hatenablog.com/entry/2021/08/28/104255
+- https://cloud.google.com/bigquery/docs/best-practices-performance-compute?hl=ja
+
+{{< /note >}}
+
 
 {{< note title="K-means と k-medoids">}}
 k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです
@@ -216,11 +222,11 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [杉浦研の運営方針](https://note.com/lclab/n/nc13da29d20e1)
 - [一流論文誌・国際会議に採択されるための研究「心・技・体」| 原隆浩(大阪大)](https://www.ipsj.or.jp/journal/info/hara75.pdf)
 
-
 - [Attentionを完全に理解することが可能なblog](https://kntty.hateblo.jp/entry/2021/05/05/230400)
 - [論文解説 Attention Is All You Need (Transformer)](https://deeplearning.hatenablog.com/entry/transformer)
 - [情報検索とデータマイニング](https://www.ieice-hbkb.org/portal/doc_639.html)
 {{< /note >}}
+
 
 {{< note title="Paper Writing">}}
 - [査読の仕方](https://gist.github.com/kaityo256/5654eceac4f831f9bc2c2c8069baac00)
