@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Doctor 1st student
+designation: Doctor 2nd student
 # your company information
 company:
   name: Kyushu Institute of Technology.
