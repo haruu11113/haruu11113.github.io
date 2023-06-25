@@ -32,37 +32,49 @@ device_lib.list_local_devices()
 import tensorflow as tf
 tf.test.is_gpu_available()
 ```
+
 - [tensorflowとcudaなどのバージョン対応](https://www.tensorflow.org/install/source?hl=ja#tested_build_configurations)
 - [これでかいけつした](https://zenn.dev/ylabo0717/articles/48796b7f3470c7#2-6.-gpu認識確認)
 - [これ見るとlibcudnn8の諸々わかった](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
+- [マルチGPUなどについて](https://www.tensorflow.org/guide/gpu?hl=ja)
+- [dockerでのgpu](https://docs.docker.jp/compose/gpu-support.html)
 
 ```
-apt-get install libcudnn8=8.9.1.23-1+cuda11.
+apt-get install libcudnn8=8.9.1.23-1+cuda11.8
 ```
-
-### docker imageの一括削除
-https://qiita.com/boiyama/items/9972601ffc240553e1f3
 
 ### gpuで計算系
 - [cupy numpyの代替](https://docs.cupy.dev/en/stable/install.html#installing-cupy)
 - [pandas numpyの代替](https://docs.rapids.ai/install#docker)
 - [tsne-cuda](https://github.com/CannyLab/tsne-cuda/wiki/Installation)
 
+
 {{< /note >}}
+
+
+{{< note title="Docker">}}
+### docker imageの一括削除
+https://qiita.com/boiyama/items/9972601ffc240553e1f3
+
+{{< /note >}}
+
 
 {{< note title="fzf config">}}
 - https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/
 {{< /note >}}
 
+
 {{< note title="fzf config">}}
 - https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/
 {{< /note >}}
+
 
 {{< note title="move files using grep">}}
 ```
 grep -rl "key word" ./ | xargs -I '{}' mv {} [dir path]
 ```
 {{< /note >}}
+
 
 {{< note title="git command">}}
 - git addの取り消し(stagingの取り消し)
@@ -87,4 +99,10 @@ http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/
 model.classes_
 model.predict_proba()
 ```
+{{< /note >}}
+
+{{< note title="mint60">}}
+./keyboards/mint60/keymaps/custom
+make mint60:custom
+make mint60:custom:avrdude
 {{< /note >}}
