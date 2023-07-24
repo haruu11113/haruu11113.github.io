@@ -10,41 +10,8 @@
     <h1 class="text-center">{{ .section.name }}</h1>
     {{ end }}
     <div class="container">
-        <h2>{{ .section.strPaper }}</h2>
-        {{ range $index, $paper := .Papers }}
-            <div style="margin:10px 0 10px 0">
-                [{{ $start_index }}]
-                {{ if $paper.is_reviewed}}
-                    <b>( {{ $strReviewed }} )</b>
-                {{ end }}
-                {{ .authors }} :"{{.title }}", 
-                {{ if ne .book "" }}
-                    {{.book }}, 
-                {{ end }}
-                {{ if ne .volume "" }}
-                    Vol. {{.volume }}, 
-                {{ end }}
-                {{ if ne .number "" }}
-                    No. {{.number }}, 
-                {{ end }}
-                pp {{.pages }}, ({{.year }}), 
-                {{ if ne .doi "" }}
-                    <a href="https://{{ .doi }}">{{ .doi }}</a>
-                {{ end }}
-                {{ if ne .url "" }}
-                    <a href="{{ .url }}">[Link]</a>
-                {{ end }}
-            </div>
-            {{ $start_index = add $start_index 1}}
-        {{ end }}
-    </div>
-    <div class="container">
-        <hr>
-        <h2>{{ .section.strOral }}</h2>
-
-        <!-- {{ sort .Oral_Papers "date" "desc" }} -->
         {{ $years := slice }}
-        {{ range $i, $p := .Oral_Papers }}
+        {{ range $i, $p := .Papers }}
             {{ if .year }}
                 {{ $years = $years | append .year}}
             {{ end }}
@@ -52,7 +19,7 @@
         {{ $years = uniq $years }}
         {{ range $year := sort $years  }}
             <h3>[{{ $year }}]</h3>
-            {{ $papers := where $.Oral_Papers "year" $year}}
+            {{ $papers := where $.Papers "year" $year}}
             {{ range $paper := $papers }}
                 <div style="margin:10px 0 10px 0">
                     [{{ $start_index }}]
