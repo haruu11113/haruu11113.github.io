@@ -89,6 +89,10 @@ $ git reset HEAD <file name>
 $ git reset --soft HEAD~
 ```
 
+```
+$ git config --global fetch.prune true
+```
+
 http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/
 {{< /note >}}
 
