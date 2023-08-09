@@ -17,7 +17,7 @@
             {{ end }}
         {{ end }}
         {{ $years = uniq $years }}
-        {{ range $year := sort $years  }}
+        {{ range $year := sort $years "value" "desc" }}
             <h3>[{{ $year }}]</h3>
             {{ $papers := where $.Papers "year" $year}}
             {{ range $paper := $papers }}
