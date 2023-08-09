@@ -16,6 +16,15 @@ events:
 #     date:
 #     place:
 #     detail:
+
+- event:
+    type:
+    title: Shonan Meeting 196 on "Everlasting Social Signal Processing - From Labs into the Real World"
+    url: "https://shonan.nii.ac.jp/seminars/196/"
+    date: "2023-03-13 - 16"
+    place: "Shonan Village Center"
+    detail: "英語での議論はとても難しかったが、内容はとても面白かった。いろんな人の考え方が知れるのがいい。"
+
 - event:
     type:
     title: "IPSJ SIGASD 25"

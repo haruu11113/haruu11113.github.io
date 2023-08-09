@@ -309,17 +309,47 @@ Papers:
     abstract: ""
     is_reviewed: ture
 
-#     type: "domestic"
-#     name:
-#     authors: 
-#     title: 
-#     url: 
-#     date: 
-#     year:
-#     book: 
-#     volume: 
-#     number: 
-#     pages: 
-#     place: 
-#     abstract: 
-#     is_reviewed: false
+-   type: "international"
+    name: "HASCA2023"
+    authors: "Haru Kaneko, Sozo Inoue"
+    title: "Predicting and Analyzing Emotions of Elderly People in Care Facilities"
+    url: "doi.org/10.48550/arXiv.2306.16017"
+    date: "2023-10"
+    year: "2023"
+    book: "UbiComp '23: Adjunct Proceedings of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2023 ACM International Symposium on Wearable Computers (HASCA)"
+    volume: ""
+    number: ""
+    pages: ""
+    place: ""
+    abstract: ""
+    is_reviewed: ture
+
+-   type: "international"
+    name: "HASCA2023"
+    authors: "Min Xinyi, Haru Kaneko, Sozo Inoue"
+    title: "Predicting and Analyzing Emotions of Elderly People in Care Facilities"
+    url: ""
+    date: "2023-10"
+    year: "2023"
+    book: "UbiComp '23: Adjunct Proceedings of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2023 ACM International Symposium on Wearable Computers (HASCA)"
+    volume: ""
+    number: ""
+    pages: ""
+    place: ""
+    abstract: ""
+    is_reviewed: ture
+
+# -   type: "international" "domestic"
+#     name: "abc2022"
+#     authors: ""
+#     title: ""
+#     url: ""
+#     date: "2023-06"
+#     year: "2023"
+#     book: ""
+#     volume: ""
+#     number: ""
+#     pages: ""
+#     place: ""
+#     abstract: ""
+#     is_reviewed: tue
