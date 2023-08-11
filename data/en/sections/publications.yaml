@@ -133,7 +133,7 @@ Papers:
     name: "abc2021"
     authors: "Kohei Adachi, Sayeda Shamma Alia, Nazmun Nahid, Haru Kaneko, Paula Lago, Sozo Inoue"
     title: "Summary of the Bento Packaging Activity Recognition Challenge"
-    url: "https://doi.org/10.1007/978-981-19-0361-8_17"
+    doi: "doi.org/10.1007/978-981-19-0361-8_17"
     date: "2021-10"
     year: "2021"
     book: "Sensor- and Video-Based Activity and Behavior Computing"
