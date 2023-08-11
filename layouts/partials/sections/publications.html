@@ -34,7 +34,7 @@
                     {{ if ne $paper.year "" }} ({{ $paper.year }}), {{ end }}
                     {{ if $paper.doi }} <a href="https://{{ $paper.doi }}">{{ $paper.doi }}</a>. {{ end }}
                     {{ if ne $paper.place "" }} {{ $paper.place }}, {{ end }}
-                    {{ if ne $paper.url }} <a href="{{ $paper.url }}">[Link].</a> {{ end }}
+                    {{ if ne $paper.url "" }} <a href="{{ $paper.url }}">[Link].</a> {{ end }}
                 </div>
                 {{ $start_index = add $start_index 1}}
             {{ end }}
