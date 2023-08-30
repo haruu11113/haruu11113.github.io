@@ -8,6 +8,8 @@ description: Portfolio and personal blog of Haru Kaneko.
 # they will be separated by a divider from the main menus.
 hasCustomMenus: true
 customMenus:
+- name: CV
+  url: /cv/
 - name: Posts
   url: /posts/
 - name: GitHub.com
