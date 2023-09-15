@@ -225,6 +225,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [Attentionを完全に理解することが可能なblog](https://kntty.hateblo.jp/entry/2021/05/05/230400)
 - [論文解説 Attention Is All You Need (Transformer)](https://deeplearning.hatenablog.com/entry/transformer)
 - [情報検索とデータマイニング](https://www.ieice-hbkb.org/portal/doc_639.html)
+- [試行回数の増やし方 2021年度版です](https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021)
 {{< /note >}}
 
 
