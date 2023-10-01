@@ -94,6 +94,11 @@ $ git config --global fetch.prune true
 ```
 
 http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/
+
+- remoteリポジトリにないブランチを削除
+```
+git fetch -p && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
+```
 {{< /note >}}
 
 {{< note title="python">}}

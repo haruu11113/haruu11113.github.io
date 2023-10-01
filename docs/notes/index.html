@@ -1074,7 +1074,11 @@ tf.test.is_gpu_available()
 <pre><code>$ git reset --soft HEAD~
 </code></pre><pre><code>$ git config --global fetch.prune true
 </code></pre><p><a href="http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/">http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/</a></p>
-</div>
+<ul>
+<li>remoteリポジトリにないブランチを削除</li>
+</ul>
+<pre><code>git fetch -p &amp;&amp; git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
+</code></pre></div>
             </div>
         
     </div>
