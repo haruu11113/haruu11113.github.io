@@ -1,0 +1,34 @@
+# section information
+section:
+  name: ツイッター
+  id: twitter
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  hideTitle: false
+
+
+# Your experiences
+links:
+- link:
+    url: https://twitter.com/harukanekodesu
+    name: Twitter
+- link:
+    url: https://www.facebook.com/harukanekodesu/
+    name: Facebook
+- link:
+    url: https://scholar.google.co.jp/citations?user=r1UutV8AAAAJ&hl=ja
+    name: Google scholor
+- link:
+    url: https://www.researchgate.net/profile/Haru-Kaneko
+    name: ResearchGate
+- link:
+    url: https://orcid.org/0000-0002-1881-5182
+    name: Orcid
+- link:
+    url: https://sozolab.jp/users/370-haru-kaneko?locale=en
+    name: Sozolab
+- link:
+    url: https://www.scopus.com/authid/detail.uri?authorId=57224307246
+    name: Scopus
