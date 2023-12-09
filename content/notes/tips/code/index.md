@@ -117,3 +117,8 @@ make mint60:custom
 make mint60:custom:avrdude
 ```
 {{< /note >}}
+{{< note title="gif generation">}}
+```
+ffmpeg -i 画面収録_299U-08-09_1.93.N.mov -r 24 gamen_test1.gif
+```
+{{< /note >}}

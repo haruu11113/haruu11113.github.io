@@ -32,7 +32,8 @@
   <link rel="icon" type="image/png" href="/images/site/favicon_huf53d0b356f56af51b0d63c8e924f8436_92381_42x0_resize_box_3.png" />
 
 <meta property="og:title" content="Code" />
-<meta property="og:description" content="Python name    name mean     _ 使わない変数   _* 外部からアクセスされたくない変数・関数(アクセスは可能)   __* プライベート変数・関数            GPU GPUの有無を確認 from tensorflow.python.client import device_lib device_lib.list_local_devices() 利用可能なGPUの有無を判定 import tensorflow as tf tf.test.is_gpu_available()  tensorflowとcudaなどのバージョン対応 これでかいけつした これ見るとlibcudnn8の諸々わかった マルチGPUなどについて dockerでのgpu  apt-get install libcudnn8=8.9.1.23-1&#43;cuda11.8 gpuで計算系  cupy numpyの代替 pandas numpyの代替 tsne-cuda      Docker docker imageの一括削除 https://qiita." />
+<meta property="og:description" content="Python name name mean _ 使わない変数 _* 外部からアクセスされたくない変数・関数(アクセスは可能) __* プライベート変数・関数 GPU GPUの有無を確認 from tensorflow.python.client import device_lib device_lib.list_local_devices() 利用可能なGPUの有無を判定 import tensorflow as tf tf.test.is_gpu_available() tensorflowとcudaなどのバージョン対応 これでかいけつした これ見るとlibcudnn8の諸々わかった マルチGPUなどについて dockerでのgpu apt-get install libcudnn8=8.9.1.23-1&#43;cuda11.8 gpuで計算系 cupy numpyの代替 pandas numpyの代替 tsne-cuda Docker docker imageの一括削除 https://qiita.com/boiyama/items/9972601ffc240553e1f3
+fzf config https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/ fzf config https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/ move files using grep grep -rl &#34;key word&#34; ./ | xargs -I &#39;{}&#39; mv {} [dir path] git command git addの取り消し(stagingの取り消し) $ git reset HEAD &lt;file name&gt; commitだけ取り消して，staging状態に戻す $ git reset --soft HEAD~ $ git config --global fetch." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://haruu11113.github.io/notes/tips/code/" /><meta property="article:section" content="notes" />
 
@@ -140,6 +141,7 @@
               </li>
             
             
+            
               
               
                 
@@ -147,7 +149,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="https://haruu11113.github.io/#twitter">Twitter</a>
               </li>
-            
             
         
         
@@ -328,10 +329,10 @@
         
             <div class="card">
                 <div class="card-body"><h3 id="gpuの有無を確認">GPUの有無を確認</h3>
-<pre><code>from tensorflow.python.client import device_lib
+<pre tabindex="0"><code>from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
 </code></pre><h3 id="利用可能なgpuの有無を判定">利用可能なGPUの有無を判定</h3>
-<pre><code>import tensorflow as tf
+<pre tabindex="0"><code>import tensorflow as tf
 tf.test.is_gpu_available()
 </code></pre><ul>
 <li><a href="https://www.tensorflow.org/install/source?hl=ja#tested_build_configurations">tensorflowとcudaなどのバージョン対応</a></li>
@@ -340,7 +341,7 @@ tf.test.is_gpu_available()
 <li><a href="https://www.tensorflow.org/guide/gpu?hl=ja">マルチGPUなどについて</a></li>
 <li><a href="https://docs.docker.jp/compose/gpu-support.html">dockerでのgpu</a></li>
 </ul>
-<pre><code>apt-get install libcudnn8=8.9.1.23-1+cuda11.8
+<pre tabindex="0"><code>apt-get install libcudnn8=8.9.1.23-1+cuda11.8
 </code></pre><h3 id="gpuで計算系">gpuで計算系</h3>
 <ul>
 <li><a href="https://docs.cupy.dev/en/stable/install.html#installing-cupy">cupy numpyの代替</a></li>
@@ -359,7 +360,7 @@ tf.test.is_gpu_available()
         
             <div class="card">
                 <div class="card-body"><h3 id="docker-imageの一括削除">docker imageの一括削除</h3>
-<p><a href="https://qiita.com/boiyama/items/9972601ffc240553e1f3">https://qiita.com/boiyama/items/9972601ffc240553e1f3</a></div>
+<p><a href="https://qiita.com/boiyama/items/9972601ffc240553e1f3">https://qiita.com/boiyama/items/9972601ffc240553e1f3</a></p></div>
             </div>
         
     </div>
@@ -398,7 +399,7 @@ tf.test.is_gpu_available()
         <h5 class="note-title"><span>move files using grep</span></h5>
         
             <div class="card">
-                <div class="card-body"><pre><code>grep -rl &quot;key word&quot; ./ | xargs -I '{}' mv {} [dir path]
+                <div class="card-body"><pre tabindex="0"><code>grep -rl &#34;key word&#34; ./ | xargs -I &#39;{}&#39; mv {} [dir path]
 </code></pre></div>
             </div>
         
@@ -413,17 +414,17 @@ tf.test.is_gpu_available()
                 <div class="card-body"><ul>
 <li>git addの取り消し(stagingの取り消し)</li>
 </ul>
-<pre><code>$ git reset HEAD &lt;file name&gt;
+<pre tabindex="0"><code>$ git reset HEAD &lt;file name&gt;
 </code></pre><ul>
 <li>commitだけ取り消して，staging状態に戻す</li>
 </ul>
-<pre><code>$ git reset --soft HEAD~
-</code></pre><pre><code>$ git config --global fetch.prune true
+<pre tabindex="0"><code>$ git reset --soft HEAD~
+</code></pre><pre tabindex="0"><code>$ git config --global fetch.prune true
 </code></pre><p><a href="http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/">http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/</a></p>
 <ul>
 <li>remoteリポジトリにないブランチを削除</li>
 </ul>
-<pre><code>git fetch -p &amp;&amp; git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
+<pre tabindex="0"><code>git fetch -p &amp;&amp; git branch -vv | grep &#39;: gone]&#39; | awk &#39;{print $1}&#39; | xargs git branch -D
 </code></pre></div>
             </div>
         
@@ -435,7 +436,7 @@ tf.test.is_gpu_available()
         <h5 class="note-title"><span>python</span></h5>
         
             <div class="card">
-                <div class="card-body"><pre><code># sklearn random forest
+                <div class="card-body"><pre tabindex="0"><code># sklearn random forest
 # 推定の確率を出す．claasses_の順番で確率が出る
 model.classes_
 model.predict_proba()
@@ -445,12 +446,12 @@ model.predict_proba()
     </div>
 </div>
 
-<div class="note-card ">
+<p><div class="note-card ">
     <div class="item">
         <h5 class="note-title"><span>mint60</span></h5>
         
             <div class="card">
-                <div class="card-body"><pre><code>./keyboards/mint60/keymaps/custom
+                <div class="card-body"><pre tabindex="0"><code>./keyboards/mint60/keymaps/custom
 make mint60:custom
 make mint60:custom:avrdude
 </code></pre></div>
@@ -459,6 +460,18 @@ make mint60:custom:avrdude
     </div>
 </div>
 
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>gif generation</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><pre tabindex="0"><code>ffmpeg -i 画面収録_299U-08-09_1.93.N.mov -r 24 gamen_test1.gif
+</code></pre></div>
+            </div>
+        
+    </div>
+</div>
+</p>
 
     </div>
   </div>
@@ -540,7 +553,6 @@ make mint60:custom:avrdude
               </li>
             
             
-            
               
               
                 
@@ -548,6 +560,7 @@ make mint60:custom:avrdude
               <li class="nav-item">
                 <a class="smooth-scroll" href="#twitter">Twitter</a>
               </li>
+            
             
         </ul>
         
