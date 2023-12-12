@@ -245,6 +245,12 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [Fugu-MT: arxivの論文翻訳](https://fugumt.com/fugumt/paper/index.html)
 - [arXiv最新論文の紹介](https://devneko.jp/wordpress/)
 
+
+- [はじめての論文執筆 | お茶の水女子大 伊藤研究室](htttp://itolab.is.ocha.ac.jp/~itot/message/ItolabWriting2018.pdf)
+- [研究分野をサーベイする | お茶の水女子大 伊藤研究室](https://www.slideshare.net/iTooooooooooooT/itolab-how-to-survey-2017)
+- [研究発表を準備する（2022年版） | お茶の水女子大 伊藤研究室](https://www.slideshare.net/iTooooooooooooT/2022-250960325)
+
+
 {{< /note >}}
 
 {{< note title="Brain-Tech">}}
