@@ -8,7 +8,6 @@ menu:
     parent: notes-tips
     weight: 10
 ---
-
 {{< note title="Link">}}
 - https://dream-exp.net/shaper/
 -> deeplの翻訳良い感じにしてくれるやつ
@@ -226,6 +225,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [論文解説 Attention Is All You Need (Transformer)](https://deeplearning.hatenablog.com/entry/transformer)
 - [情報検索とデータマイニング](https://www.ieice-hbkb.org/portal/doc_639.html)
 - [試行回数の増やし方 2021年度版です](https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021)
+- [論文執筆方法「60QA](https://docs.google.com/document/d/180tNamxQFV2fWUOmEdtTFVy-R-sTgiFlbxL-o3Lg6n4/edit)
 {{< /note >}}
 
 

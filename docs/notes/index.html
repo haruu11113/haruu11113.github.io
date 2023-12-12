@@ -139,7 +139,6 @@
               </li>
             
             
-            
               
               
                 
@@ -147,6 +146,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="https://haruu11113.github.io/#twitter">Twitter</a>
               </li>
+            
             
         
         
@@ -374,7 +374,7 @@
 <li><a href="https://scholar.google.co.jp/citations?view_op=top_venues&amp;hl=ja&amp;vq=eng_softwaresystems">Software</a></li>
 <li><a href="https://scholar.google.co.jp/citations?view_op=top_venues&amp;hl=ja&amp;vq=eng_fuzzysystems">Fuzzy</a></li>
 </ul>
-<p><a href="https://www.scimagojr.com/journalrank.php">Journal rankings</a></div>
+<p><a href="https://www.scimagojr.com/journalrank.php">Journal rankings</a></p></div>
             </div>
         
     </div>
@@ -389,7 +389,7 @@
 <li><a href="http://www.wikicfp.com/cfp/">WikiCFP</a></li>
 <li><a href="https://academic.microsoft.com/home">Microsoft Academic Search CFP Calendar</a></li>
 </ul>
-<p>ref -&gt; <a href="http://did2.blog64.fc2.com/blog-entry-452.html">http://did2.blog64.fc2.com/blog-entry-452.html</a></div>
+<p>ref -&gt; <a href="http://did2.blog64.fc2.com/blog-entry-452.html">http://did2.blog64.fc2.com/blog-entry-452.html</a></p></div>
             </div>
         
     </div>
@@ -658,8 +658,7 @@ HCIの関連技術の資料を集めています。
                 <div class="card-body"><p>k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです</p>
 <ul>
 <li><a href="https://www.dskomei.com/entry/2018/04/03/004543">https://www.dskomei.com/entry/2018/04/03/004543</a></li>
-</ul>
-</div>
+</ul></div>
             </div>
         
     </div>
@@ -749,6 +748,9 @@ HCIの関連技術の資料を集めています。
 </li>
 <li>
 <p><a href="https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021">試行回数の増やし方 2021年度版です</a></p>
+</li>
+<li>
+<p><a href="https://docs.google.com/document/d/180tNamxQFV2fWUOmEdtTFVy-R-sTgiFlbxL-o3Lg6n4/edit">論文執筆方法「60QA</a></p>
 </li>
 </ul>
 </div>
@@ -991,10 +993,10 @@ HCIの関連技術の資料を集めています。
         
             <div class="card">
                 <div class="card-body"><h3 id="gpuの有無を確認">GPUの有無を確認</h3>
-<pre><code>from tensorflow.python.client import device_lib
+<pre tabindex="0"><code>from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
 </code></pre><h3 id="利用可能なgpuの有無を判定">利用可能なGPUの有無を判定</h3>
-<pre><code>import tensorflow as tf
+<pre tabindex="0"><code>import tensorflow as tf
 tf.test.is_gpu_available()
 </code></pre><ul>
 <li><a href="https://www.tensorflow.org/install/source?hl=ja#tested_build_configurations">tensorflowとcudaなどのバージョン対応</a></li>
@@ -1003,7 +1005,7 @@ tf.test.is_gpu_available()
 <li><a href="https://www.tensorflow.org/guide/gpu?hl=ja">マルチGPUなどについて</a></li>
 <li><a href="https://docs.docker.jp/compose/gpu-support.html">dockerでのgpu</a></li>
 </ul>
-<pre><code>apt-get install libcudnn8=8.9.1.23-1+cuda11.8
+<pre tabindex="0"><code>apt-get install libcudnn8=8.9.1.23-1+cuda11.8
 </code></pre><h3 id="gpuで計算系">gpuで計算系</h3>
 <ul>
 <li><a href="https://docs.cupy.dev/en/stable/install.html#installing-cupy">cupy numpyの代替</a></li>
@@ -1022,7 +1024,7 @@ tf.test.is_gpu_available()
         
             <div class="card">
                 <div class="card-body"><h3 id="docker-imageの一括削除">docker imageの一括削除</h3>
-<p><a href="https://qiita.com/boiyama/items/9972601ffc240553e1f3">https://qiita.com/boiyama/items/9972601ffc240553e1f3</a></div>
+<p><a href="https://qiita.com/boiyama/items/9972601ffc240553e1f3">https://qiita.com/boiyama/items/9972601ffc240553e1f3</a></p></div>
             </div>
         
     </div>
@@ -1061,7 +1063,7 @@ tf.test.is_gpu_available()
         <h5 class="note-title"><span>move files using grep</span></h5>
         
             <div class="card">
-                <div class="card-body"><pre><code>grep -rl &quot;key word&quot; ./ | xargs -I '{}' mv {} [dir path]
+                <div class="card-body"><pre tabindex="0"><code>grep -rl &#34;key word&#34; ./ | xargs -I &#39;{}&#39; mv {} [dir path]
 </code></pre></div>
             </div>
         
@@ -1076,17 +1078,17 @@ tf.test.is_gpu_available()
                 <div class="card-body"><ul>
 <li>git addの取り消し(stagingの取り消し)</li>
 </ul>
-<pre><code>$ git reset HEAD &lt;file name&gt;
+<pre tabindex="0"><code>$ git reset HEAD &lt;file name&gt;
 </code></pre><ul>
 <li>commitだけ取り消して，staging状態に戻す</li>
 </ul>
-<pre><code>$ git reset --soft HEAD~
-</code></pre><pre><code>$ git config --global fetch.prune true
+<pre tabindex="0"><code>$ git reset --soft HEAD~
+</code></pre><pre tabindex="0"><code>$ git config --global fetch.prune true
 </code></pre><p><a href="http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/">http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/</a></p>
 <ul>
 <li>remoteリポジトリにないブランチを削除</li>
 </ul>
-<pre><code>git fetch -p &amp;&amp; git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
+<pre tabindex="0"><code>git fetch -p &amp;&amp; git branch -vv | grep &#39;: gone]&#39; | awk &#39;{print $1}&#39; | xargs git branch -D
 </code></pre></div>
             </div>
         
@@ -1098,7 +1100,7 @@ tf.test.is_gpu_available()
         <h5 class="note-title"><span>python</span></h5>
         
             <div class="card">
-                <div class="card-body"><pre><code># sklearn random forest
+                <div class="card-body"><pre tabindex="0"><code># sklearn random forest
 # 推定の確率を出す．claasses_の順番で確率が出る
 model.classes_
 model.predict_proba()
@@ -1108,12 +1110,12 @@ model.predict_proba()
     </div>
 </div>
 
-<div class="note-card ">
+<p><div class="note-card ">
     <div class="item">
         <h5 class="note-title"><span>mint60</span></h5>
         
             <div class="card">
-                <div class="card-body"><pre><code>./keyboards/mint60/keymaps/custom
+                <div class="card-body"><pre tabindex="0"><code>./keyboards/mint60/keymaps/custom
 make mint60:custom
 make mint60:custom:avrdude
 </code></pre></div>
@@ -1122,6 +1124,18 @@ make mint60:custom:avrdude
     </div>
 </div>
 
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>gif generation</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><pre tabindex="0"><code>ffmpeg -i 画面収録_299U-08-09_1.93.N.mov -r 24 gamen_test1.gif
+</code></pre></div>
+            </div>
+        
+    </div>
+</div>
+</p>
 
         
       
@@ -1164,13 +1178,13 @@ make mint60:custom:avrdude
       
     <ul class="pagination pagination-default">
       <li class="page-item disabled">
-        <a href="#" aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
       </li>
       <li class="page-item disabled">
-        <a href="#" aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
       </li>
       <li class="page-item active">
-        <a href="#" aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
       </li>
       <li class="page-item">
         <a href="/notes/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
@@ -1262,7 +1276,6 @@ make mint60:custom:avrdude
               </li>
             
             
-            
               
               
                 
@@ -1270,6 +1283,7 @@ make mint60:custom:avrdude
               <li class="nav-item">
                 <a class="smooth-scroll" href="#twitter">Twitter</a>
               </li>
+            
             
         </ul>
         
