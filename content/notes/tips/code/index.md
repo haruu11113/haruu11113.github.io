@@ -99,6 +99,9 @@ http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook/git/cancel/
 ```
 git fetch -p && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
 ```
+
+- [Gitでやらかした時に使える19個の奥義](https://qiita.com/muran001/items/dea2bbbaea1260098051)
+
 {{< /note >}}
 
 {{< note title="python">}}
