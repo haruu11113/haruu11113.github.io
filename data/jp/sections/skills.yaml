@@ -13,22 +13,22 @@ section:
 skills:
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Using research and hobby"
+  summary: "Using for research and hobby"
   url: "https://git-scm.com"
 
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "I can data visualization and machine-learning."
+  summary: "Using for my research."
   url: "https://www.python.org"
 
 - name: PHP/Laravel
   logo: /images/sections/skills/laravel-brands.svg
-  summary: "I'm working as part-time server engineer."
+  summary: "Using it as a part-time server engineer."
   url: "https://laravel.com"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "I'm using Docker as researcher and part-time server engineer."
+  summary: "I'm using Docker for reserach and dev."
   url: "https://www.docker.com"
 
 - name: Java
@@ -38,15 +38,35 @@ skills:
 
 - name: Amazon Linux, Ubuntu
   logo: /images/sections/skills/ubuntu.png
-  summary: "I'm using as part-time server enginner and reseacher. My desktop PC is Ubuntu18."
+  summary: "Using it on part-time server enginner."
   url: "https://ubuntu.com"
 
 - name: Ansible
   logo: /images/sections/skills/quote-right-solid.svg
-  summary: "I'm using as part-time server enginner."
+  summary: "I'm using it as a part-time server enginner."
   url: "https://www.ansible.com"
 
 - name: AWS
   logo: /images/sections/skills/aws-brands.svg
-  summary: "I'm using as part-time server enginner."
+  summary: "I'm using as a part-time server enginner."
   url: "https://aws.amazon.com"
+
+- name: Vue / Nuxt / Typescript
+  logo: /images/sections/skills/nuxt.png
+  summary: "I can make some web app."
+  url: "https://nuxt.com/"
+
+- name: Tensorflow
+  logo: /images/sections/skills/Tensorflow.svg
+  summary: "Using for my research."
+  url: "https://tensorflow.org/"
+
+- name: Neovim / tmux / VScode
+  logo: /images/sections/skills/neovim.png
+  summary: "I love vim. But I can use vscode also."
+  url: "https://neovim.io"
+
+- name: Kotlin
+  logo: /images/sections/skills/kotlin.svg
+  summary: "Learning to develop android app."
+  url: "https://kotlinlang.org/"
