@@ -226,6 +226,7 @@ k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリ�
 - [情報検索とデータマイニング](https://www.ieice-hbkb.org/portal/doc_639.html)
 - [試行回数の増やし方 2021年度版です](https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021)
 - [論文執筆方法「60QA](https://docs.google.com/document/d/180tNamxQFV2fWUOmEdtTFVy-R-sTgiFlbxL-o3Lg6n4/edit)
+- [修士論文提出前の原稿チェックリスト内容編](https://x.com/k0nnyakun2/status/1727233969790575073?s=20)
 {{< /note >}}
 
 

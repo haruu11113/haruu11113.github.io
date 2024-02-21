@@ -3,7 +3,7 @@ section:
   name: Links
   id: links
   enable: true
-  weight: 7
+  weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
   hideTitle: false
@@ -35,6 +35,9 @@ links:
 - link:
     url: https://www.linkedin.com/in/harukaneko/
     name: linkedin
+- link:
+    url: https://researchmap.jp/harukaneko
+    name: researchmap
 
 # - link:
 #   url:
