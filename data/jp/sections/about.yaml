@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: 博士後期課程2年
+designation: 博士後期課程3年
 # your company information
 company:
   name: Kyushu Institute of Technology.
@@ -18,7 +18,8 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "私はsozolab.jpのメンバーです。機械学習を用いた介護記録の自動生成について研究しています。"
+summary: "私は行動認識やEHRの分析/機械学習の分野でポスドク/助教授のポジションを探しています。"
+# summary: "私はsozolab.jpのメンバーです。機械学習を用いた介護記録の自動生成について研究しています。"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
