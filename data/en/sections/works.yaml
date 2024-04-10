@@ -1,12 +1,32 @@
-# # section information
-# section:
-#   name: Experiences
-#   id: experiences
-#   enable: true
-#   weight: 10
-#   showOnNavbar: true
-#   # Can optionally hide the title in sections
-#   # hideTitle: true
+section:
+  name: Works
+  id: works
+  enable: true
+  weight: 10
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+works:
+  - work:
+      url: "https://fukuokarc.org"
+      name: 'Member of NPO Fukuoka Robotics Challenge'
+  - work:
+      url: "https://abc-research.github.io/challenge2024"
+      name: 'organizers of ABC Challenge 2024'
+  - work:
+      url: "https://abc-research.github.io/challenge2023"
+      name: 'organizers of ABC Challenge 2023'
+  - work:
+      url: "https://abc-research.github.io/challenge2022"
+      name: 'organizers of ABC Challenge 2022'
+  - work:
+      url: "https://abc-research.github.io/bento2021"
+      name: 'organizers of ABC Challenge 2021'
+  - work:
+      url: "https://abc-research.github.io/nurse2021"
+      name: 'organizers of HASCA Challenge 2021'
 
 # # Your experiences
 # experiences:

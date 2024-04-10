@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Doctor 2nd student
+designation: Doctor 3rd student
 # your company information
 company:
   name: Kyushu Institute of Technology.
@@ -18,7 +18,8 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a member of sozolab.jp . My research thema is the automatic generation of nursing care records using machine learning."
+summary: "I am looking for a post-doctoral/assistant professor position in the area of analytics and machine learning for activity recognition and EHR."
+# summary: "I am a member of sozolab.jp . My research thema is the automatic generation of nursing care records using machine learning."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
