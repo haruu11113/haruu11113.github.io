@@ -18,6 +18,22 @@ events:
 #     detail:
 - event:
     type:
+    title: "Ubicomp 2023"
+    url: "https://www.ubicomp.org/ubicomp-iswc-2023/"
+    date: "2023-10"
+    place: "Cancun, Mexico"
+    detail: "For the first time, I participated offline in such big international conference."
+
+- event:
+    type:
+    title: "ABC 2023"
+    url: "https://abc-research.github.io/2023/"
+    date: "2023-09"
+    place: "Germany (Hybrid)"
+    detail: "Presente summary of challenge results"
+
+- event:
+    type:
     title: Shonan Meeting 196 on "Everlasting Social Signal Processing - From Labs into the Real World"
     url: "https://shonan.nii.ac.jp/seminars/196/"
     date: "2023-03-13 - 16"
