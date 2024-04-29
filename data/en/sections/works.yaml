@@ -10,8 +10,11 @@ section:
 # Your experiences
 works:
   - work:
+      url: "https://yamasaki5868688.wixsite.com/kyutech-phd-coffee/"
+      name: "Organizers of Hibikino & Kyutech Ph.D. Coffee Time (2023-09 ~)"
+  - work:
       url: "https://fukuokarc.org"
-      name: 'Member of NPO Fukuoka Robotics Challenge'
+      name: 'Member of NPO Fukuoka Robotics Challenge (2023-10 ~ )'
   - work:
       url: "https://abc-research.github.io/challenge2024"
       name: 'organizers of ABC Challenge 2024'

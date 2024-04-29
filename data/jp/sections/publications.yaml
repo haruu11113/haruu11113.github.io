@@ -27,6 +27,7 @@ Papers:
     abstract: "In this paper, we proposed an machine learning method to create of care records automatically, in order to reduce time nurse creates care records. And we evaluated this method. On the assuption that using at nursing facility, estimate the details of care from past care record data, user, target person and start time of care action. As a result, we got 79% accuracy rate."
     is_reviewed: false
 
+### 2020
 -   name: "卒論"
     authors: "Haru Kaneko"
     title: "機械学習による介護記録内容の推定の試み"
@@ -98,6 +99,7 @@ Papers:
     abstract: "The number of elderly people is increasing in the world. Especially in Japan, the shortage of nurses has been a problem in recent years. So far, we had developed a mobile application to make nursing care records. In addition, we are also experimenting with the introduction of this application to nursing homes. In this paper, we design an automatic generation function of the nursing care record into our mobile nursing care record application. In this paper, we implement an automatic generation function of the recorded contents in this care record system. we aim to simplify the work of making care records. To do so, we make a machine learning model for estimating the feature nursing care records in the server. And, we design new UI on our application to make care records using estimation result. As a result of the evaluation, we know it is possible to reduce time that making care records using our application with automatic generation function of care records."
     is_reviewed: true
 
+### 2021
 -   type: "domestic"
     name: "DICOMO2021"
     authors: "Haru Kaneko, Tahera Hossain, Sozo Inoue"
@@ -144,6 +146,7 @@ Papers:
     abstract: ""
     is_reviewed: ture
 
+### 2022
 -   type: "domestic"
     name: "修士論文"
     authors: "Haru Kaneko"
@@ -279,6 +282,7 @@ Papers:
     abstract: ""
     is_reviewed: false
 
+### 2023
 -   type: "domestic"
     name: "DICOMO2023"
     authors: "Min Xinyi, Haru Kaneko, Sozo Inoue"
@@ -295,27 +299,11 @@ Papers:
     is_reviewed: false
 
 -   type: "international"
-    name: "abc2022"
-    authors: "Masato Uchimura, Haru Kaneko, Sozo Inoue"
-    title: "Analysis of Care Records for Predicting Urination Times"
-    url: ""
-    date: "2023-06"
-    year: "2023"
-    book: "Activity and Behavior Computing"
-    volume: ""
-    number: ""
-    pages: ""
-    place: ""
-    abstract: ""
-    is_reviewed: ture
-
--   type: "international"
     name: "HASCA2023"
     authors: "Haru Kaneko, Sozo Inoue"
     title: "Toward Pioneering Sensors and Features Using Large Language Models in Human Activity Recognition"
-    title: "Toward Pioneering Sensors and Features Using Large Language Models in Human Activity Recognition"
     url: ""
-    doi: "doi.org/10.48550/arXiv.2306.16017"
+    doi: "doi.org/10.1145/3594739.3610741" ## "doi.org/10.48550/arXiv.2306.16017"
     date: "2023-10"
     year: "2023"
     book: "UbiComp '23: Adjunct Proceedings of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2023 ACM International Symposium on Wearable Computers (HASCA)"
@@ -331,10 +319,43 @@ Papers:
     authors: "Min Xinyi, Haru Kaneko, Sozo Inoue"
     title: "Predicting and Analyzing Emotions of Elderly People in Care Facilities"
     url: ""
+    doi: "doi.org/10.1145/3594739.3610738"
     date: "2023-10"
     year: "2023"
     book: "UbiComp '23: Adjunct Proceedings of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2023 ACM International Symposium on Wearable Computers (HASCA)"
     volume: ""
+    number: ""
+    pages: ""
+    place: ""
+    abstract: ""
+    is_reviewed: ture
+
+### 2024
+-   type: "international"
+    name: "abc2022"
+    authors: "Masato Uchimura, Haru Kaneko, Sozo Inoue"
+    title: "Analysis of Care Records for Predicting Urination Times"
+    url: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003371540-19/analysis-care-records-predicting-urination-times-masato-uchimura-sozo-inoue-haru-kaneko"
+    date: "2023-06"
+    year: "2024"
+    book: "Human Activity and Behavior Analysis"
+    volume: ""
+    number: ""
+    pages: ""
+    place: ""
+    abstract: ""
+    is_reviewed: ture
+
+-   type: "international"
+    name: "MDPI Healthcare"
+    authors: "Defry Hamdhana, Haru Kaneko, John Noel Victorino, Sozo Inoue "
+    title: "Improved Evaluation Metrics for Sentence Suggestions in Nursing and Elderly Care Record Applications"
+    url: ""
+    doi: "doi.org/10.3390/healthcare12030367"
+    date: ""
+    year: "2024"
+    book: "Healthcare"
+    volume: "12"
     number: ""
     pages: ""
     place: ""
