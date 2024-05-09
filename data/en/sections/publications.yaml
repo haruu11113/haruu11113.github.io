@@ -388,6 +388,23 @@ Papers:
     abstract: ""
     is_reviewed: ture
 
+-   type: "international"
+    name: "International Journal of Activity and Behavior Computing"
+    authors: "Chrisitina A Garcia, Quynh N Phuong Vu, Haru Kaneko, Sozo Inoue"
+    title: "A Relabeling Approach to Signal Patterns for Beacon-based Indoor Localization in Nursing Care Facility"
+    url: ""
+    doi: "doi.org/10.3390/healthcare12030367"
+    date: ""
+    year: "2024"
+    book: "International Journal of Activity and Behavior Computing"
+    volume: "2024"
+    number: "1"
+    pages: "1-19"
+    place: ""
+    abstract: ""
+    is_reviewed: ture
+    doi: doi.org/10.60401/ijabc.12
+
 # -   type: "international" "domestic"
 #     name: "abc2022"
 #     authors: ""
