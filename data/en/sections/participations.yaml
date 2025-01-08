@@ -103,7 +103,7 @@ events:
     url: "https://abc-research.github.io/"
     date: "2022-10-27~29"
     place: "UK"
-    detail: "聞いた"
+    detail: "聞いた."
 
 - event:
     type:
