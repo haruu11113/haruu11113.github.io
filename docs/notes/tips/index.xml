@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tips on Haru Kaneko</title>
-    <link>https://haruu11113.github.io/notes/tips/</link>
+    <link>http://localhost:1313/notes/tips/</link>
     <description>Recent content in Tips on Haru Kaneko</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://haruu11113.github.io/notes/tips/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/notes/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conferences</title>
-      <link>https://haruu11113.github.io/notes/tips/conference/</link>
+      <link>http://localhost:1313/notes/tips/conference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://haruu11113.github.io/notes/tips/conference/</guid>
+      <guid>http://localhost:1313/notes/tips/conference/</guid>
       <description>Conferences and Journalsthat my lab has submitted to. Ubicump / IMWUT HASCA IJCB MobiQuitous ACM SenSys MDPI Journal of Personalized Medicine MDPI Sensors Journal of Information Processing 情報処理学会論文誌 DICOMO UBI研究会 SOFT kyushu ABC ICIEV IEEE Fukuoka Section？ IEEE PerCom IEEE PiCom IEEE NTCAA (workshop) ICIC Express Letters 電気学会医用・生体工学研究会研究報告 APAMI Other conferences and Journals that is related our research IMIS (with CISIS) ICMU ISWC MOWU ACM CHI ACM CSCW ACM UM AMC TOCHI CHII h5-index HCI Data Mining Database and System AI Software Fuzzy Journal rankings</description>
     </item>
     <item>
       <title>Links</title>
-      <link>https://haruu11113.github.io/notes/tips/links/</link>
+      <link>http://localhost:1313/notes/tips/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://haruu11113.github.io/notes/tips/links/</guid>
+      <guid>http://localhost:1313/notes/tips/links/</guid>
       <description>Link https://dream-exp.net/shaper/ -&amp;gt; deeplの翻訳良い感じにしてくれるやつ&#xA;https://translate.systran.net/?source=ja&amp;target=en&#xA;https://scrapbox.io/komofr/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E8%A8%AD%E8%A8%88&#xA;http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.html&#xA;https://fugumt.com/fugumt/paper/index.html -&amp;gt; arxivのようやくサイト。アブストの要約(日本語)、タイトルの翻訳、アブストの翻訳がのってる。翻訳は機械翻訳だが、アブストの要約と注目度のスコアリングがされてるのが面白い。&#xA;https://sourcegraph.com/search -&amp;gt; いい感じのやつ?&#xA;https://www.linguee.com&#xA;https://editor.langsmith.co.jp&#xA;https://kn1cht.github.io/doctor-funding-calendar/ -&amp;gt; お金面&#xA;Miscellaneous Notes -&amp;gt; クラスタリング間の差を調べる(多分、複数のクラスタリング手法を行った際に、それぞれの結果の差を評価する指標) https://y-uti.hatenablog.jp/entry/2014/01/19/133936&#xA;ICHI (International Classification of Health Interventions)とCPT(physician&amp;rsquo;s current procedural terminology)について。 ICHI-&amp;gt;医療行為の国際分類 CPT-&amp;gt;診療報酬支払いコード https://www.niph.go.jp/journal/data/67-5/201867050011.pdf https://www.jstage.jst.go.jp/article/naika/103/12/103_2899/_pdf&#xA;HCI https://hci-calendar.github.io 日本語で読めるHCI情報 面白ML https://matsuo-san.hatenablog.com/entry/2021/08/28/104255 https://cloud.google.com/bigquery/docs/best-practices-performance-compute?hl=ja K-means と k-medoids k-meansとk-medoidsは何が違うかをおさらいすると、クラスタリングの基点となる点を座標とするのがk-meansで、点そのものとするのがk-medoidsです&#xA;https://www.dskomei.com/entry/2018/04/03/004543 介護記録アプリ ケアコラボ P, NP, NP-hard, NP-complete 初心者が学ぶP,NP,NP困難(Hard),NP完全(Complete)とは（わかりやすく解説） lab What do you want to do as a researcher&#xA;Hristijan Gjoreski&#xA;[研究室ゼミ] 論文のペアリーディング&#xA;学生30人に教員1人の研究室運営について（2017-2019</description>
     </item>
     <item>
       <title>paper word</title>
-      <link>https://haruu11113.github.io/notes/tips/word/</link>
+      <link>http://localhost:1313/notes/tips/word/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://haruu11113.github.io/notes/tips/word/</guid>
+      <guid>http://localhost:1313/notes/tips/word/</guid>
       <description> 文章を接続する 概要 単語 加えて In addition たとえば For example よく使う言い回し 概要 単語 本稿では In this paper 本項では In this section References https://www.gfd-dennou.org/arch/hiroki/homepage-old/main018.html#toc64 http://neutron.appl-beam.ibaraki.ac.jp/ohoyamak/indispensable.html diff of work, jpb and task 「work」 「work」は仕事・働くこと全体を意味する単語で、Jobよりも広義の仕事を意味します。目標を成し遂げられる事柄に使われる単語で、肉体的・精神的な労働・努力を表現するのに使われます。必ずしも金銭が関与している労働を意味するものではなく、公共での共同作業・活動などにも「work」を使うことができます。&#xA;work（名詞/不加算）：仕事・作業・勉強・作品 work（動詞）：働く・働かせる・利く・機能する 「job」 jobは、名詞で職業を意味し、基本的にはお給料や報酬が発生する作業やノルマのことを指します。jobは総括した仕事というよりも、具体的な職業を説明したり、定義したりするときに使われます。良く聞くフレーズに「 part-time job」日本語ではアルバイトやパート、「full-time job」正社員といった使い方があります。また就職活動もこのjobをつかって「job hunt」や「 job search」というのが一般的です。&#xA;「task」 Taskは名詞と動詞があります。割り当てられた具体的な作業や、制限期間内に終えるべき作業や任務を表現するための単語です。報酬がある無しに関わらず、義務的に達成するものを表現する時に使用されます。&#xA;task（名詞）：業務・課題・任務・作業・骨の折れる仕事 task（動詞）：課す・任務を与える・酷使する </description>
     </item>
     <item>
       <title>Transfer learning</title>
-      <link>https://haruu11113.github.io/notes/tips/transfer/</link>
+      <link>http://localhost:1313/notes/tips/transfer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://haruu11113.github.io/notes/tips/transfer/</guid>
+      <guid>http://localhost:1313/notes/tips/transfer/</guid>
       <description> links トップカンファレンスにおけるデータセットシフトと機械学習 | 2021-03 </description>
     </item>
     <item>
       <title>Code</title>
-      <link>https://haruu11113.github.io/notes/tips/code/</link>
+      <link>http://localhost:1313/notes/tips/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://haruu11113.github.io/notes/tips/code/</guid>
+      <guid>http://localhost:1313/notes/tips/code/</guid>
       <description>Python name name mean _ 使わない変数 _* 外部からアクセスされたくない変数・関数(アクセスは可能) __* プライベート変数・関数 GPU GPUの有無を確認 from tensorflow.python.client import device_lib device_lib.list_local_devices() 利用可能なGPUの有無を判定 import tensorflow as tf tf.test.is_gpu_available() tensorflowとcudaなどのバージョン対応 これでかいけつした これ見るとlibcudnn8の諸々わかった マルチGPUなどについて dockerでのgpu apt-get install libcudnn8=8.9.1.23-1+cuda11.8 gpuで計算系 cupy numpyの代替 pandas numpyの代替 tsne-cuda Docker docker imageの一括削除 https://qiita.com/boiyama/items/9972601ffc240553e1f3&#xA;fzf config https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/ fzf config https://www.trhrkmk.com/posts/fzf-command-line-productivity-tools/ move files using grep grep -rl &amp;#34;key word&amp;#34; ./ | xargs -I &amp;#39;{}&amp;#39; mv {} [dir path] git command git addの取り消し(stagingの取り消し) $ git reset HEAD &amp;lt;file name&amp;gt; commitだけ取り消して，staging状態に戻す $ git reset --soft HEAD~ $ git config --global fetch.</description>
     </item>
     <item>
       <title>Deep Learning</title>
-      <link>https://haruu11113.github.io/notes/tips/deeplearning/</link>
+      <link>http://localhost:1313/notes/tips/deeplearning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://haruu11113.github.io/notes/tips/deeplearning/</guid>
+      <guid>http://localhost:1313/notes/tips/deeplearning/</guid>
       <description> Understanding Batch Normalizationを理解する </description>
     </item>
   </channel>
