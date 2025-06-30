@@ -378,6 +378,22 @@ Papers:
     abstract: ""
     is_reviewed: ture
     doi: doi.org/10.60401/ijabc.12
+
+### 2025
+-   type: "international"
+    name: "abc2023"
+    authors: "Haru Kaneko, John Noel Victorino, Christina Garcia, Defry Hamdhana, Muhammad Fikry, Nazmun Nahid, Tahera Hossain, Tomohiro Shibata, Sozo Inoue"
+    title: "Forecasting the Wearing-Off Phenomenon in Parkinson's Disease: Summarized Approaches and Insights"
+    url: ""
+    date: "2023-06"
+    year: "2023"
+    book: "Activity, Behavior, and Healthcare Computing"
+    volume: ""
+    number: ""
+    pages: "335-346"
+    place: ""
+    abstract: ""
+    is_reviewed: true
 # -   type: "international" "domestic"
 #     name: "abc2022"
 #     authors: ""
