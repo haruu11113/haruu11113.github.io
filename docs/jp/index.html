@@ -299,37 +299,40 @@
     }
      
     @media (min-width: 500px) and (max-width: 800px) {  
-      #homePageBackgroundImageDivStyled {   
+      #homePageBackgroundImageDivStyled {
           background-image: url('https://haruu11113.github.io/images/site/background_hu37bbaa449ade4c42250f3df67f80efb0_1889479_800x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 801px) and (max-width: 1200px) {  
-      #homePageBackgroundImageDivStyled {   
+      #homePageBackgroundImageDivStyled {
           background-image: url('https://haruu11113.github.io/images/site/background_hu37bbaa449ade4c42250f3df67f80efb0_1889479_1200x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 1201px) and (max-width: 1500px) {  
-      #homePageBackgroundImageDivStyled {   
+      #homePageBackgroundImageDivStyled {
           background-image: url('https://haruu11113.github.io/images/site/background_hu37bbaa449ade4c42250f3df67f80efb0_1889479_1500x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 1501px) {  
-      #homePageBackgroundImageDivStyled {   
+      #homePageBackgroundImageDivStyled {
           background-image: url('https://haruu11113.github.io/images/site/background.jpg');
         }
     }
     </style>
     <span class="on-the-fly-behavior"></span>
-  <div
-    id="homePageBackgroundImageDivStyled"
-    class="background container-fluid"
-  ></div>
-  <div class="container content text-center">
-    <img src="/images/site/main-logo_hua6dfe1bbc6b536d57ef4632d191799a8_2406671_148x148_fit_box_3.png"
+    <div
+      id="homePageBackgroundImageDivStyled"
+      class="background container-fluid"
+    ></div>
+    <div class="container content text-center">
+      <img src="/images/site/main-logo_hua6dfe1bbc6b536d57ef4632d191799a8_2406671_148x148_fit_box_3.png"
       class="rounded-circle mx-auto d-block img-fluid"
       alt="Author Image"
     />
-    <h1 class="greeting"> Hi, I am Haru :)</h1>
+    <h1 class="greeting" style="height: 80px;">
+      
+      <div id="canvas"></div> 
+    </h1>
     <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
       <span class="ityped-cursor"></span>
@@ -361,6 +364,259 @@
   </div>
 </div>
 
+<style>
+  #test {
+    border: solid red 1px;
+    width: 100%;
+    height: 100%;
+  }
+  #canvas {
+     
+     
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<script src="https://unpkg.com/three@0.142.0/build/three.min.js"></script>
+<script>
+
+
+let scene, camera, renderer, points;
+let geometry, positions, targetPositions, speeds, colors, sizes;
+
+
+
+
+const init = () => {
+    
+
+    const initScene = () => {
+        let canvasContainer = document.getElementById('canvas');
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(
+            75,
+            canvasContainer.offsetWidth / canvasContainer.offsetHeight,
+            0.1,
+            1000
+        );
+        if (canvasContainer.offsetWidth < 500) {
+          camera.position.z = 120;
+        } else if (canvasContainer.offsetWidth < 800) {
+          camera.position.z = 80;
+        } else {
+          camera.position.z = 50;
+        }
+        renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        
+        renderer.setSize(canvasContainer.offsetWidth, canvasContainer.offsetHeight);
+        renderer.autoClear = false;
+        canvasContainer.appendChild(renderer.domElement);
+    };
+    initScene();
+
+    
+
+    const onWindowResize = () => {
+        let canvasContainer = document.getElementById('canvas');
+        camera.aspect = canvasContainer.offsetWidth / canvasContainer.offsetHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(canvasContainer.offsetWidth, canvasContainer.offsetHeight);
+    };
+    
+    window.addEventListener("resize", onWindowResize);
+};
+init();
+
+
+
+
+
+
+
+
+const createSpriteTexture = () => {
+    const spriteCanvas = document.createElement("canvas");
+    spriteCanvas.width = 64;
+    spriteCanvas.height = 64;
+    const sc = spriteCanvas.getContext("2d");
+    sc.fillStyle = "white";
+    sc.beginPath();
+    
+    sc.arc(32, 32, 30, 0, Math.PI * 2);
+    sc.fill();
+    return new THREE.CanvasTexture(spriteCanvas);
+};
+const spriteTexture = createSpriteTexture();
+
+
+
+
+const createTextOutlineCanvas = (text) => {
+    const textCanvas = document.createElement('canvas');
+    textCanvas.width = 1024;
+    textCanvas.height = 256;
+    const ctx2 = textCanvas.getContext("2d");
+    const fontSize = Math.min(
+        (textCanvas.width / text.length) * 1.0,
+        textCanvas.height * 1.0
+    );
+    ctx2.fillStyle = "white";
+    ctx2.font = `bold ${fontSize}px Arial`;
+    ctx2.textAlign = "center";
+    ctx2.textBaseline = "middle";
+    ctx2.fillText(text, textCanvas.width / 2, textCanvas.height / 2);
+    const imgData = ctx2.getImageData(
+        0,
+        0,
+        textCanvas.width,
+        textCanvas.height
+    ).data;
+    const pointsArr = [];
+    for (let y = 0; y < textCanvas.height; y += 3) {
+        for (let x = 0; x < textCanvas.width; x += 3) {
+            if (imgData[(y * textCanvas.width + x) * 4 + 3] > 128) {
+                const vx = x - textCanvas.width / 2;
+                const vy = textCanvas.height / 2 - y;
+                pointsArr.push(vx, vy, 0);
+            }
+        }
+    }
+    return { pointsArr };
+};
+const { pointsArr } = createTextOutlineCanvas(`Haru Kaneko`);
+
+
+
+
+const initParticleData = (pointsArr) => {
+    let canvasContainer = document.getElementById('canvas');
+    const count = pointsArr.length / 3;
+    targetPositions = new Float32Array(pointsArr);
+    positions = new Float32Array(pointsArr.length);
+    speeds = new Float32Array(count);
+    colors = new Float32Array(count * 3);
+    sizes = new Float32Array(count);
+    const color = "0xffffff"; 
+    const base = new THREE.Color(color);
+    const hsl = {};
+    base.getHSL(hsl);
+    for (let i = 0; i < count; i++) {
+        
+        positions[3 * i] = (Math.random() - 0.5) * canvasContainer.offsetWidth; 
+        positions[3 * i + 1] = (Math.random() - 0.5) * canvasContainer.offsetHeight; 
+        positions[3 * i + 2] = (Math.random() - 0.5) * 500; 
+
+        
+        speeds[i] = Math.random() * 0.02 + 0.03; 
+
+        
+        const h = hsl.h + (Math.random() - 0.5) * 0.1;
+        const s = THREE.MathUtils.clamp(
+            hsl.s + (Math.random() - 0.5) * 0.3,
+            0,
+            1
+        );
+        const l = THREE.MathUtils.clamp(
+            hsl.l + (Math.random() - 0.5) * 0.3,
+            0,
+            1
+        );
+        const c = new THREE.Color().setHSL(h, s, l);
+        colors[3 * i] = c.r;
+        colors[3 * i + 1] = c.g;
+        colors[3 * i + 2] = c.b;
+
+        
+        sizes[i] = Math.random() * 12 + 2;
+    }
+
+    geometry = new THREE.BufferGeometry();
+    geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+    geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+    geometry.setAttribute("size", new THREE.BufferAttribute(sizes, 1));
+};
+initParticleData(pointsArr);
+
+
+
+
+const createPointsMaterial = (spriteTexture) => {
+    return new THREE.PointsMaterial({
+        size: 3, 
+        map: spriteTexture,
+        transparent: true,
+        alphaTest: 0.3,
+        vertexColors: true,
+        blending: THREE.AdditiveBlending,
+        depthTest: false,
+        depthWrite: false,
+    });
+};
+const material = createPointsMaterial(spriteTexture);
+
+
+
+points = new THREE.Points(geometry, material);
+scene.add(points);
+
+
+let hasArrived = false; 
+
+
+
+
+const animate = () => {
+    requestAnimationFrame(animate); 
+    
+
+    
+
+    const updateParticles = () => {
+        const pos = geometry.attributes.position.array;
+        for (let i = 0, idx = 0; i < pos.length; i += 3, idx++) {
+            const sp = speeds[idx];
+            pos[i] += (targetPositions[i] - pos[i]) * sp;
+            pos[i + 1] += (targetPositions[i + 1] - pos[i + 1]) * sp;
+            pos[i + 2] += (targetPositions[i + 2] - pos[i + 2]) * sp;
+        }
+    };
+    updateParticles();
+
+    
+    if (!hasArrived) {
+        let allArrived = true;
+        const pos = geometry.attributes.position.array;
+        for (let i = 0; i < pos.length; i += 3) {
+            const dx = targetPositions[i] - pos[i];
+            const dy = targetPositions[i + 1] - pos[i + 1];
+            const dz = targetPositions[i + 2] - pos[i + 2];
+            const distSq = dx * dx + dy * dy + dz * dz;
+            if (distSq > 1) { 
+                allArrived = false;
+                break;
+            }
+        }
+        if (allArrived) {
+            hasArrived = true;
+            console.log("全パーティクルが所定の位置に到達しました");
+            
+            const targetScroll = document.getElementById("home").offsetHeight - 52;
+            const currentScroll = window.scrollY || window.pageYOffset;
+            if (currentScroll <= targetScroll) {
+                window.scrollTo({
+                  top: targetScroll,
+                  behavior: "smooth"
+                });
+            }
+        }
+    }
+
+    
+    geometry.attributes.position.needsUpdate = true;
+    renderer.render(scene, camera); 
+};
+animate();
+</script>
     
     
       
@@ -2013,6 +2269,7 @@
             
             
             
+            
               
               
                 
@@ -2020,7 +2277,6 @@
               <li class="nav-item">
                 <a class="smooth-scroll" href="#links">リンク</a>
               </li>
-            
             
             
             
