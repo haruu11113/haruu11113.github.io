@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Haru Kaneko</title>
-    <link>https://haruu11113.github.io/posts/blogs/</link>
+    <link>http://localhost:1313/posts/blogs/</link>
     <description>Recent content in Blogs on Haru Kaneko</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0900</lastBuildDate>
-    <atom:link href="https://haruu11113.github.io/posts/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>文書校正する時に忘れないためのメモ</title>
-      <link>https://haruu11113.github.io/posts/blogs/calibration/</link>
+      <link>http://localhost:1313/posts/blogs/calibration/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>https://haruu11113.github.io/posts/blogs/calibration/</guid>
+      <guid>http://localhost:1313/posts/blogs/calibration/</guid>
       <description> 参考文献、図・表番号に？はないか？overleafの黄色warningが教えてくれる。 句読点、カッコなどの 「, 」「. 」「 () 」※() は外側に半角スペース・カッコは半角入力？ だ。である調。 ~チルダをわすれない。~\cite{}, ~\ref{}。 bibtexのURLは\url{html://~~}とする。※\usepackages{url}をメインのファイルに書くのを忘れずに。 略語は定義を最初にする。 1章は2段落or2節以上、1節は2段落以上、1段落は2分以上。 図の縦横軸の説明が書いてあるか。 図・表のキャプションは十分すぎるくらい書く。「この図はーを示す。ー部分の相関が高いことが見てとれる。これはーが原因だと考えられる」。 Abstractには、目的・方法・結果が乗っている。 Introductionには、背景・目的・方法・結果が乗っている。 Conclusionには、目的・方法・結果が乗っている。 主語と述語が合っている確認。 </description>
     </item>
     <item>
       <title>How to Install Python</title>
-      <link>https://haruu11113.github.io/posts/blogs/how-to-install-python/</link>
+      <link>http://localhost:1313/posts/blogs/how-to-install-python/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0900</pubDate>
-      <guid>https://haruu11113.github.io/posts/blogs/how-to-install-python/</guid>
+      <guid>http://localhost:1313/posts/blogs/how-to-install-python/</guid>
       <description>このページわかる事 mac（ubuntuでも可）でPython（主にPython3系）環境を構築する事ができます．&#xA;pyenvとは，OS上のPythonのバージョンの管理ができるツールです．Pythonの開発環境を作成する際にはpyenvなどのバージョン管理ツールを用いることが主流です（主流は言い過ぎかもですが，バージョン管理ツールを使っておらずあとで面倒になることがます．&#xA;pyenvとは，OS上のPythonのバージョンの管理ができるツールです．この記事ではpyenvを用い，Pythonバージョンを自由に切り替えられるよう，Python環境を構築します．つまり，ターミナル（端末）上でPythonと打った際のPythonのバージョンを好きに切り替えられるように環境を構築します．&#xA;OS I tryed those OS.&#xA;mac（10.0.1） ubuntu（18.04.5 and 20.04） Start 1. Install pyenv まず，ターミナル(端末)を開き以下のコマンドを入力+Enter&#xA;git clone https://github.com/pyenv/pyenv.git ~/.pyenv その後以下のコマンドを入力(bashの場合)． (bash以外のshellを使っている場合は，公式github(pyenv)のreadmeい書いてあります．)&#xA;echo &amp;#39;export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile echo &amp;#39;export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile echo &amp;#39;eval &amp;#34;$(pyenv init -)&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile source ~/.bash_profile 2. Pythonのインストール 以下のコマンドをターミナル(端末)に入力+Enter．好きなバージョンを選んでください． pyenv install --listでインストール可能なバージョン一覧を見ることができます．&#xA;pyenv install バージョン ex) pyenv install 3.6.0 3. インストールしたPythonを利用するように設定以下のコマンドをターミナル(端末)に入力+Enter． pyenv global バージョン ex) pyenv global 3.6.0 その他のpyenvコマンド - pyenv versions インストール済のPythonのバージョン一覧を調べる．ここに表示されるバージョンはすでにpyenv install バージョン 済であり，pyenv global バージョンする事が出来る．</description>
     </item>
     <item>
       <title>Data portal demo</title>
-      <link>https://haruu11113.github.io/posts/blogs/data-portal/</link>
+      <link>http://localhost:1313/posts/blogs/data-portal/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0900</pubDate>
-      <guid>https://haruu11113.github.io/posts/blogs/data-portal/</guid>
+      <guid>http://localhost:1313/posts/blogs/data-portal/</guid>
       <description> </description>
     </item>
     <item>
       <title>speech recognition</title>
-      <link>https://haruu11113.github.io/posts/blogs/speech-recognition/</link>
+      <link>http://localhost:1313/posts/blogs/speech-recognition/</link>
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0900</pubDate>
-      <guid>https://haruu11113.github.io/posts/blogs/speech-recognition/</guid>
+      <guid>http://localhost:1313/posts/blogs/speech-recognition/</guid>
       <description>webの音声認識機能docsを用いて、音声文字起こしができるアプリを作ってみた。&#xA;実際のページ</description>
     </item>
     <item>
       <title>Read Book note</title>
-      <link>https://haruu11113.github.io/posts/blogs/books/</link>
+      <link>http://localhost:1313/posts/blogs/books/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0900</pubDate>
-      <guid>https://haruu11113.github.io/posts/blogs/books/</guid>
+      <guid>http://localhost:1313/posts/blogs/books/</guid>
       <description>そのうち買う本 ほしい物リスト: そのうち買う本</description>
     </item>
     <item>
       <title>Self Introduction</title>
-      <link>https://haruu11113.github.io/posts/blogs/self-introduction/</link>
+      <link>http://localhost:1313/posts/blogs/self-introduction/</link>
       <pubDate>Wed, 09 Jun 2021 08:06:25 +0600</pubDate>
-      <guid>https://haruu11113.github.io/posts/blogs/self-introduction/</guid>
+      <guid>http://localhost:1313/posts/blogs/self-introduction/</guid>
       <description></description>
     </item>
   </channel>

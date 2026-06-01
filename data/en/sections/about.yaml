@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Doctor 3rd student
+designation: Assistant
 # your company information
 company:
-  name: Kyushu Institute of Technology.
-  url: "https://www.kyutech.ac.jp/"
+  name: Nihon University.
+  url: "https://dept.chs.nihon-u.ac.jp/information_science/"
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"
