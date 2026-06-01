@@ -4,14 +4,14 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 7
+  weight: 9
   showOnNavbar: false
   hideTitle: false
 
 degrees:
 - name: 博士 | 生命体工学研究科 生命体工学専攻.
   icon: fa-microscope
-  timeframe: 2022-2025
+  timeframe: 2022-2026
   institution:
     name: Kyushu Institute of Technology
     url: "https://www.kyutech.ac.jp"

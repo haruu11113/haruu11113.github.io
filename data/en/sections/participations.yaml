@@ -2,7 +2,7 @@
 section:
     name: Participations
     id: participations
-    enable: true
+    enable: false
     weight: 5
     showOnNavbar: false
     hideTitle: false

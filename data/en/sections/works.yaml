@@ -2,7 +2,7 @@ section:
   name: Works
   id: works
   enable: true
-  weight: 10
+  weight: 8
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -11,7 +11,7 @@ section:
 works:
   - work:
       url: "https://yamasaki5868688.wixsite.com/kyutech-phd-coffee/"
-      name: "Organizers of Hibikino & Kyutech Ph.D. Coffee Time (2023-09 ~)"
+      name: "Organizers of Hibikino & Kyutech Ph.D. Coffee Time (2023-09 ~ 2025-03)"
   - work:
       url: "https://fukuokarc.org"
       name: 'Member of NPO Fukuoka Robotics Challenge (2023-10 ~ )'
