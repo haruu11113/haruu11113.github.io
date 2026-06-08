@@ -1,0 +1,26 @@
+{
+  "papers": [
+    {
+      "title_en": "Implementation of Care Records Automatic Generation Function in a Care Record Application",
+      "title_ja": "",
+      "authors_en": "Haru Kaneko, Tahera Hossain, Sozo Inoue",
+      "authors_ja": "",
+      "year": "2020",
+      "date": "2020-12-01",
+      "venue_en": "The 40th Joint Conference on Asia-Pacific Association of Medical Informatics (APAMI 2020)",
+      "venue_ja": "",
+      "publisher_en": "",
+      "publisher_ja": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "",
+      "url": "https://apami2020.org/",
+      "is_reviewed": true,
+      "paper_type": "conference",
+      "is_lead": true
+    }
+  ],
+  "presentations": [],
+  "misc": []
+}

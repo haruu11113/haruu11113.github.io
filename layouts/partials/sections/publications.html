@@ -1,44 +1,111 @@
-{{ $sectionID := replace (lower .section.name) " " "-"  }}
-{{ if .section.id }}
-{{ $sectionID = .section.id }}
-{{ end }}
-{{ $strReviewed := .section.strReviewed }}
-{{ $start_index := 1 }}
+{{ $lang := site.Language.Lang }}
+{{ $isJP := eq $lang "jp" }}
+{{ $pub := site.Data.publications }}
+{{ $sectionID := .section.id | default (replace (lower .section.name) " " "-") }}
+{{ $strReviewed := .section.strReviewed | default "Reviewed" }}
 
 <div class="container-fluid anchor pb-5 publications-section" id="{{ $sectionID }}">
-    {{ if not (.section.hideTitle) }}
-    <h1 class="text-center">{{ .section.name }}</h1>
+  {{ if not .section.hideTitle }}
+  <h1 class="text-center">{{ .section.name }}</h1>
+  {{ end }}
+
+  <div class="container">
+
+    {{/* Collect all unique years across papers, presentations, and misc */}}
+    {{ $years := slice }}
+    {{ range $pub.papers }}{{ $years = $years | append .year }}{{ end }}
+    {{ range $pub.presentations }}{{ $years = $years | append .year }}{{ end }}
+    {{ range $pub.misc }}{{ $years = $years | append .year }}{{ end }}
+
+    {{ $idx := 1 }}
+    {{ range $year := sort (uniq $years) "value" "desc" }}
+      <h4 style="margin-top:1.2em">[{{ $year }}]</h4>
+
+      {{/* Papers (journal / conference / book / other) */}}
+      {{ range where $pub.papers "year" $year }}
+        {{ $authors := .authors_en }}
+        {{ if or $isJP (not .authors_en) }}{{ with .authors_ja }}{{ $authors = . }}{{ end }}{{ end }}
+        {{ $authors = replace $authors "Haru Kaneko" "<b>Haru Kaneko</b>" }}
+        {{ $authors = replace $authors "金子 晴" "<b>金子 晴</b>" }}
+
+        {{ $title := .title_en }}
+        {{ if $isJP }}
+          {{ with .title_ja }}{{ $title = . }}{{ end }}
+        {{ else }}
+          {{ if not .title_en }}
+            {{ with .title_ja }}{{ $title = printf "%s (In Japanese)" . }}{{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ $venue := .venue_en }}
+        {{ if or $isJP (not .venue_en) }}{{ with .venue_ja }}{{ $venue = . }}{{ end }}{{ end }}
+
+        <div style="margin:8px 0">
+          [{{ $idx }}]{{ if .is_reviewed }} <b>({{ $strReviewed }})</b>{{ end }}
+          {{ $authors | safeHTML }}: "{{ $title }}",
+          {{ $venue }}{{ with .volume }}, Vol.{{ . }}{{ end }}{{ with .number }}, No.{{ . }}{{ end }}{{ with .pages }}, pp.{{ . }}{{ end }},
+          ({{ .year }}){{ with .doi }} <a href="https://doi.org/{{ . }}" target="_blank">[DOI]</a>{{ end }}
+        </div>
+        {{ $idx = add $idx 1 }}
+      {{ end }}
+
+      {{/* Presentations */}}
+      {{ range where $pub.presentations "year" $year }}
+        {{ $presenters := .presenters_en }}
+        {{ if or $isJP (not .presenters_en) }}{{ with .presenters_ja }}{{ $presenters = . }}{{ end }}{{ end }}
+        {{ $presenters = replace $presenters "Haru Kaneko" "<b>Haru Kaneko</b>" }}
+        {{ $presenters = replace $presenters "金子 晴" "<b>金子 晴</b>" }}
+
+        {{ $title := .title_en }}
+        {{ if $isJP }}
+          {{ with .title_ja }}{{ $title = . }}{{ end }}
+        {{ else }}
+          {{ if not .title_en }}
+            {{ with .title_ja }}{{ $title = printf "%s (In Japanese)" . }}{{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ $event := .event_en }}
+        {{ if or $isJP (not .event_en) }}{{ with .event_ja }}{{ $event = . }}{{ end }}{{ end }}
+
+        <div style="margin:8px 0">
+          [{{ $idx }}]
+          {{ $presenters | safeHTML }}: "{{ $title }}",
+          {{ $event }},
+          ({{ .year }})
+        </div>
+        {{ $idx = add $idx 1 }}
+      {{ end }}
+
+      {{/* Misc */}}
+      {{ range where $pub.misc "year" $year }}
+        {{ $authors := .authors_en }}
+        {{ if or $isJP (not .authors_en) }}{{ with .authors_ja }}{{ $authors = . }}{{ end }}{{ end }}
+        {{ $authors = replace $authors "Haru Kaneko" "<b>Haru Kaneko</b>" }}
+        {{ $authors = replace $authors "金子 晴" "<b>金子 晴</b>" }}
+
+        {{ $title := .title_en }}
+        {{ if $isJP }}
+          {{ with .title_ja }}{{ $title = . }}{{ end }}
+        {{ else }}
+          {{ if not .title_en }}
+            {{ with .title_ja }}{{ $title = printf "%s (In Japanese)" . }}{{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ $venue := .venue_en }}
+        {{ if or $isJP (not .venue_en) }}{{ with .venue_ja }}{{ $venue = . }}{{ end }}{{ end }}
+
+        <div style="margin:8px 0">
+          [{{ $idx }}]
+          {{ $authors | safeHTML }}: "{{ $title }}",
+          {{ $venue }}{{ with .volume }}, Vol.{{ . }}{{ end }}{{ with .number }}, No.{{ . }}{{ end }},
+          ({{ .year }}){{ with .url }} <a href="{{ . }}" target="_blank">[Link]</a>{{ end }}
+        </div>
+        {{ $idx = add $idx 1 }}
+      {{ end }}
+
     {{ end }}
-    <div class="container">
-        {{ $years := slice }}
-        {{ range $i, $p := .Papers }}
-            {{ if .year }}
-                {{ $years = $years | append .year}}
-            {{ end }}
-        {{ end }}
-        {{ $years = uniq $years }}
-        {{ range $year := sort $years "value" "desc" }}
-            <h3>[{{ $year }}]</h3>
-            {{ $papers := where $.Papers "year" $year}}
-            {{ range $paper := $papers }}
-                <div style="margin:10px 0 10px 0">
-                    [{{ $start_index }}]
-                    {{ if $paper.is_reviewed}}
-                        <b>( {{ $strReviewed }} )</b>
-                    {{ end }}
-                    {{ .authors }} :"{{ $paper.title }}",
-                    {{ if ne $paper.book "" }} {{ $paper.book }}, {{ end }}
-                    {{ if ne $paper.volume "" }} Vol. {{ $paper.volume }}, {{ end }}
-                    {{ if ne $paper.number "" }} No. {{ $paper.number }}, {{ end }}
-                    {{ if ne $paper.pages "" }} pp {{ $paper.pages }}, {{ end }}
-                    {{ if ne $paper.year "" }} ({{ $paper.year }}), {{ end }}
-                    {{ if $paper.doi }} <a href="https://{{ $paper.doi }}">{{ $paper.doi }}</a>. {{ end }}
-                    {{ if ne $paper.place "" }} {{ $paper.place }}, {{ end }}
-                    {{ if ne $paper.url "" }} <a href="{{ $paper.url }}">[Link].</a> {{ end }}
-                </div>
-                {{ $start_index = add $start_index 1}}
-            {{ end }}
-            <hr>
-        {{ end }}
-    </div>
+
+  </div>
 </div>
