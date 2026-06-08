@@ -42,22 +42,22 @@
     },
     {
       "title_en": "Explainable AI for Clinical Data from EHR Using SHAP and LLM-Based Knowledge",
-      "title_ja": "",
+      "title_ja": "Explainable AI for Clinical Data from EHR Using SHAP and LLM-Based Knowledge",
       "authors_en": "Prerna Jamloki, Christina Garcia, Haru Kaneko, Sozo Inoue",
       "authors_ja": "",
       "year": "2026",
       "date": "2026-04-01",
-      "venue_en": "Lecture Notes in Networks and Systems",
-      "venue_ja": "",
+      "venue_en": "",
+      "venue_ja": "Proceedings of the International Conference on Ubiquitous Computing and Ambient Intelligence (UCAmI 2025)",
       "publisher_en": "Springer Nature Switzerland",
       "publisher_ja": "",
-      "volume": "",
+      "volume": "2",
       "number": "",
       "pages": "216-229",
       "doi": "10.1007/978-3-032-16995-2_20",
       "url": "https://doi.org/10.1007/978-3-032-16995-2_20",
-      "is_reviewed": true,
-      "paper_type": "book",
+      "is_reviewed": false,
+      "paper_type": "conference",
       "is_lead": false
     },
     {
@@ -339,6 +339,26 @@
       "is_reviewed": true,
       "paper_type": "conference",
       "is_lead": true
+    },
+    {
+      "title_en": "",
+      "title_ja": "Implementation of Care Records Automatic Generation Function in a Care Record Application",
+      "authors_en": "",
+      "authors_ja": "Haru Kaneko, Tahera Hossain, Sozo Inoue",
+      "year": "2020",
+      "date": "2020-12",
+      "venue_en": "",
+      "venue_ja": "The 40th Joint Conference on Asia-Pacific Association of Medical Informatics (APAMI)",
+      "publisher_en": "",
+      "publisher_ja": "",
+      "volume": "",
+      "number": "",
+      "pages": "1-6",
+      "doi": "",
+      "url": "",
+      "is_reviewed": true,
+      "paper_type": "conference",
+      "is_lead": true
     }
   ],
   "presentations": [
@@ -356,7 +376,7 @@
     {
       "title_en": "Toward Detecting Early Signs of Health Deterioration in Elderly Care Records",
       "title_ja": "介護記録データを用いた体調不良予兆の分析と予測",
-      "presenters_en": "金子 晴, MIN Xinyi, 井上 創造",
+      "presenters_en": "Haru Kaneko, MIN Xinyi, Sozo Inoue",
       "presenters_ja": "金子 晴, MIN Xinyi, 井上 創造",
       "year": "2024",
       "date": "2024-06-19",
@@ -365,9 +385,9 @@
       "is_international": false
     },
     {
-      "title_en": "介護・医療におけるケア予報とトレースシステムの開発",
+      "title_en": "Development of Care Forecasting and Tracking Systems for Long-Term Care and Healthcare",
       "title_ja": "介護・医療におけるケア予報とトレースシステムの開発",
-      "presenters_en": "",
+      "presenters_en": "Haru Kaneko, FIKRY Muhammad, Sozo Inoue",
       "presenters_ja": "金子 晴, FIKRY Muhammad, 井上 創造",
       "year": "2022",
       "date": "2022-09-06",
@@ -376,9 +396,9 @@
       "is_international": false
     },
     {
-      "title_en": "",
+      "title_en": "Analysis of Individual Differences Among Residents for the Automatic Generation of Care Records",
       "title_ja": "介護記録自動生成のための入居者間の個人差の分析",
-      "presenters_en": "",
+      "presenters_en": "Haru Kaneko, MIN Xinyi, Sozo Inoue",
       "presenters_ja": "金子 晴, 井上 創造",
       "year": "2022",
       "date": "2022-07-06",
@@ -387,9 +407,9 @@
       "is_international": false
     },
     {
-      "title_en": "科学的介護情報システムLIFEデータの活用・分析の検討",
+      "title_en": "A Study on the Utilization and Analysis of LIFE Data from the Scientific Long-Term Care Information System",
       "title_ja": "科学的介護情報システムLIFEデータの活用・分析の検討",
-      "presenters_en": "",
+      "presenters_en": "Haru Kaneko, Masato Uchimura, Koki Miyake, Sozo Inoue",
       "presenters_ja": "金子 晴, 内村 真寿, 三宅 晃貴, 井上 創造",
       "year": "2022",
       "date": "2022-02-28",
@@ -398,9 +418,9 @@
       "is_international": false
     },
     {
-      "title_en": "",
+      "title_en": "Trend Analysis by Data Field for Automated Generation of Care Records",
       "title_ja": "介護記録自動生成のための記録項目別傾向分析",
-      "presenters_en": "",
+      "presenters_en": "Haru Kaneko, Tahera Hossain, Sozo Inoue",
       "presenters_ja": "金子 晴, Tahera Hossain, 井上 創造",
       "year": "2021",
       "date": "2021-06-23",
@@ -409,9 +429,9 @@
       "is_international": false
     },
     {
-      "title_en": "介護記録アプリケーションにおける記録内容自動生成機能の実装",
+      "title_en": "Implementation of an Automatic Record Generation Feature in a Care Record Application",
       "title_ja": "介護記録アプリケーションにおける記録内容自動生成機能の実装",
-      "presenters_en": "",
+      "presenters_en": "Haru Kaneko, Sozo Inoue",
       "presenters_ja": "金子 晴, 井上 創造",
       "year": "2020",
       "date": "2020-06-17",
@@ -422,7 +442,7 @@
     {
       "title_en": "Estimation of Record Contents for Automatic Generation of Care Record",
       "title_ja": "介護記録自動生成のための記録内容の推定の試み",
-      "presenters_en": "金子晴, 井上創造",
+      "presenters_en": "Haru Kaneko, Sozo Inoue",
       "presenters_ja": "金子 晴, 井上 創造",
       "year": "2020",
       "date": "2020-03-02",
@@ -431,9 +451,9 @@
       "is_international": false
     },
     {
-      "title_en": "",
+      "title_en": "Toward Automated Generation of Care Records in Long-Term Care Facilities",
       "title_ja": "介護施設における介護記録自動生成の試み",
-      "presenters_en": "",
+      "presenters_en": "Haru Kaneko, Sozo Inoue",
       "presenters_ja": "金子 晴, 井上 創造",
       "year": "2019",
       "date": "2019-12",
@@ -444,9 +464,9 @@
   ],
   "misc": [
     {
-      "title_en": "",
+      "title_en": "Optimization of Time Parameters for Recognizing Abnormal Behaviors in Individuals with Developmental Disabilities",
       "title_ja": "発達障害者の異常行動認識における時間パラメータの最適化",
-      "authors_en": "",
+      "authors_en": "Tahei Fujioka, Christina Garcia, Haru Kaneko, Sozo Inoue",
       "authors_ja": "藤岡 泰平, Christina Garcia, 金子 晴, 井上 創造",
       "year": "2025",
       "date": "2025-06-18",
@@ -489,9 +509,9 @@
       "is_reviewed": false
     },
     {
-      "title_en": "",
+      "title_en": "Analysis of Personality Traits and Psychological Safety Factors Influencing Job Satisfaction in Long-Term Care Facilities",
       "title_ja": "介護事業所の職場満足度に影響を与える個性と心理的安全性の要因分析",
-      "authors_en": "",
+      "authors_en": "Min Xinyi, Haru Kaneko, Takahama Takeshi, Masano Yuka, Tanaka Yuji, Inoue Sozo",
       "authors_ja": "閔欣怡, 金子晴, 高浜武史, 正能由佳, 田中祐司, 井上創造",
       "year": "2024",
       "date": "2024",
@@ -504,9 +524,9 @@
       "is_reviewed": false
     },
     {
-      "title_en": "",
+      "title_en": "Analysis and Prediction of Mood Changes in the Elderly in Long-Term Care Facilities",
       "title_ja": "介護施設における高齢者の気分変化の分析と予測",
-      "authors_en": "",
+      "authors_en": "Min Xinyi, Haru Kaneko, Sozo Inoue",
       "authors_ja": "Min Xinyi, 金子 晴, 井上 創造",
       "year": "2023",
       "date": "2023-06-28",
@@ -534,9 +554,9 @@
       "is_reviewed": false
     },
     {
-      "title_en": "",
+      "title_en": "Toward Predicting Urination Data Using Nursing Care Records",
       "title_ja": "介護記録を用いた排尿データの予測の試み",
-      "authors_en": "",
+      "authors_en": "Masato Uchimura, Haru Kaneko, Sozo Inoue",
       "authors_ja": "内村 真寿, 金子 晴, 井上 創造",
       "year": "2022",
       "date": "2022-12",
@@ -549,9 +569,9 @@
       "is_reviewed": false
     },
     {
-      "title_en": "",
+      "title_en": "Toward Analysis of Urination Data for Predicting Bowel Movement Times Using Care Records",
       "title_ja": "介護記録を用いた排泄時間予測に向けた排尿データの傾向分析",
-      "authors_en": "",
+      "authors_en": "Masato Uchimura, Haru Kaneko, Sozo Inoue",
       "authors_ja": "内村 真寿, 金子 晴, 井上 創造",
       "year": "2022",
       "date": "2022-07-06",
@@ -564,9 +584,9 @@
       "is_reviewed": false
     },
     {
-      "title_en": "",
+      "title_en": "Collection and Analysis of Mood Data for Elderly Individuals and Staff at Long-Term Care Facilities",
       "title_ja": "介護事業所における高齢者とスタッフの気分データの収集と分析",
-      "authors_en": "",
+      "authors_en": "Min Xinyi, Haru Kaneko, Sozo Inoue",
       "authors_ja": "Min Xinyi, 金子 晴, 井上 創造",
       "year": "2022",
       "date": "2022-07-06",
